@@ -1,0 +1,243 @@
+---
+layout: default
+title: Stories
+permalink: /stories
+order: 3
+---
+
+<article class="st-page">
+  <div class="st-wrap">
+    <div id="st-listview">
+      <h1 class="st-heading">Stories</h1>
+      <p class="st-intro">Tap a story to read it, watch the video or see the picture.</p>
+      <p id="st-status" class="st-status">Loading stories…</p>
+      <div id="st-list" class="st-list"></div>
+    </div>
+
+    <div id="st-detailview" style="display:none">
+      <button id="st-back" class="st-back" type="button">← Back to stories</button>
+      <div id="st-media" class="st-media"></div>
+      <h1 id="st-detail-title" class="st-detail-title"></h1>
+      <p id="st-detail-date" class="st-detail-date"></p>
+      <div id="st-detail-text" class="st-detail-text"></div>
+      <div id="st-detail-links" class="st-detail-links"></div>
+    </div>
+  </div>
+</article>
+
+<style>
+.st-page { background-color: #030102; min-height: 100vh; padding: 2rem 1rem 4rem; }
+.st-wrap { max-width: 760px; margin: 0 auto; }
+.st-heading { color: #fff; font-size: 2.2rem; margin-bottom: 0.4rem; }
+.st-intro { color: rgba(255,255,255,0.75); font-size: 1.15rem; margin-bottom: 1.75rem; }
+.st-status { color: rgba(255,255,255,0.65); font-size: 1.15rem; }
+
+.st-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+@media (max-width: 560px) { .st-list { grid-template-columns: 1fr; } }
+
+.st-card {
+  background-color: #0b0607; border-radius: 14px; overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5); cursor: pointer; text-align: left;
+  border: none; padding: 0; color: inherit; font: inherit; width: 100%;
+}
+.st-card:hover, .st-card:focus { outline: 2px solid #c84b54; }
+.st-thumb-wrap { position: relative; width: 100%; aspect-ratio: 16/9; background: #1a1413; }
+.st-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
+.st-play {
+  position: absolute; inset: 0; margin: auto; width: 56px; height: 56px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,0.55); border-radius: 50%; color: #fff; font-size: 1.6rem;
+}
+.st-card-body { padding: 0.9rem 1rem 1.1rem; }
+.st-card-title { color: #fff; font-size: 1.05rem; line-height: 1.4; margin-bottom: 0.4rem; }
+.st-card-sub {
+  color: rgba(255,255,255,0.55); font-size: 0.92rem; line-height: 1.45; margin-bottom: 0.5rem;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.st-card-date { color: #ffd166; font-size: 0.85rem; }
+
+.st-back {
+  background: none; border: none; color: #ffd166; font-size: 1.1rem;
+  padding: 0.25rem 0; margin-bottom: 1.25rem; cursor: pointer;
+}
+.st-media { margin-bottom: 1.25rem; }
+.st-media img { width: 100%; border-radius: 12px; display: block; }
+.st-media .st-embed {
+  position: relative; width: 100%; aspect-ratio: 16/9; border-radius: 12px; overflow: hidden;
+}
+.st-media .st-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.st-detail-title { color: #fff; font-size: 1.6rem; line-height: 1.3; margin-bottom: 0.4rem; }
+.st-detail-date { color: #ffd166; font-size: 1rem; margin-bottom: 1.25rem; }
+.st-detail-text p { color: rgba(255,255,255,0.9); font-size: 1.2rem; line-height: 1.6; margin-bottom: 1rem; }
+.st-detail-links { margin-top: 1.5rem; }
+.st-detail-links a {
+  display: block; color: #7fb2ff; font-size: 1.1rem; padding: 0.5rem 0;
+  border-top: 1px solid rgba(255,255,255,0.1); word-break: break-word;
+}
+</style>
+
+<script>
+(function () {
+  var listView = document.getElementById('st-listview');
+  var detailView = document.getElementById('st-detailview');
+  var listEl = document.getElementById('st-list');
+  var statusEl = document.getElementById('st-status');
+  var stories = [];
+
+  // Break text into readable paragraphs: first on Tony's " – " topic separators,
+  // then group long prose into ~3-sentence paragraphs (some items have no breaks at all).
+  function paragraphize(text) {
+    var out = [];
+    (text || '').split(/\s+[–—]\s+/).forEach(function (part) {
+      part = part.trim();
+      if (!part) return;
+      if (part.length <= 320) { out.push(part); return; }
+      var sentences = part.match(/[^.!?]+[.!?]+["'’”)]*\s*|\S[^.!?]*$/g) || [part];
+      var buf = '', count = 0;
+      sentences.forEach(function (s) {
+        buf += s;
+        count++;
+        if (count >= 3 && buf.trim().length >= 200) { out.push(buf.trim()); buf = ''; count = 0; }
+      });
+      if (buf.trim()) out.push(buf.trim());
+    });
+    return out;
+  }
+
+  function thumbFor(s) {
+    if (s.videoId) return 'https://img.youtube.com/vi/' + s.videoId + '/hqdefault.jpg';
+    return s.image || null;
+  }
+
+  function renderList() {
+    listEl.innerHTML = '';
+    stories.forEach(function (s, i) {
+      var card = document.createElement('button');
+      card.className = 'st-card';
+      card.type = 'button';
+
+      var thumb = thumbFor(s);
+      if (thumb) {
+        var wrap = document.createElement('div');
+        wrap.className = 'st-thumb-wrap';
+        var img = document.createElement('img');
+        img.className = 'st-thumb';
+        img.loading = 'lazy';
+        img.src = thumb;
+        img.alt = '';
+        wrap.appendChild(img);
+        if (s.videoId) {
+          var play = document.createElement('div');
+          play.className = 'st-play';
+          play.textContent = '▶';
+          wrap.appendChild(play);
+        }
+        card.appendChild(wrap);
+      }
+
+      var body = document.createElement('div');
+      body.className = 'st-card-body';
+      var t = document.createElement('div');
+      t.className = 'st-card-title';
+      t.textContent = s.title || 'Story';
+      body.appendChild(t);
+      if (s.subtitle) {
+        var sub = document.createElement('div');
+        sub.className = 'st-card-sub';
+        sub.textContent = s.subtitle;
+        body.appendChild(sub);
+      }
+      if (s.date) {
+        var d = document.createElement('div');
+        d.className = 'st-card-date';
+        d.textContent = s.date;
+        body.appendChild(d);
+      }
+      card.appendChild(body);
+
+      card.addEventListener('click', function () { location.hash = '#s' + i; });
+      listEl.appendChild(card);
+    });
+  }
+
+  function renderDetail(i) {
+    var s = stories[i];
+    if (!s) { showList(); return; }
+
+    var media = document.getElementById('st-media');
+    media.innerHTML = '';
+    if (s.videoId) {
+      var embed = document.createElement('div');
+      embed.className = 'st-embed';
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube-nocookie.com/embed/' + s.videoId;
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      embed.appendChild(iframe);
+      media.appendChild(embed);
+    } else if (s.image) {
+      var img = document.createElement('img');
+      img.src = s.image;
+      img.alt = '';
+      media.appendChild(img);
+    }
+
+    document.getElementById('st-detail-title').textContent = s.title || 'Story';
+    document.getElementById('st-detail-date').textContent = s.date || '';
+    var textEl = document.getElementById('st-detail-text');
+    textEl.innerHTML = '';
+    paragraphize(s.text || '').forEach(function (part) {
+      var p = document.createElement('p');
+      p.textContent = part;
+      textEl.appendChild(p);
+    });
+
+    var linksEl = document.getElementById('st-detail-links');
+    linksEl.innerHTML = '';
+    (s.links || []).forEach(function (l) {
+      var a = document.createElement('a');
+      a.href = l.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = l.label || l.url;
+      linksEl.appendChild(a);
+    });
+
+    listView.style.display = 'none';
+    detailView.style.display = 'block';
+    window.scrollTo(0, 0);
+    if (window.gtag) gtag('event', 'view_story', { story_title: s.title || '' });
+  }
+
+  function showList() {
+    document.getElementById('st-media').innerHTML = '';  // stop any playing video
+    detailView.style.display = 'none';
+    listView.style.display = 'block';
+  }
+
+  function route() {
+    var m = (location.hash || '').match(/^#s(\d+)$/);
+    if (m) renderDetail(parseInt(m[1], 10));
+    else showList();
+  }
+
+  document.getElementById('st-back').addEventListener('click', function () {
+    if (location.hash) location.hash = '';
+    else showList();
+  });
+  window.addEventListener('hashchange', route);
+
+  fetch('/stories.json?t=' + Date.now())
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (data) {
+      stories = (data && data.stories) || [];
+      if (!stories.length) { statusEl.textContent = 'No stories available right now.'; return; }
+      statusEl.style.display = 'none';
+      renderList();
+      route();
+    })
+    .catch(function () {
+      statusEl.textContent = "Sorry, stories couldn't be loaded right now. Please try again later.";
+    });
+})();
+</script>

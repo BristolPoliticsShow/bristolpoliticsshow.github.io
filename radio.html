@@ -2,7 +2,7 @@
 layout: default
 title: Radio
 permalink: /radio
-order: 4
+order: 5
 ---
 
 <article> <div class="my-main-content"> <div class="my-audio-card"> <div class="my-card-content"> <h2 class="my-card-title">Fridays at 5pm UK time</h2> <p class="my-card-description">The Bristol Politics Show, live from Bristol UK</p> <audio controls> <source src="https://uk3.internet-radio.com/proxy/prsc?mp=/live" type="audio/mpeg"> <!-- <metadata url="https://uk3.internet-radio.com/proxy/prsc?mp=/live&type=metadata"></metadata> --> Your browser does not support the audio element. </audio> </div> <div style="margin-top: 1.5em; color: #757575 !important;"> <p<h4 class="my-card-description">The show is repeated at 11pm on Fridays and at 11am and 5pm all week.</h4> </div> <!-- <div id="show-title"></div> --> </div> </div> </article>
@@ -119,5 +119,12 @@ xhr.send();
 
 </script> -->
 
-
-
+<script>
+  // Count a live-radio listen once per visit.
+  document.addEventListener('DOMContentLoaded', function () {
+    var a = document.querySelector('article audio');
+    if (a) a.addEventListener('play', function () {
+      if (window.gtag) gtag('event', 'play_radio');
+    }, { once: true });
+  });
+</script>

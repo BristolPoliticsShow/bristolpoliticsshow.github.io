@@ -13,6 +13,15 @@
           <!-- End Google tag (gtag.js) -->
 
     <title>{{ page.title }}</title>
+
+    <!-- PWA: makes the site installable to the home screen, no app store needed -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#030102">
+    <link rel="apple-touch-icon" href="/assets/images/mic_logo_darker_512.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Politics Show">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">  -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -30,12 +39,23 @@
 
     
         {{ content }}
-    
+
+
+    {% include player.html %}
 
     <div id="cookie-banner" class="cookie-banner">
         <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies. <a href="/privacy">Learn more</a></p>
         <button id="cookie-accept" class="cookie-accept">Got it!</button>
     </div>
+
+    <script>
+        // Register the PWA service worker so the site can be installed.
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').catch(function () {});
+            });
+        }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

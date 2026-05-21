@@ -1,0 +1,148 @@
+---
+layout: default
+title: This Week
+permalink: /this-week
+order: 2
+---
+
+<article class="tw-page">
+  <div class="tw-wrap">
+    <h1 class="tw-heading">This Week</h1>
+
+    <div id="tw-upcoming" class="tw-upcoming" style="display:none">
+      <p class="tw-upcoming-kicker">Live this Friday</p>
+      <p class="tw-upcoming-text">The Bristol Politics Show airs live every Friday at 5pm UK time, then repeats at 11pm Friday and at 11am &amp; 5pm through the week.</p>
+      <a class="tw-btn" href="/radio">Listen Live</a>
+    </div>
+
+    <p id="tw-status" class="tw-status">Loading…</p>
+
+    <div id="tw-content" style="display:none">
+      <p id="tw-week-date" class="tw-section-label"></p>
+      <div id="tw-topic" class="tw-topic"></div>
+
+      <div id="tw-show" class="tw-card" style="display:none">
+        <div class="tw-card-label">Full show</div>
+        <div id="tw-show-btn"></div>
+      </div>
+
+      <div id="tw-clips-wrap" style="display:none">
+        <p class="tw-section-label">Full-length interviews &amp; clips</p>
+        <div id="tw-clips"></div>
+      </div>
+
+      <a class="tw-btn tw-btn-ghost" href="/episodes">Browse all past shows</a>
+    </div>
+  </div>
+</article>
+
+<style>
+.tw-page { background-color: #030102; min-height: 100vh; padding: 2.5rem 1rem 4rem; }
+.tw-wrap { max-width: 720px; margin: 0 auto; }
+.tw-heading { color: #fff; font-size: 2.2rem; margin-bottom: 1.5rem; }
+.tw-status { color: rgba(255,255,255,0.7); font-size: 1.15rem; }
+
+.tw-upcoming { background: linear-gradient(135deg, #5a1a1f, #2a0d10); border-radius: 14px; padding: 1.5rem; margin-bottom: 2rem; }
+.tw-upcoming-kicker { color: #ffd166; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.95rem; margin-bottom: 0.5rem; }
+.tw-upcoming-text { color: #fff; font-size: 1.2rem; line-height: 1.5; margin-bottom: 1.25rem; }
+
+.tw-section-label { color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.95rem; margin-bottom: 0.6rem; }
+.tw-topic { margin-bottom: 1.5rem; }
+.tw-topic p { color: #fff; font-size: 1.3rem; line-height: 1.45; font-weight: 700; margin-bottom: 1rem; }
+.tw-topic p:first-child { color: #ffd166; }
+
+.tw-card { background-color: #0b0607; border-radius: 14px; padding: 1.25rem 1.5rem 1.5rem; box-shadow: 0 8px 24px rgba(0,0,0,0.5); margin-bottom: 1.75rem; }
+.tw-card-label { color: #c84b54; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.9rem; margin-bottom: 0.7rem; }
+.tw-card audio, .tw-clip audio { width: 100%; height: 52px; filter: invert(92%); }
+
+.tw-clip { background-color: #0b0607; border-radius: 12px; padding: 1rem 1.25rem 1.2rem; margin-bottom: 1rem; }
+.tw-clip-name { color: #fff; font-size: 1.05rem; line-height: 1.45; margin-bottom: 0.5rem; }
+
+.tw-btn { display: inline-block; margin-top: 1rem; padding: 0.85rem 1.75rem; background-color: #c84b54; color: #fff; font-size: 1.2rem; font-weight: 700; border-radius: 999px; text-decoration: none; }
+.tw-btn:hover, .tw-btn:focus { background-color: #d96069; color: #fff; text-decoration: none; }
+.tw-btn-ghost { background: transparent; border: 2px solid rgba(255,255,255,0.3); }
+.tw-btn-ghost:hover { background: rgba(255,255,255,0.08); }
+
+@media (max-width: 576px) { .tw-heading { font-size: 1.9rem; } }
+</style>
+
+<script>
+(function () {
+  var statusEl = document.getElementById('tw-status');
+
+  // Tony separates topics with " – " (en dash); render each as its own paragraph.
+  function renderParas(container, text) {
+    container.innerHTML = '';
+    (text || '').split(/\s+[–—]\s+/).forEach(function (part) {
+      part = part.trim();
+      if (!part) return;
+      var p = document.createElement('p');
+      p.textContent = part;
+      container.appendChild(p);
+    });
+  }
+
+  function playButton(url, label) {
+    var btn = document.createElement('button');
+    btn.className = 'bps-playbtn';
+    btn.type = 'button';
+    btn.textContent = '▶ Play';
+    btn.addEventListener('click', function () { window.bpsPlay(url, label, btn); });
+    return btn;
+  }
+
+  Promise.all([
+    fetch('/audio.json?t=' + Date.now()).then(function (r) { return r.ok ? r.json() : null; }),
+    fetch('/thisweek.json?t=' + Date.now()).then(function (r) { return r.ok ? r.json() : null; })
+  ]).then(function (res) {
+    var audio = res[0], tw = res[1];
+
+    if (tw && tw.hasUpcoming) {
+      document.getElementById('tw-upcoming').style.display = 'block';
+    }
+
+    var week = audio && audio.weeks && audio.weeks[0];
+    if (!week) {
+      if (!(tw && tw.hasUpcoming)) {
+        statusEl.textContent = 'No shows available right now. Please check back soon.';
+      } else {
+        statusEl.style.display = 'none';
+      }
+      return;
+    }
+
+    statusEl.style.display = 'none';
+    document.getElementById('tw-content').style.display = 'block';
+    document.getElementById('tw-week-date').textContent = week.date || '';
+    if (tw && tw.latestShow && tw.latestShow.title) {
+      renderParas(document.getElementById('tw-topic'), tw.latestShow.title);
+    }
+
+    var full = week.items.filter(function (i) { return i.isFullShow; })[0];
+    var clips = week.items.filter(function (i) { return !i.isFullShow; });
+
+    if (full) {
+      document.getElementById('tw-show').style.display = 'block';
+      document.getElementById('tw-show-btn').appendChild(
+        playButton(full.url, (week.date || '') + ' — Full show'));
+    }
+
+    if (clips.length) {
+      document.getElementById('tw-clips-wrap').style.display = 'block';
+      var wrap = document.getElementById('tw-clips');
+      clips.forEach(function (c) {
+        var div = document.createElement('div');
+        div.className = 'tw-clip';
+        var nm = document.createElement('div');
+        nm.className = 'tw-clip-name';
+        nm.textContent = c.name;
+        div.appendChild(nm);
+        div.appendChild(playButton(c.url, c.name));
+        wrap.appendChild(div);
+      });
+    }
+  }).catch(function () {
+    statusEl.textContent = "Sorry, this couldn't be loaded right now. Please try again in a little while.";
+  });
+})();
+</script>
