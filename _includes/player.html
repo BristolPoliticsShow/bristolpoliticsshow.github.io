@@ -4,9 +4,9 @@
     <div class="bps-title" id="bps-title"></div>
     <div class="bps-controls">
       <span class="bps-time" id="bps-cur">0:00</span>
-      <button class="bps-skip" id="bps-back" type="button" aria-label="Back 10 seconds">↺10</button>
-      <button class="bps-toggle" id="bps-toggle" type="button" aria-label="Play">▶</button>
-      <button class="bps-skip" id="bps-fwd" type="button" aria-label="Forward 10 seconds">10↻</button>
+      <button class="bps-skip" id="bps-back" type="button" aria-label="Back 10 seconds">−10s</button>
+      <button class="bps-toggle" id="bps-toggle" type="button" aria-label="Play"></button>
+      <button class="bps-skip" id="bps-fwd" type="button" aria-label="Forward 10 seconds">+10s</button>
       <span class="bps-time" id="bps-rem">0:00</span>
     </div>
     <input class="bps-seek" id="bps-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek position">
@@ -22,6 +22,9 @@
 }
 .bps-playbtn:hover, .bps-playbtn:focus { background-color: #d96069; outline: none; }
 .bps-playbtn.is-playing { background-color: #3a3a3a; }
+
+.bps-ic { width: 1.15em; height: 1.15em; fill: currentColor; flex: none; }
+.bps-toggle .bps-ic { width: 1.7rem; height: 1.7rem; }
 
 .bps-actions { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
 .bps-dl {
@@ -78,6 +81,12 @@
   var activeBtn = null;
   var seeking = false;
 
+  var IC = {
+    play: '<svg class="bps-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>',
+    pause: '<svg class="bps-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>',
+    dl: '<svg class="bps-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.41 1.42l-5 5a1 1 0 0 1-1.42 0l-5-5a1 1 0 1 1 1.42-1.42l3.29 3.3V4a1 1 0 0 1 1-1z"/><path d="M5 19h14a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2z"/></svg>'
+  };
+
   function fmt(t) {
     if (!isFinite(t) || t < 0) t = 0;
     t = Math.floor(t);
@@ -89,7 +98,7 @@
 
   function setBtnLabel(playing) {
     if (!activeBtn) return;
-    activeBtn.textContent = playing ? '❚❚ Pause' : '▶ Play';
+    activeBtn.innerHTML = (playing ? IC.pause + '<span>Pause</span>' : IC.play + '<span>Play</span>');
     activeBtn.classList.toggle('is-playing', playing);
   }
 
@@ -106,11 +115,21 @@
     a.href = DOWNLOAD_PROXY + '/?url=' + encodeURIComponent(url) + '&name=' + encodeURIComponent(fname);
     a.setAttribute('download', fname);
     a.rel = 'noopener';
-    a.textContent = '⬇ Download';
+    a.innerHTML = IC.dl + '<span>Download</span>';
     if (window.gtag) {
       a.addEventListener('click', function () { gtag('event', 'download_audio', { audio_title: filename || url }); });
     }
     return a;
+  };
+
+  // Create a styled Play button wired to the docked player.
+  window.bpsPlayButton = function (url, title) {
+    var btn = document.createElement('button');
+    btn.className = 'bps-playbtn';
+    btn.type = 'button';
+    btn.innerHTML = IC.play + '<span>Play</span>';
+    btn.addEventListener('click', function () { window.bpsPlay(url, title, btn); });
+    return btn;
   };
 
   window.bpsPlay = function (url, title, btn) {
@@ -119,7 +138,7 @@
       return;
     }
     if (activeBtn && activeBtn !== btn) {
-      activeBtn.textContent = '▶ Play';
+      activeBtn.innerHTML = IC.play + '<span>Play</span>';
       activeBtn.classList.remove('is-playing');
     }
     activeBtn = btn || null;
@@ -157,8 +176,8 @@
     seeking = false;
   });
 
-  audio.addEventListener('play', function () { toggle.textContent = '❚❚'; toggle.setAttribute('aria-label', 'Pause'); setBtnLabel(true); });
-  audio.addEventListener('pause', function () { toggle.textContent = '▶'; toggle.setAttribute('aria-label', 'Play'); setBtnLabel(false); });
+  audio.addEventListener('play', function () { toggle.innerHTML = IC.pause; toggle.setAttribute('aria-label', 'Pause'); setBtnLabel(true); });
+  audio.addEventListener('pause', function () { toggle.innerHTML = IC.play; toggle.setAttribute('aria-label', 'Play'); setBtnLabel(false); });
   audio.addEventListener('timeupdate', function () {
     curEl.textContent = fmt(audio.currentTime);
     var dur = audio.duration;
@@ -166,5 +185,7 @@
     if (!seeking && dur) seek.value = Math.round((audio.currentTime / dur) * 1000);
   });
   audio.addEventListener('ended', function () { setBtnLabel(false); });
+
+  toggle.innerHTML = IC.play;
 })();
 </script>

@@ -83,12 +83,7 @@ order: 2
   }
 
   function playButton(url, label) {
-    var btn = document.createElement('button');
-    btn.className = 'bps-playbtn';
-    btn.type = 'button';
-    btn.textContent = '▶ Play';
-    btn.addEventListener('click', function () { window.bpsPlay(url, label, btn); });
-    return btn;
+    return window.bpsPlayButton(url, label);
   }
 
   Promise.all([

@@ -93,15 +93,10 @@ order: 4
 
           var label = it.isFullShow ? ((week.date || '') + ' — Full show') : it.name;
           var dlName = it.isFullShow ? ((week.date || '') + ' Bristol Politics Show') : it.name;
-          var btn = document.createElement('button');
-          btn.className = 'bps-playbtn';
-          btn.type = 'button';
-          btn.textContent = '▶ Play';
-          btn.addEventListener('click', function () { window.bpsPlay(it.url, label, btn); });
 
           var actions = document.createElement('div');
           actions.className = 'bps-actions';
-          actions.appendChild(btn);
+          actions.appendChild(window.bpsPlayButton(it.url, label));
           actions.appendChild(window.bpsDownloadLink(it.url, dlName));
           item.appendChild(actions);
 
