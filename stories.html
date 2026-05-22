@@ -9,7 +9,7 @@ order: 3
   <div class="st-wrap">
     <div id="st-listview">
       <h1 class="st-heading">Stories</h1>
-      <p class="st-intro">Tap a story to read it, watch the video or see the picture.</p>
+      <p class="st-intro">Tap a story to read it or watch the video.</p>
       <p id="st-status" class="st-status">Loading stories…</p>
       <div id="st-list" class="st-list"></div>
     </div>
@@ -36,24 +36,25 @@ order: 3
 @media (max-width: 560px) { .st-list { grid-template-columns: 1fr; } }
 
 .st-card {
-  background-color: #0b0607; border-radius: 14px; overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.5); cursor: pointer; text-align: left;
-  border: none; padding: 0; color: inherit; font: inherit; width: 100%;
-  transition: transform .18s ease, box-shadow .18s ease;
+  background-color: #2a2320; border: 1px solid rgba(255,255,255,0.10); box-sizing: border-box;
+  border-radius: 14px; overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45); cursor: pointer; text-align: left;
+  padding: 0; color: inherit; font: inherit; width: 100%;
+  transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, border-color .18s ease;
 }
-/* Lift + soft neutral glow — the card rises and brightens, no coloured border. */
+/* Card lifts and brightens on hover so it clearly stands off the background. */
 .st-card:hover {
   transform: translateY(-4px);
-  background-color: #140d0c;
-  box-shadow: 0 20px 44px rgba(0,0,0,0.6),
-              0 0 24px rgba(255,255,255,0.06);
+  background-color: #39302c;
+  border-color: rgba(255,255,255,0.20);
+  box-shadow: 0 20px 44px rgba(0,0,0,0.6);
 }
 .st-card:focus { outline: none; }
 /* Clear high-contrast ring for keyboard users (accessible), still rounded. */
 .st-card:focus-visible {
   outline: none;
-  box-shadow: 0 14px 30px rgba(0,0,0,0.55),
-              0 0 0 3px rgba(255,209,102,0.9);
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255,209,102,0.9);
 }
 @media (prefers-reduced-motion: reduce) {
   .st-card { transition: none; }
