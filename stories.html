@@ -84,24 +84,47 @@ order: 3
   var statusEl = document.getElementById('st-status');
   var stories = [];
 
-  // Break text into readable paragraphs: first on Tony's " – " topic separators,
-  // then group long prose into ~3-sentence paragraphs (some items have no breaks at all).
+  // Split prose into sentences, without being fooled by abbreviations ("U.S.",
+  // "Dr.", initials). Only break after . ! ? + space when the next thing looks
+  // like a new sentence (a capital/quote) and the word before isn't an abbreviation.
+  var ABBR = /^(?:[A-Za-z]|mr|mrs|ms|dr|st|rev|prof|sen|rep|gov|gen|col|capt|lt|sgt|vs|etc|no|vol|pp|inc|ltd|jr|sr|approx|dept|fig)$/i;
+  function splitSentences(text) {
+    var out = [], last = 0, m;
+    var re = /[.!?]["'’”)]*\s+/g;
+    while ((m = re.exec(text)) !== null) {
+      var afterIdx = m.index + m[0].length;
+      var before = text.slice(last, m.index);
+      var lastWord = ((before.match(/(\S+)$/) || [''])[0]).replace(/[.,"'’”)(]+$/, '');
+      var nextChar = text.charAt(afterIdx);
+      var nextOk = nextChar === '' || /[“"'A-Z0-9]/.test(nextChar);
+      if (!ABBR.test(lastWord) && nextOk) {
+        out.push(text.slice(last, afterIdx).trim());
+        last = afterIdx;
+      }
+    }
+    if (last < text.length) out.push(text.slice(last).trim());
+    return out.filter(Boolean);
+  }
+
+  // Break the story body into readable paragraphs: at Tony's "++" separators,
+  // then group sentences (~2-3 each) so breaks land on real sentence ends.
   function paragraphize(text) {
+    text = (text || '').replace(/\s+/g, ' ').trim();
+    if (!text) return [];
     var out = [];
-    (text || '').split(/\s+[–—]\s+/).forEach(function (part) {
-      part = part.trim();
-      if (!part) return;
-      if (part.length <= 320) { out.push(part); return; }
-      var sentences = part.match(/[^.!?]+[.!?]+["'’”)]*\s*|\S[^.!?]*$/g) || [part];
+    text.split(/\s*\+\+\s*/).forEach(function (block) {
+      block = block.trim();
+      if (!block) return;
+      var sentences = splitSentences(block);
       var buf = '', count = 0;
       sentences.forEach(function (s) {
-        buf += s;
+        buf += (buf ? ' ' : '') + s;
         count++;
-        if (count >= 3 && buf.trim().length >= 200) { out.push(buf.trim()); buf = ''; count = 0; }
+        if (count >= 2 && buf.length >= 240) { out.push(buf); buf = ''; count = 0; }
       });
       if (buf.trim()) out.push(buf.trim());
     });
-    return out;
+    return out.length ? out : [text];
   }
 
   // Detail heading: the clean first sentence, no ellipsis. For the rare items
