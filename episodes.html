@@ -8,7 +8,7 @@ order: 4
 <article class="ep-page">
   <div class="ep-wrap">
     <h1 class="ep-heading">Past Shows</h1>
-    <p class="ep-intro">Each week has the full show plus Tony's full-length interviews and clips. Tap a week to open it, then tap play. Nothing to install.</p>
+    <p class="ep-intro">Each week has the full show plus Tony's full-length interviews and clips. Tap a week to open it, then play any item here or download it to keep.</p>
 
     <p id="ep-status" class="ep-status">Loading the archive…</p>
     <div id="ep-weeks"></div>
@@ -92,12 +92,18 @@ order: 4
           item.appendChild(nm);
 
           var label = it.isFullShow ? ((week.date || '') + ' — Full show') : it.name;
+          var dlName = it.isFullShow ? ((week.date || '') + ' Bristol Politics Show') : it.name;
           var btn = document.createElement('button');
           btn.className = 'bps-playbtn';
           btn.type = 'button';
           btn.textContent = '▶ Play';
           btn.addEventListener('click', function () { window.bpsPlay(it.url, label, btn); });
-          item.appendChild(btn);
+
+          var actions = document.createElement('div');
+          actions.className = 'bps-actions';
+          actions.appendChild(btn);
+          actions.appendChild(window.bpsDownloadLink(it.url, dlName));
+          item.appendChild(actions);
 
           det.appendChild(item);
         });

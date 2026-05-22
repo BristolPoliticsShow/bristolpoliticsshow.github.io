@@ -123,8 +123,11 @@ order: 2
 
     if (full) {
       document.getElementById('tw-show').style.display = 'block';
-      document.getElementById('tw-show-btn').appendChild(
-        playButton(full.url, (week.date || '') + ' — Full show'));
+      var showActions = document.createElement('div');
+      showActions.className = 'bps-actions';
+      showActions.appendChild(playButton(full.url, (week.date || '') + ' — Full show'));
+      showActions.appendChild(window.bpsDownloadLink(full.url, (week.date || '') + ' Bristol Politics Show'));
+      document.getElementById('tw-show-btn').appendChild(showActions);
     }
 
     if (clips.length) {
@@ -137,7 +140,11 @@ order: 2
         nm.className = 'tw-clip-name';
         nm.textContent = c.name;
         div.appendChild(nm);
-        div.appendChild(playButton(c.url, c.name));
+        var clipActions = document.createElement('div');
+        clipActions.className = 'bps-actions';
+        clipActions.appendChild(playButton(c.url, c.name));
+        clipActions.appendChild(window.bpsDownloadLink(c.url, c.name));
+        div.appendChild(clipActions);
         wrap.appendChild(div);
       });
     }

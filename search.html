@@ -81,12 +81,18 @@ order: 6
       card.appendChild(nm);
 
       var label = it.isFullShow ? ((it.date || '') + ' — Full show') : it.name;
+      var dlName = it.isFullShow ? ((it.date || '') + ' Bristol Politics Show') : it.name;
       var btn = document.createElement('button');
       btn.className = 'bps-playbtn';
       btn.type = 'button';
       btn.textContent = '▶ Play';
       btn.addEventListener('click', function () { window.bpsPlay(it.url, label, btn); });
-      card.appendChild(btn);
+
+      var actions = document.createElement('div');
+      actions.className = 'bps-actions';
+      actions.appendChild(btn);
+      actions.appendChild(window.bpsDownloadLink(it.url, dlName));
+      card.appendChild(actions);
 
       resultsEl.appendChild(card);
     });
