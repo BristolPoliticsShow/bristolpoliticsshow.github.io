@@ -39,8 +39,26 @@ order: 3
   background-color: #0b0607; border-radius: 14px; overflow: hidden;
   box-shadow: 0 8px 24px rgba(0,0,0,0.5); cursor: pointer; text-align: left;
   border: none; padding: 0; color: inherit; font: inherit; width: 100%;
+  transition: transform .18s ease, box-shadow .18s ease;
 }
-.st-card:hover, .st-card:focus { outline: 2px solid #c84b54; }
+/* Warm ember glow that follows the rounded corners — no harsh rectangle. */
+.st-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.55),
+              0 0 0 1px rgba(200,75,84,0.45),
+              0 4px 26px rgba(200,75,84,0.32);
+}
+.st-card:focus { outline: none; }
+/* Clear high-contrast ring for keyboard users (accessible), still rounded. */
+.st-card:focus-visible {
+  outline: none;
+  box-shadow: 0 14px 30px rgba(0,0,0,0.55),
+              0 0 0 3px rgba(255,209,102,0.9);
+}
+@media (prefers-reduced-motion: reduce) {
+  .st-card { transition: none; }
+  .st-card:hover { transform: none; }
+}
 .st-thumb-wrap { position: relative; width: 100%; aspect-ratio: 16/9; background: #1a1413; }
 .st-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
 .st-play {
