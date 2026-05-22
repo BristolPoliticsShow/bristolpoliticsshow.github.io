@@ -104,6 +104,20 @@ order: 3
     return out;
   }
 
+  // Detail heading: the clean first sentence, no ellipsis. For the rare items
+  // with no full stop, end neatly at a word boundary (the full text is shown below).
+  function detailHeading(s) {
+    var t = (s.text || s.title || '').replace(/\s+/g, ' ').trim();
+    var m = t.match(/^.*?[.!?](?=\s|$)/);
+    var h = m ? m[0].trim() : t;
+    if (h.length > 140) {
+      var cut = h.slice(0, 140);
+      var sp = cut.lastIndexOf(' ');
+      h = (sp > 80 ? cut.slice(0, sp) : cut).trim();
+    }
+    return h;
+  }
+
   function thumbFor(s) {
     if (s.videoId) return 'https://img.youtube.com/vi/' + s.videoId + '/hqdefault.jpg';
     return s.image || null;
@@ -182,7 +196,7 @@ order: 3
       media.appendChild(img);
     }
 
-    document.getElementById('st-detail-title').textContent = s.title || 'Story';
+    document.getElementById('st-detail-title').textContent = detailHeading(s) || s.title || 'Story';
     document.getElementById('st-detail-date').textContent = s.date || '';
     var textEl = document.getElementById('st-detail-text');
     textEl.innerHTML = '';
