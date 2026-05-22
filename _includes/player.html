@@ -93,16 +93,18 @@
     activeBtn.classList.toggle('is-playing', playing);
   }
 
-  // A download link for an audio file. Radio4All is cross-origin with no
-  // attachment header, so browsers vary (download vs open-to-save); the
-  // 'download' filename hint is honoured where the browser allows it.
+  // Cloudflare Worker that re-serves Radio4All files with a "save this"
+  // (Content-Disposition: attachment) header, so Download pops a real save
+  // dialog on every browser. Source: cloudflare-worker/download-proxy.js
+  var DOWNLOAD_PROXY = 'https://holy-frost-886b.paxford.workers.dev';
+
   window.bpsDownloadLink = function (url, filename) {
+    var clean = (filename || 'show').replace(/[\\/:*?"<>|]+/g, ' ').replace(/\s+/g, ' ').trim();
+    var fname = clean.slice(0, 90) + '.mp3';
     var a = document.createElement('a');
     a.className = 'bps-dl';
-    a.href = url;
-    var clean = (filename || 'show').replace(/[\\/:*?"<>|]+/g, ' ').replace(/\s+/g, ' ').trim();
-    a.setAttribute('download', clean.slice(0, 90) + '.mp3');
-    a.target = '_blank';
+    a.href = DOWNLOAD_PROXY + '/?url=' + encodeURIComponent(url) + '&name=' + encodeURIComponent(fname);
+    a.setAttribute('download', fname);
     a.rel = 'noopener';
     a.textContent = '⬇ Download';
     if (window.gtag) {
