@@ -195,7 +195,7 @@ order: 3
       body.className = 'st-card-body';
       var t = document.createElement('div');
       t.className = 'st-card-title';
-      t.textContent = s.title || 'Story';
+      t.textContent = detailHeading(s) || s.title || 'Story';
       body.appendChild(t);
       if (s.subtitle) {
         var sub = document.createElement('div');
