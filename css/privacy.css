@@ -3,8 +3,16 @@ body {
   }
 
   article {
-   margin: 10px;
+   margin: 10px auto 60px;
+   max-width: 760px;
+   padding: 0 1rem;
+   color: rgba(255, 255, 255, 0.88);
+   font-size: 1.05rem;
+   line-height: 1.6;
   }
+  article h1, article h2, article h3 { color: #ffffff; }
+  article a { color: #ffd166; }
+  article strong { color: #ffffff; }
 
 
     .navbar {
