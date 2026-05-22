@@ -1,6 +1,6 @@
 // Minimal service worker: network-first so listeners always get fresh shows,
 // with a cached copy as an offline fallback. Bump CACHE_VERSION to force refresh.
-const CACHE_VERSION = "bps-v1";
+const CACHE_VERSION = "bps-v2";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -25,8 +25,15 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  // Pages and JSON data should always revalidate against the server so edits
+  // show up promptly (GitHub Pages otherwise lets browsers cache HTML ~10 min).
+  const revalidate =
+    req.mode === "navigate" ||
+    req.destination === "document" ||
+    /\.json(\?|$)/.test(req.url);
+
   event.respondWith(
-    fetch(req)
+    fetch(revalidate ? new Request(req.url, { cache: "no-cache" }) : req)
       .then((resp) => {
         if (resp && resp.ok) {
           const copy = resp.clone();
