@@ -2,10 +2,13 @@ name: Update Content
 
 on:
   schedule:
-    # Hourly, so new shows and interview clips appear on the website soon after
-    # Tony posts them to Radio4All (the app reads Radio4All live; this keeps the
-    # static site close behind). Only commits when the content actually changed.
-    - cron: "0 * * * *"
+    # Frugal, content-aware schedule: check often only when new content actually
+    # lands, rather than every hour all week (which mostly found nothing).
+    # Times are UTC. Only commits when the content has changed. Use the
+    # "Run workflow" button (workflow_dispatch) any time for an instant refresh.
+    - cron: "0 21,22,23 * * 5"        # Fri evening — the new show is posted (~11pm UK)
+    - cron: "0 8,11,14,17,20 * * 6,0"  # Sat & Sun — interview clips trickle in
+    - cron: "30 9,17 * * 1-4"          # Mon–Thu, twice a day — late clips & story updates
   workflow_dispatch: {}
 
 permissions:
