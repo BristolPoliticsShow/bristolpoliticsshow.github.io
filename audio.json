@@ -1,8 +1,48 @@
 {
-  "updated": "2026-05-22T08:48:02Z",
-  "weekCount": 25,
-  "itemCount": 245,
+  "updated": "2026-05-23T03:28:36Z",
+  "weekCount": 26,
+  "itemCount": 252,
   "weeks": [
+    {
+      "date": "Friday 22 May 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-FULL-SHOW-22May26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Adil Raja, Does Pakistan Army Chief Iran Trip Mean America Is Negotiating With Isself, Trump Putin court China Elite Class Favour",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Adil%20Raja,%20Does%20Pakistan%20Army%20Chief%20Iran%20Trip%20Mean%20America%20Is%20Negotiating%20With%20Isself,%20Trump%20Putin%20court%20China%20Elite%20Class%20Favour.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "James Tweedie v OFSI £40k Nationwide account frozen",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20James%20Tweedie%20v%20OFSI%20%C2%A340k%20Nationwide%20account%20frozen.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Tony Dyer, Bristol's spineless Green leader, avoids journalists, interviewed by his deputy",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Tony%20Dyer,%20Bristol's%20spineless%20Green%20leader,%20avoids%20journalists,%20interviewed%20by%20his%20deputy.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Warren Thornton Phillipines Ex-Police Chief Ronald Dela Rosa Hunted By CIA Marcos gang in US-China Tug-Of-War",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Warren%20Thornton%20Phillipines%20Ex-Police%20Chief%20Ronald%20Dela%20Rosa%20Hunted%20By%20CIA%20Marcos%20gang%20in%20US-China%20Tug-Of-War.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "WHITSUN Walter Wink, What if Nations Companies and Churches Had Guardian Angels and Demons",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/WHITSUN%20Walter%20Wink,%20What%20if%20Nations%20Companies%20and%20Churches%20Had%20Guardian%20Angels%20and%20Demons.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Zack Polanski, Hannah Spencer, Carla Denyer MPs Green party Mayday 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Zack%20Polanski,%20Hannah%20Spencer,%20Carla%20Denyer%20MPs%20Green%20party%20Mayday%202026.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 15 May 2026",
       "items": [
