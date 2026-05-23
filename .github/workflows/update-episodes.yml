@@ -2,8 +2,10 @@ name: Update Content
 
 on:
   schedule:
-    # Once a day at 06:00 UTC. The show is weekly, so daily is plenty.
-    - cron: "0 6 * * *"
+    # Hourly, so new shows and interview clips appear on the website soon after
+    # Tony posts them to Radio4All (the app reads Radio4All live; this keeps the
+    # static site close behind). Only commits when the content actually changed.
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:
