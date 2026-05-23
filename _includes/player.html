@@ -56,13 +56,14 @@
 .bps-time:last-child { text-align: right; }
 .bps-skip {
   background: none; border: none; color: #fff; font-size: 1rem; font-weight: 700;
-  cursor: pointer; padding: 0.4rem; opacity: 0.85;
+  cursor: pointer; padding: 0.4rem; opacity: 0.85; flex: none; white-space: nowrap;
 }
 .bps-skip:hover { opacity: 1; }
 .bps-toggle {
   background: #c84b54; color: #fff; border: none; cursor: pointer;
   width: 60px; height: 60px; border-radius: 50%; font-size: 1.6rem; line-height: 1;
   display: flex; align-items: center; justify-content: center;
+  flex: none;  /* never shrink — keep it a perfect circle */
 }
 .bps-toggle:hover { background: #d96069; }
 .bps-seek { width: 100%; margin-top: 0.9rem; accent-color: #c84b54; height: 24px; }
