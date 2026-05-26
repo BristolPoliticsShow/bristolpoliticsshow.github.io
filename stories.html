@@ -102,6 +102,7 @@ order: 3
   var listEl = document.getElementById('st-list');
   var statusEl = document.getElementById('st-status');
   var stories = [];
+  var savedScrollY = 0;
 
   // Split prose into sentences, without being fooled by abbreviations ("U.S.",
   // "Dr.", initials). Only break after . ! ? + space when the next thing looks
@@ -259,6 +260,7 @@ order: 3
       linksEl.appendChild(a);
     });
 
+    savedScrollY = window.scrollY;
     listView.style.display = 'none';
     detailView.style.display = 'block';
     window.scrollTo(0, 0);
@@ -269,6 +271,7 @@ order: 3
     document.getElementById('st-media').innerHTML = '';  // stop any playing video
     detailView.style.display = 'none';
     listView.style.display = 'block';
+    window.scrollTo(0, savedScrollY);
   }
 
   function route() {
