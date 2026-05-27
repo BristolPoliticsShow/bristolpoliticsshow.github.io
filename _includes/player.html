@@ -164,6 +164,8 @@
   });
   document.getElementById('bps-close').addEventListener('click', function () {
     audio.pause();
+    audio.removeAttribute('src');
+    audio.load();                       // tells the browser "nothing playing" → kills lock-screen ghost
     bar.hidden = true;
     document.body.style.paddingBottom = '';
     setBtnLabel(false);
