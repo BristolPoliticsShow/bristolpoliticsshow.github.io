@@ -83,6 +83,21 @@
   var currentUrl = null;
   var activeBtn = null;
   var seeking = false;
+  var SS_KEY = 'bps-player-state';
+  var saveTimer = null;
+
+  function saveState() {
+    if (!currentUrl) return;
+    try {
+      sessionStorage.setItem(SS_KEY, JSON.stringify({
+        url: currentUrl, title: titleEl.textContent,
+        time: audio.currentTime, playing: !audio.paused
+      }));
+    } catch (e) {}
+  }
+  function clearState() {
+    try { sessionStorage.removeItem(SS_KEY); } catch (e) {}
+  }
 
   var IC = {
     play: '<svg class="bps-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>',
@@ -173,6 +188,7 @@
     setBtnLabel(false);
     activeBtn = null;
     currentUrl = null;
+    clearState();
   });
 
   seek.addEventListener('input', function () { seeking = true; });
@@ -182,15 +198,39 @@
   });
 
   audio.addEventListener('play', function () { toggle.innerHTML = IC.pause; toggle.setAttribute('aria-label', 'Pause'); setBtnLabel(true); });
-  audio.addEventListener('pause', function () { toggle.innerHTML = IC.play; toggle.setAttribute('aria-label', 'Play'); setBtnLabel(false); });
+  audio.addEventListener('pause', function () { toggle.innerHTML = IC.play; toggle.setAttribute('aria-label', 'Play'); setBtnLabel(false); saveState(); });
   audio.addEventListener('timeupdate', function () {
     curEl.textContent = fmt(audio.currentTime);
     var dur = audio.duration;
     remEl.textContent = isFinite(dur) ? '-' + fmt(dur - audio.currentTime) : '';
     if (!seeking && dur) seek.value = Math.round((audio.currentTime / dur) * 1000);
+    if (!saveTimer) { saveTimer = setTimeout(function () { saveState(); saveTimer = null; }, 2000); }
   });
-  audio.addEventListener('ended', function () { setBtnLabel(false); });
+  audio.addEventListener('ended', function () { setBtnLabel(false); clearState(); });
 
   toggle.innerHTML = IC.play;
+
+  // Save position right before navigating away
+  window.addEventListener('beforeunload', saveState);
+
+  // Restore player state after a page navigation
+  try {
+    var raw = sessionStorage.getItem(SS_KEY);
+    if (raw) {
+      var st = JSON.parse(raw);
+      if (st && st.url) {
+        currentUrl = st.url;
+        titleEl.textContent = st.title || '';
+        audio.src = st.url;
+        bar.hidden = false;
+        document.body.style.paddingBottom = bar.offsetHeight + 'px';
+        audio.addEventListener('loadedmetadata', function onMeta() {
+          audio.removeEventListener('loadedmetadata', onMeta);
+          audio.currentTime = st.time || 0;
+          if (st.playing) audio.play().catch(function () {});  // autoplay may be blocked — that's fine, player bar is visible
+        });
+      }
+    }
+  } catch (e) {}
 })();
 </script>
