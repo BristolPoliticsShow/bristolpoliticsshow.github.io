@@ -152,10 +152,10 @@ order: 3
     var t = (s.text || s.title || '').replace(/\s+/g, ' ').trim();
     var m = t.match(/^.*?[.!?](?=\s|$)/);
     var h = m ? m[0].trim() : t;
-    if (h.length > 140) {
-      var cut = h.slice(0, 140);
+    if (h.length > 200) {
+      var cut = h.slice(0, 200);
       var sp = cut.lastIndexOf(' ');
-      h = (sp > 80 ? cut.slice(0, sp) : cut).trim();
+      h = (sp > 100 ? cut.slice(0, sp) : cut).trim();
     }
     return h;
   }
