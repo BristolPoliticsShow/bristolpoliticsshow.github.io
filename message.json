@@ -1,6 +1,6 @@
 {
-  "message": "Radio 4 All upload broke Fri morning ⚠️🧐⚠️ \nShow only downloadable @ thisweek.org.uk\nOr listen 5,11am/pm @ talkradio.org.uk",
-  "type": "warning",
+  "message": "Radio 4 All upload broke Fri morning ⚠️🧐⚠️ \nShow is only downloadable @ thisweek.org.uk\nOr listen 5,11am/pm @ talkradio.org.uk",
+  "type": "error",
   "show": true,
-  "timestamp": "2026-06-06T01:01:22.193Z"
+  "timestamp": "2026-06-06T12:43:17.312Z"
 }
