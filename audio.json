@@ -1,8 +1,33 @@
 {
-  "updated": "2026-06-11T19:57:25Z",
-  "weekCount": 25,
-  "itemCount": 247,
+  "updated": "2026-06-12T22:41:54Z",
+  "weekCount": 26,
+  "itemCount": 251,
   "weeks": [
+    {
+      "date": "Friday 12 June 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-12Jun26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Benjamin H. Freedman anti-Zionist speech Willard Hotel Washington (1961)",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Benjamin%20H.%20Freedman%20anti-Zionist%20speech%20Willard%20Hotel%20Washington%20(1961).mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Chris Williamson on Makerfield and Andy Burnhams key failure to grasp economics",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Chris%20Williamson%20on%20Makerfield%20and%20Andy%20Burnhams%20key%20failure%20to%20grasp%20economics.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Robert Ouldes Bruge Group on Rodney Atkinson RIP",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Robert%20Ouldes%20Bruge%20Group%20on%20Rodney%20Atkinson%20RIP.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 5 June 2026",
       "items": [
