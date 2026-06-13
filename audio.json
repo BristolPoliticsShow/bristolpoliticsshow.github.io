@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-12T22:41:54Z",
+  "updated": "2026-06-13T00:23:09Z",
   "weekCount": 26,
-  "itemCount": 251,
+  "itemCount": 259,
   "weeks": [
     {
       "date": "Friday 12 June 2026",
@@ -10,6 +10,16 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-12Jun26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "Andy Burnham challenged on leadership ambitions fiscal rules Victoria Derbyshire",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Andy%20Burnham%20challenged%20on%20leadership%20ambitions%20fiscal%20rules%20Victoria%20Derbyshire.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Andy Roberts How Lib Dem Vince Cable Sold Off 450 Year Old Royal Mail For A Song FIne Print",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Andy%20Roberts%20How%20Lib%20Dem%20Vince%20Cable%20Sold%20Off%20450%20Year%20Old%20Royal%20Mail%20For%20A%20Song%20FIne%20Print.mp3",
+          "isFullShow": false
         },
         {
           "name": "Benjamin H. Freedman anti-Zionist speech Willard Hotel Washington (1961)",
@@ -22,8 +32,38 @@
           "isFullShow": false
         },
         {
+          "name": "Congressman Massey Israels 1967 false flag attack on unarmed USS Liberty exposed",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Congressman%20Massey%20Israels%201967%20false%20flag%20attack%20on%20unarmed%20USS%20Liberty%20exposed.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "David Dimbleby Starmer Is A Dud, Journalism Without The Ego Mishal Husain Bloomberg",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20David%20Dimbleby%20Starmer%20Is%20A%20Dud,%20Journalism%20Without%20The%20Ego%20Mishal%20Husain%20Bloomberg.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Filton 6 anti-genocide defendents interviews",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Filton%206%20anti-genocide%20defendents%20interviews.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Laila Cunningham Reform UK, Mick Lynch RMT Makerfield by-election campaign",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Laila%20Cunningham%20Reform%20UK,%20Mick%20Lynch%20RMT%20Makerfield%20by-election%20campaign.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Norman Baker on Prince William and the Truth about the Duchy of Cornwall Estate",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Norman%20Baker%20on%20Prince%20William%20and%20the%20Truth%20about%20the%20Duchy%20of%20Cornwall%20Estate.mp3",
+          "isFullShow": false
+        },
+        {
           "name": "Robert Ouldes Bruge Group on Rodney Atkinson RIP",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Robert%20Ouldes%20Bruge%20Group%20on%20Rodney%20Atkinson%20RIP.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Tony Greenstein Anti-Zionist activist has bank accounts frozen Crispin Flintoff show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Tony%20Greenstein%20Anti-Zionist%20activist%20has%20bank%20accounts%20frozen%20Crispin%20Flintoff%20show.mp3",
           "isFullShow": false
         }
       ]
