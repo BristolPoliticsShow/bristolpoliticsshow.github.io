@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-13T00:23:09Z",
+  "updated": "2026-06-13T10:28:48Z",
   "weekCount": 26,
-  "itemCount": 259,
+  "itemCount": 260,
   "weeks": [
     {
       "date": "Friday 12 June 2026",
@@ -59,6 +59,11 @@
         {
           "name": "Robert Ouldes Bruge Group on Rodney Atkinson RIP",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Robert%20Ouldes%20Bruge%20Group%20on%20Rodney%20Atkinson%20RIP.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Scott Ritter Unleashes Stunning Attack on Europe at SPIEF, Today Europe Is a Rabid Dog",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Scott%20Ritter%20Unleashes%20Stunning%20Attack%20on%20Europe%20at%20SPIEF,%20Today%20Europe%20Is%20a%20Rabid%20Dog.mp3",
           "isFullShow": false
         },
         {
