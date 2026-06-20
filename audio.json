@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-19T22:10:39Z",
+  "updated": "2026-06-20T00:16:08Z",
   "weekCount": 26,
-  "itemCount": 249,
+  "itemCount": 257,
   "weeks": [
     {
       "date": "Friday 19 June 2026",
@@ -10,6 +10,46 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-19Jun26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "Andy Burnham holds rally following Makerfield by-election win",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Andy%20Burnham%20holds%20rally%20following%20Makerfield%20by-election%20win.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "David Dimbleby What's The Monarchy For E1of3 Secrecy Spin & Control (Dec25)",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20David%20Dimbleby%20What's%20The%20Monarchy%20For%20E1of3%20Secrecy%20Spin%20&%20Control%20(Dec25).mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Donald Trump Says Benjamin Netanyahu Must Be More Responsible With Lebanon at G7 Summit",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Donald%20Trump%20Says%20Benjamin%20Netanyahu%20Must%20Be%20More%20Responsible%20With%20Lebanon%20at%20G7%20Summit.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "INCOMPLETE JD Vance blasts Netanyahu attack on Trump and USA, Israels only ally in the world",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/INCOMPLETE%20JD%20Vance%20blasts%20Netanyahu%20attack%20on%20Trump%20and%20USA,%20Israels%20only%20ally%20in%20the%20world.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Kanishka Narayan minister for AI and online safety wants to control Musk and co BBCPM-15Jun26",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Kanishka%20Narayan%20minister%20for%20AI%20and%20online%20safety%20wants%20to%20control%20Musk%20and%20co%20BBCPM-15Jun26.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "OCCULT The Big Club, Satanic Inversion, How They Flip Everything To Rule You",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/OCCULT%20The%20Big%20Club,%20Satanic%20Inversion,%20How%20They%20Flip%20Everything%20To%20Rule%20You.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "RIP Roger Cook Murdoch smear campaign killed most popular UK current affairs show BCfm (Sep12)",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20RIP%20Roger%20Cook%20Murdoch%20smear%20campaign%20killed%20most%20popular%20UK%20current%20affairs%20show%20BCfm%20(Sep12).mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Scott Ritter Russia Has Alraedy Made Its Decision NATOs worst nightmare begins",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Scott%20Ritter%20Russia%20Has%20Alraedy%20Made%20Its%20Decision%20NATOs%20worst%20nightmare%20begins.mp3",
+          "isFullShow": false
         }
       ]
     },
