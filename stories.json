@@ -1,33 +1,48 @@
 {
-  "updated": "2026-06-21T21:14:04Z",
+  "updated": "2026-06-22T15:03:48Z",
   "count": 150,
   "stories": [
     {
       "date": "Thursday 18 June 2026",
       "title": "Andy Burnham wins Makerfield by election.",
       "subtitle": "Burnham’s speech. Can he achieve his promises?",
-      "text": "Andy Burnham wins Makerfield by election. Burnham’s speech. Can he achieve his promises? Nationalisation. The City in charge.",
-      "image": null,
-      "videoId": null,
-      "links": []
+      "text": "Andy Burnham wins Makerfield by election. Burnham’s speech. Can he achieve his promises? Nationalisation. The City in charge. Burnham the mystic with a mission is all smiles after Makerfield coronation There would be no more sadness. No more despair. A change was a-coming – and he would work tirelessly to make it happen In the end, it wasn’t even close, Andy Burnham taking well over 50% of the vote and Rob Kenyon departing the stage without a murmur, never to be heard of again. Rob will probably be happier that way. He never looked as if he was much enjoying the attention of being the candidate for Reform in Makerfield. “What a scene, what a campaign,” he began as he thanked the volunteers and people of Makerfield who had helped elect him to Westminster. Then a special thanks to Simons for having made way. Who had understood the message – the instruction – to change that had been given by voters at the May local elections and had made the ultimate sacrifice for the once and future king. Not just king of the north. But king of the whole UK. Move over, Charlie. There’s a new kid in town. He made it sound like a grail quest. This was the last chance to change. The country had been given a bonus shot at redemption. The previous government had failed. Had let down the very people who had placed their trust in it. He was talking of Starmer. Not Rishi Sunak or any of the four Tory prime ministers before him. Andy was the outsider: the mystic with a sacred mission. And he sounded the part. An economy that worked for everyone, not just the few. If a policy wasn’t good for Makerfield, it wasn’t good enough for the country. Industry, education and the NHS would flourish anew. Then to the communion. The most sacred part of the speech. Tory, Lib Dem and Reform supporters had lent him their votes. Hope had triumphed over darkness. There would be no more division. Today would go down in history as the moment that changed the nation. There would be no more sadness. No more despair. A change was a-coming. And Andy would work relentlessly to make it happen. All you needed was a bit of faith. Only the glory days lay ahead. Burnham fell back. Overwhelmed with emotion. Wondering if perhaps he had oversold his victory. These were promises we had all heard before from other prime minister-designates, yet time and again they had been broken on the wheel of incompetence, party politics and reality. Andy sounded different to the others. There again, the new kid on the block often does. Because, deep down, we all need a reason to believe. But when the levels of hope are this high, so too are the depths of possible disappointment. Somehow, though, just saying you will do your best is not enough. We all need a promised land. There was just one thing missing. Or rather, one person missing. Normally, after a party wins a landmark byelection, the leader airlifts himself to the constituency for a photo op with their new MP. To bask in the reflected glory. But Keir was nowhere to be seen. His first reaction had been to post a curt “congrats” on X.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/andy-burnham-stand-1024x587.jpg",
+      "videoId": "E314JpunzQM",
+      "links": [
+        {
+          "label": "theguardian.com",
+          "url": "https://www.theguardian.com/politics/2026/jun/19/andy-burnham-makerfield-byelection-labour-leadership-rally-speech"
+        }
+      ]
     },
     {
       "date": "Thursday 18 June 2026",
       "title": "Evan Davies, BBC, interviews Minister for AI and Online Safety, Kanishka Narayan.",
-      "subtitle": "Kanishka’s background.",
-      "text": "Evan Davies, BBC, interviews Minister for AI and Online Safety, Kanishka Narayan. Kanishka’s background.",
-      "image": null,
+      "subtitle": "Kanishka’s background. Big Brother Watch, a UK civil liberties and privacy campaign group, frequently critiques policies advanced by Kanishka Narayan, the UK’s Minister f…",
+      "text": "Evan Davies, BBC, interviews Minister for AI and Online Safety, Kanishka Narayan. Kanishka’s background. Big Brother Watch, a UK civil liberties and privacy campaign group, frequently critiques policies advanced by Kanishka Narayan, the UK’s Minister for AI and Online Safety, citing concerns over state overreach, digital IDs, and freedom of expression. Key points of friction and discussion between the campaign group and the Minister include: SOCIAL MEDIA BANS FOR UNDER 16S: Minister Narayan has strongly championed a proposed ban on social media for children under 16. Big Brother Watch firmly opposes this, labeling it “extreme technological censorship” and warning that age-verification checks would turn social media sites into invasive “digital ID checkpoints” that would make internet anonymity for the British public “dead”.NATIONAL DIGITAL IDENTITY: Big Brother Watch is running a campaign against proposed government plans for “spycoins” or digital identity programs. When pressed by Conservative and Reform MPs about the cost of a national digital identity scheme, Kanishka Narayan stated in parliamentary answers that no firm decision, estimate, or assessment had yet been made, but noted the government was looking into whether digital IDs could help public services.FACIAL RECOGNITION AND POLICE SURVEILLANCE: Big Brother Watch has consistently condemned the government’s expansion of mass surveillance and facial recognition technology. Civil liberties groups, including Big Brother Watch, have challenged the government on the use of passport photos for police databases and advocate for limits mirroring Europe’s strict AI laws. A short look at the career and background of the UK’s Minister for AI and Online Safety, Kanishka Narayan: To see more about Big Brother Watch’s efforts to defend civil liberties and oppose these tech-monitoring initiatives, visit the Big Brother Watch Campaigns Page.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/big-brother-watch-1024x462.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "bigbrotherwatch.org.uk",
+          "url": "https://bigbrotherwatch.org.uk/press-releases/big-brother-watch-responds-to-governments-social-media-ban/"
+        }
+      ]
     },
     {
       "date": "Thursday 18 June 2026",
-      "title": "US bans Anthropic story.",
+      "title": "US bans Anthropic.",
       "subtitle": "Sam Altman biopic dropped from Amazon – Guardian article. Mythos, Fable – names of AI.",
-      "text": "US bans Anthropic story. Sam Altman biopic dropped from Amazon – Guardian article. Mythos, Fable – names of AI. Race for AI advancement – money, military.",
-      "image": null,
+      "text": "US bans Anthropic. Sam Altman biopic dropped from Amazon – Guardian article. Mythos, Fable – names of AI. Race for AI advancement – money, military. US export ban on Anthropic’s AI models further strains alliances Trump administration’s move to cut off allies’ access to advanced AI prompts calls for greater self-reliance. Artificial intelligence has become the latest issue to drive a wedge between the United States and its allies after US President Donald Trump ordered tech giant Anthropic to cut off foreign access to its powerful Mythos 5 and Claude Fable 5 AI models, citing national security concerns. The US issued the unprecedented order for all foreign nationals in and outside the US last week, promoting Anthropic to take the two AI models completely offline to ensure compliance. Anthropic had granted 200 institutions across 15 countries access to their frontier model, Claude Mythos Preview, to test for vulnerabilities. The two public versions of the model, Mythos 5 and Fable 5, were due to be released in early June. Anthropic said the US government did not provide a reason for the order, but that it was its “understanding” that the Trump administration believed it had become aware of a method of “jailbreaking” Fable 5. The Trump administration’s ban immediately sent shockwaves across Europe, which is heavily dependent on US-developed AI. French President Emmanuel Macron told a meeting of the Group of Seven (G7) nations this week that while the Trump administration’s order was a “wake-up call” about the dangers of AI, the limits were a “bad thing”. “The reaction is in some regards strictly nationalist,” Macron said on Wednesday. While the US has targeted adversaries like China and Russia with numerous tech restrictions, the Trump administration’s Anthropic order applies equally to allied countries that have intelligence-sharing and mutual defence pacts with Washington. The decision was a first for the AI industry, but it comes on the heels of other transactional policy moves by the Trump administration. Over the past 18 months, Trump has launched a global trade war, and threatened to annex Greenland, an autonomous Danish territory, and withdraw from the 77-year-old North Atlantic Treaty (NATO) alliance. He also threatened to stop supplying weapons to Ukraine unless European allies helped reopen the Strait of Hormuz, which was in effect shuttered by Iran after the US and Israel launched their war on the country on February 28. US allies are now waking up to the realisation that they are “far too vulnerable now to the US techno-industrial complex,” Dex Hunter-Torricke, president of the Center for Tomorrow, told Al Jazeera.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/fable-5-mythos.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "aljazeera.com",
+          "url": "https://www.aljazeera.com/news/2026/6/19/us-export-ban-on-anthropics-ai-models-further-strains-alliances"
+        }
+      ]
     },
     {
       "date": "Thursday 18 June 2026",
@@ -133,12 +148,17 @@
     },
     {
       "date": "Thursday 18 June 2026",
-      "title": "Roger Cook dies aged 83 RIP – a eulogy.",
+      "title": "Roger Cook dies aged 83 RIP – EXCLUSIVE INTERVIEW FROM 15 YEARS AGO – a eulogy.",
       "subtitle": "Tony’s interview with Roger Cook in 2012 – News of World managed to stop his renowned ‘Cook Report’ programme – the programme where they bought a nuclear bomb on the blac…",
-      "text": "Roger Cook dies aged 83 RIP – a eulogy. Tony’s interview with Roger Cook in 2012 – News of World managed to stop his renowned ‘Cook Report’ programme – the programme where they bought a nuclear bomb on the black market in Russia.",
-      "image": null,
-      "videoId": null,
-      "links": []
+      "text": "Roger Cook dies aged 83 RIP – EXCLUSIVE INTERVIEW FROM 15 YEARS AGO – a eulogy. Tony’s interview with Roger Cook in 2012 – News of World managed to stop his renowned ‘Cook Report’ programme – the programme where they bought a nuclear bomb on the black market in Russia. His investigations into international organised crime, satanic ritual abuse and black market nuclear weapons have never been surpassed. And Rupert Murdoch destroyed his mass media TV career. Investigative journalist and broadcaster Roger Cook dies aged 83 In a career spanning five decades, journalist was best known for ITV current affairs programme The Cook Report The investigative journalist Roger Cook, best known for the current affairs programme The Cook Report, has died aged 83, his family has said. Cook was born in New Zealand and grew up in Australia where he began his broadcasting career before moving to the UK in 1968. His distinctive style of investigative journalism, based on confronting and exposing criminals and conmen, began in the form of the BBC Radio 4 show Checkpoint, which he created in the 1970s. The veteran journalist has been credited with pioneering the TV doorstep confrontation format, which would later become a staple of on-screen news reporting. Cook’s family said he died peacefully on Saturday after a short illness. “Alongside a distinguished and award winning career in journalism, Roger was first and foremost a beloved husband and father,” they said in a statement. “He will be deeply missed by all of us, and we ask for privacy as we navigate this difficult loss.” In 1981 during a report for BBC Newsnight, Cook was beaten with a metal bar by an antiques dealer he had exposed with his undercover investigation. He would later take his journalism to the nation’s TV screens when the Cook Report launched on ITV in 1987 and ran until 1999. Over its 16 series, the show, which attracted up to 12 million viewers at its peak, exposed a wide range of corruption and injustice. Examples of investigations by the show include programmes on protection rackets in Northern Ireland, the adoption trade in Guatemala and the infected blood scandal. His undercover stings also led to police investigations and criminal convictions, including its exposé on a huge money laundering scheme by the notorious criminal Johnny “Goldfinger” Palmer, which contributed to him being handed an eight-year jail sentence years later for timeshare fraud. In 1997, Cook was given a special Bafta award for 25 years of outstanding investigative reporting. He later became a target of the tabloid press. In 2000, he sued the News of the World for its claims that he had faked scenes in his programmes and even conspired with criminals to set up easily solvable crimes. Two years later, he settled his libel action with the Sunday paper after it admitted its reporting was wrong and should never have been published. A statement from ITV on Monday said: “In a career spanning an incredible five decades, Roger Cook’s ground-breaking approach to investigative journalism made him one of broadcasting’s most trusted and respected figures. On his eponymous current affairs programme, The Cook Report, Roger worked tirelessly to expose criminal wrongdoing and injustice, helping to drive important and lasting changes in the law. “His fearless contribution to journalism will long be remembered, and we send our deepest sympathies and condolences to his wife, family and friends at this difficult time.”",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/roger-cook-1024x576.jpg",
+      "videoId": "ebh70VFlDPo",
+      "links": [
+        {
+          "label": "theguardian.com",
+          "url": "https://www.theguardian.com/media/2026/jun/15/investigative-journalist-and-broadcaster-roger-cook-dies-aged-83"
+        }
+      ]
     },
     {
       "date": "Thursday 18 June 2026",
@@ -146,7 +166,7 @@
       "subtitle": "",
       "text": "You Tube channel where The Cook Report can be found.",
       "image": null,
-      "videoId": "ebh70VFlDPo",
+      "videoId": null,
       "links": [
         {
           "label": "youtube.com",
@@ -172,55 +192,94 @@
       "date": "Thursday 18 June 2026",
       "title": "Scott Ritter on Ukraine/Russia war – will there be a peace deal with US?",
       "subtitle": "Delusional news stories – Ukraine winning the war. West losing wars or making money?",
-      "text": "Scott Ritter on Ukraine/Russia war – will there be a peace deal with US? Delusional news stories – Ukraine winning the war. West losing wars or making money?",
+      "text": "Scott Ritter on Ukraine/Russia war – will there be a peace deal with US? Delusional news stories – Ukraine winning the war. West losing wars or making money? “Russia Has Already Made Its Decision!” Scott Ritter Reveals Nato’s Worst Nightmare Begins “Russia Has Already Made Its Decision!” In this video, Scott Ritter examines Russia’s evolving military strategy and explains why he believes NATO may be entering one of the most dangerous periods since the conflict in Ukraine began. Ritter argues that Moscow has moved beyond short-term tactical objectives and is now pursuing a long-term strategy that could fundamentally reshape the security landscape in Eastern Europe. He suggests that Russia’s recent military and political decisions signal confidence rather than compromise, forcing NATO to confront increasingly difficult strategic choices. From battlefield developments and military readiness to economic pressure and geopolitical realignment, Ritter explores why the next phase of the conflict could have consequences extending far beyond Ukraine. He also discusses the risks of miscalculation, the limits of deterrence, and the possibility that continued escalation could deepen tensions between Russia and the West. As the war continues to evolve, governments across Europe and Washington face difficult questions about security, diplomacy, and the future of NATO. Could Russia’s next moves redefine the balance of power in Europe—and leave the West confronting an entirely new strategic reality?",
       "image": null,
-      "videoId": null,
-      "links": []
-    },
-    {
-      "date": "Thursday 18 June 2026",
-      "title": "Craig Murray on UK boarding Russian ship in British Channel.",
-      "subtitle": "",
-      "text": "Craig Murray on UK boarding Russian ship in British Channel.",
-      "image": null,
-      "videoId": null,
+      "videoId": "Ml-CQ0c2H6Y",
       "links": []
     },
     {
       "date": "Thursday 18 June 2026",
       "title": "Scott Ritter, Russia has already decided they will attack NATO if we continue provoking them via MI6 agent Zelensky.",
-      "subtitle": "",
-      "text": "Scott Ritter, Russia has already decided they will attack NATO if we continue provoking them via MI6 agent Zelensky.",
-      "image": null,
+      "subtitle": "Zelensky at G7 – the need for weapons. Caught on Tape: Macron Tells Zelensky of Heated Trump Exchange During G7 Macron’s offhand remark to Zelensky at the G7 exposes behi…",
+      "text": "Scott Ritter, Russia has already decided they will attack NATO if we continue provoking them via MI6 agent Zelensky. Zelensky at G7 – the need for weapons. Caught on Tape: Macron Tells Zelensky of Heated Trump Exchange During G7 Macron’s offhand remark to Zelensky at the G7 exposes behind-the-scenes tensions with Trump amid Ukraine war diplomacy talks. Macron is recorded on a hot mic telling Zelensky about a tense discussion with Trump during the G7 summit. A brief walk across the grounds of the Hotel Royal summit venue turned into one of the most talked-about moments of the G7 summit hot mic Macron Trump Zelensky coverage, after French President Emmanuel Macron was inadvertently captured speaking candidly to Ukrainian President Volodymyr Zelensky. The moment unfolded away from the main press pool, where Macron and Zelensky were seen conversing informally while moving between meetings focused on Russia’s ongoing war in Ukraine. What made the exchange stand out was not just the setting, but the offhand tone that slipped into public view. Macron was heard referencing a recent interaction with Donald Trump, saying, ‘Yesterday we had a difficult discussion with President Trump’. The remark, picked up unintentionally, quickly became a focal point in discussions about shifting Trump foreign policy tensions Europe dynamics. The audio did not come from a formal press conference or staged briefing. Instead, it surfaced during a candid walk-and-talk between leaders, the kind of moment that usually stays behind closed doors. That is exactly why it gained traction. In a summit built on carefully controlled messaging, the idea that a private diplomatic assessment of Trump had slipped out in real time added weight to the G7 summit Ukraine talks narrative. Macron’s wording, especially the phrase ‘difficult discussion’, immediately sparked interpretation across diplomatic circles. While no specifics were disclosed, the phrasing suggested friction rather than routine disagreement, particularly given the sensitive context of Ukraine policy coordination. The timing of the exchange added another layer. According to summit reporting, Donald Trump arrived roughly 50 minutes late to a morning session focused on Ukraine, a detail that did not go unnoticed by other leaders. Initially, Trump and Zelensky did not engage directly upon arrival. Zelensky was instead greeted by other G7 counterparts, a sequence that subtly underscored the uneven rhythm of the day’s diplomacy. Later, however, the tone shifted. The two leaders eventually held a private conversation, with images shared by Zelensky showing them seated together in discussion. The shift from distance to dialogue became a key feature of the Trump-Zelensky G7 meeting storyline.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/g7-france-1024x583.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "ibtimes.co.uk",
+          "url": "https://www.ibtimes.co.uk/hot-mic-diplomacy-macron-zelensky-g7-summit-1803285"
+        }
+      ]
+    },
+    {
+      "date": "Thursday 18 June 2026",
+      "title": "Craig Murray on UK boarding Russian ship in British Channel.",
+      "subtitle": "The UK Joins The Pirates by Craig Murray. Now let us look at the claim that the Smyrtos is without nationality.",
+      "text": "Craig Murray on UK boarding Russian ship in British Channel. The UK Joins The Pirates by Craig Murray. Now let us look at the claim that the Smyrtos is without nationality. This is an astonishing story which the media will not tell you. When the Smyrtos set sail from Russia it was flying the Cameroonian flag, and on the Cameroonian register. That is not in doubt. While the ship was on its voyage, on 10 June Cameroon withdrew its registration. It did so because the EU and UK threatened to halt development aid to Cameroon unless they removed Russian vessels from their shipping register. So the UK blackmailed Cameroon into deregistering the ship. Then, before the ship could reach a friendly port, the UK boarded it because it had been deregistered. Now doubtless there are chortling people in the UK security and military industries self-congratulating themselves over how clever they are. But while this may be a clever ruse de guerre, it is hardly a ruse de paix. It is not going to survive scrutiny by an international court. An unexpected change of registration, forced upon the owners, is very difficult to complete instantly, but doubtless one was in train and perhaps finished. The UK actions are patently – and deliberately – unreasonable. Politicians seek to drum up cheap popularity by stupid jingoism. Starmer has won a cheap headline. The world inches closer to the next world war. The UK loses yet more legitimacy in the eyes of the wider world. Meantime Trump claims as a great victory a possible return of the Strait of Hormuz to the open status it enjoyed before he started an illegal war in the interests of Israel. Freedom of navigation was a principle worth defending. It has been abandoned in favour of a return to the rule of the seas by those with the strongest navies. Fortunately Putin is neither as war hungry nor as politically desperate as Starmer. However Russia will now be obliged to send at least a frigate to keep the Strait of Dover open. The drums of war beat ever closer.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/uk-joins-pirates-craig-murray.png",
+      "videoId": null,
+      "links": [
+        {
+          "label": "craigmurray.org.uk",
+          "url": "https://www.craigmurray.org.uk/archives/2026/06/the-uk-joins-the-pirates/"
+        }
+      ]
     },
     {
       "date": "Thursday 18 June 2026",
       "title": "Ukraine biochemical labs – new info.",
-      "subtitle": "War with Russia.",
-      "text": "Ukraine biochemical labs – new info. War with Russia.",
-      "image": null,
+      "subtitle": "War with Russia. Tulsi Gabbard forced out or resigned?",
+      "text": "Ukraine biochemical labs – new info. War with Russia. Tulsi Gabbard forced out or resigned? DNI Gabbard Reveals Evidence of U.S. Taxpayer-Funded Global Biolab Program WASHINGTON D.C. — After months of searching through Intelligence Community holdings and files, Director of National Intelligence (DNI) Tulsi Gabbard is revealing new evidence of longstanding United States government funding for more than 120 biolabs in over 30 countries. These biolabs include labs in Ukraine, which may be at risk of compromise due to the ongoing Russia-Ukraine war. For example, the Intelligence Community previously warned that a US-funded biolab in Ukraine likely housed dangerous pathogens and remained vulnerable to longstanding threats of Russian attack, seizure, or damage. Until now, evidence regarding the full existence and funding of these laboratories had been knowingly withheld from the American people. The information surrounding the existence, history, locations and funding of these US funded biolabs has been intentionally covered up by powerful people falsely, claiming that they do not exist and accusing anyone who says otherwise to be foreign assets and traitors to America. Many of these U.S. government-funded biolabs are currently or have previously engaged in research using hazardous and highly contagious pathogens, in some cases to include dangerous Gain-of-Function research, with very little visibility or oversight. President Trump understands the serious threat dangerous Gain-of-Function research poses to the American people, which is why he took decisive action on May 25, 2025, signing EO 14292 to end federal funding of Gain-of-Function research around the world. “Despite the obvious potential for catastrophic global impact research on dangerous pathogens in biolabs can have, politicians, so-called health professionals like Dr. Fauci, and entities within the Biden administration’s national security team lied to the American people about the existence of U.S.-funded and supported biolabs, and threatened those who attempted to expose the truth. ODNI will continue to work closely with partners across the government to identify where these labs are, what pathogens they contain to end dangerous Gain-of-Function research that threatens the health and wellbeing of the American people and people around the world,” said DNI Gabbard.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/tulsi-gabbard-b-1024x576.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "dni.gov",
+          "url": "https://www.dni.gov/index.php/newsroom/press-releases/press-releases-2026/4163-pr-10-26"
+        }
+      ]
     },
     {
       "date": "Thursday 18 June 2026",
       "title": "Peace deal between US and Iran – Trump getting fed up with Netanyahu.",
-      "subtitle": "Trump on his deal.",
-      "text": "Peace deal between US and Iran – Trump getting fed up with Netanyahu. Trump on his deal.",
-      "image": null,
+      "subtitle": "Trump on his deal. The US and Iran 12-point plan The following 12 points were first revealed by Axios reporter Barak Ravid, who also works for the Israeli channel.",
+      "text": "Peace deal between US and Iran – Trump getting fed up with Netanyahu. Trump on his deal. The US and Iran 12-point plan The following 12 points were first revealed by Axios reporter Barak Ravid, who also works for the Israeli channel. The document has previously been described as a 14-point agreement. 1. Iran, the US and their allies would stop fighting across the region — including in Lebanon. 2. Tehran would reaffirm its pledge never to build a nuclear weapon. 3. The US and Iran would work out what happens to Tehran’s enriched uranium stockpile. 4. Both sides would open talks on Iran’s future enrichment activities and nuclear needs. 5. Iran would maintain the “status quo” of its nuclear program — which has been largely decimated — while negotiations continue. 6. The US would lift its naval blockade, hold off on new sanctions and refrain from sending more troops to the region. 7. Iran would guarantee safe, toll-free passage for commercial ships through the Strait of Hormuz for 60 days. 8. Washington would release an unspecified amount of frozen Iranian assets once the MOU takes effect. 9. A final deal reached after the 60 days would see the US withdraw its forces within 30 days and lift all sanctions on Iran. 10. It would pave the way for a $300 billion ($424 billion AUD) reconstruction fund for Iran. 11. The US would allow Iran to resume oil sales through temporary sanctions waivers. 12. Iran, Oman and Gulf states would negotiate new shipping and maritime security arrangements for the Gulf. Oman and Iran have already begun discussions on the last point, and are aiming to charge a fee for “services” provided, a senior regional source told The Post. Under the proposed agreement, Iran, the United States and their respective allies would stop all hostilities in the region — explicitly including in Lebanon, where US ally Israel and Iranian proxy Hezbollah are currently warring. Importantly for the US: the memorandum also includes a renewed Iranian commitment not to develop or acquire nuclear weapons — a signature feature of the 2015 Iran deal signed by former President Barack Obama but rescinded by Trump in 2018. Other points also focus on Tehran’s nuclear program — but make no changes to Iran’s position, only establishing that the US and Iran will have general discussions about it “US and Iran to discuss enrichment issue and Iran’s nuclear needs,” the text said, according to Channel 12. Rather, the “status quo” will be maintained during the 60-day negotiations — meaning Iran can technically state they have not given up their program, which was set back years after the US destroyed key nuclear sites during Operation Midnight Hammer…",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/trump-14-point-iran-deal.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "independent.co.uk",
+          "url": "https://www.independent.co.uk/news/world/middle-east/trump-iran-peace-plan-war-b2997310.html"
+        }
+      ]
     },
     {
       "date": "Thursday 18 June 2026",
       "title": "J.",
       "subtitle": "D. Vance – US is only backer of Israel now – they should behave.",
-      "text": "J. D. Vance – US is only backer of Israel now – they should behave. Israel attacking Lebanon – new occupation map.",
-      "image": null,
+      "text": "J. D. Vance – US is only backer of Israel now – they should behave. Israel attacking Lebanon – new occupation map. In unusually pointed comments on Thursday, Mr Vance also accused Israel of effectively sabotaging peace negotiations by bombing civilians in Lebanon. “You’ve seen people within [Mr Netanyahu’s] cabinet who have come out and attacked the deal, and in some ways very personally attacked the President of the United States,” Mr Vance told reporters at a press briefing. Mr Trump “is the only head of state in the entire world who is sympathetic to the nation of Israel at this moment in time,” Mr Vance continued. “If I was in the cabinet of the Israeli government, I might not be attacking the only powerful ally that I have anywhere left in the entire world.” Israel ‘needs to wake up and smell the reality’ Many of Israel’s allies, including Britain, France and Canada, have criticised what they say are avoidable civilian deaths and suffering in Israel’s military operations in Gaza and Lebanon. Polling also shows Israel’s standing has plummeted among Americans. “Over the last three months, two-thirds of the defensive weapons that have protected your homeland have been built by American hands and paid for by American tax dollars,” Mr Vance continued. “Anybody in Israel who thinks their biggest problem is the President of the United States needs to wake up and smell the reality of the situation that country is in.” Mr Vance also criticised Israel for having previously derailed negotiations by launching attacks on Lebanon. “All of a sudden there’s a major explosion that goes off in a civilian population centre in Beirut, and a lot of people who have nothing to do with Hezbollah lose their lives. That’s not acceptable,” he said. In a New York Times interview published on Thursday, Mr Vance criticised Itamar Ben-Gvir and Bezalel Smotrich, two Israeli cabinet ministers, for attacking the peace deal. “My response to them would be: What is your exact proposal? You’re a country of nine million people. You can’t just kill your way out of solving every single national security problem that you have,” he said. Mr Ben-Gvir responded on social media: “This is the proposal… To deal with the Nazis of the 21st century, just as the United States dealt with the Nazis of the 20th century.”",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/jd-vance-1024x728.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "archive.is",
+          "url": "https://archive.is/BGgxL#selection-3709.0-3831.176"
+        }
+      ]
+    },
+    {
+      "date": "Thursday 18 June 2026",
+      "title": "The Big Club – Satanic inversion, favoured doctrine of the ‘Lords of Chaos’… DEMONIC INVERSION The Inversion of Reality.",
+      "subtitle": "The definition of the word inversion is ‘a reversal of position, order, form, or relationship’. Good and Evil are in a constant battle of reversal.",
+      "text": "The Big Club – Satanic inversion, favoured doctrine of the ‘Lords of Chaos’… DEMONIC INVERSION The Inversion of Reality. The definition of the word inversion is ‘a reversal of position, order, form, or relationship’. Good and Evil are in a constant battle of reversal. When the Devil reverses good of creation we call it inversion. When Jesus reversed evil and restores and elevates the goodness of the world we call it redemption. Redemption is powerful and efficacious whereas inversion is mostly symbolic and empty show. The devil cannot create or redeem. He can only twist, corrupt or change creation. Creation is binary. It is an ordered complimentarity of opposites. The devil, through inversion, can distort these opposites to create disorder for his advantage. In the beginning God created a binary world through the act of separation. He separated light and darkness, the air and the sea, day and night, sea and land, small animals and large animals, sea animals and land animals, a man and a woman, male and female. God declared the whole binary world was created good. Humans engage in binary thinking all the time. Part of how we understand the nature of a thing is to learn its opposite. We use antonyms to help us pin down the meaning of a term or concept. Discovering what a thing is ‘not’ often tells us what a thing ‘is’. Binary reality gives life an interesting texture; it presents us with options and facilitates free will. We prefer light because we are afraid of the dark. We like our coffee hot because it tastes bad when it’s cold. However, with free will comes the possibility of sin and the power of inversion. Think of Genesis chapter 3 (the Fall of Adam and Eve). Inversion happens when the truth becomes a lie, God at the center is replaced with self at the center and humility is swallowed up by pride. The created thing becomes de-created, distorted and fallen. Order lapses into chaos and the harmonious union of Eden is flipped upside down by discord and division. The binary world becomes weaponized against itself as the antonyms turn on each other in a fierce war of contant redemption and inversion. Advertisement – Continue Reading Below In Catholic theology, specifically demonology, inversion is used as a tactic in spiritual warfare and as a call sign of the Devil. He uses inversion to achieve two ends: to confuse us and to mock God. Inversion for the Sake of Confusion Inversion also refers to the tactic of demons to present good as evil and evil as good thus altering the human perception of reality. In moral life inversion sometimes confuses us. We get turned around and start to go in the wrong direction. Right may actually seem wrong when evil masquerades as good. In the midst of this diabolical disorientation, we are susceptible to euphemisms that play on our emotions and imagination through the inversion of good and evil. Such as ‘reproductive health services’, ‘gender affirmation care’, ‘assisted suicide’ or ‘death with dignity’. It’s remarkable how the devil has been able to make evil appear to be good especially in the area of abortion, euthanasia and gender theory. In an excellent article on Catholic Answers, Leila Miller explains that demonic inversion associated with gender theory is meant to confuse people. “The lies of gender theory have no momentum unless we elevate imagination and emotion over what is tangible, scientific, and real. Kuzma is explicit in her admission that feelings determine reality: her physical body “did not ring true to me” (emphasis mine). It should go without saying that no one is permitted a private “truth” about objective things. Truth is what corresponds to reality. The physical world that God created, that can be known by the senses, is reality. In an inverted reality, created things are suspect, and imagination holds the truth.”….",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/satanic-invesrion-1024x571.jpg",
+      "videoId": "rITL4a8pyUA",
+      "links": [
+        {
+          "label": "catholic365.com",
+          "url": "https://www.catholic365.com/article/50823/noisrevni-inversion.html"
+        }
+      ]
     },
     {
       "date": "Thursday 11 June 2026",
@@ -1935,28 +1994,6 @@
       "image": null,
       "videoId": "0yEJUdEVSlE",
       "links": []
-    },
-    {
-      "date": "Wednesday 6 May 2026",
-      "title": "How the British Army introduced the world’s first mobile microwave data communication system, called Ptarmigan, in the 1…",
-      "subtitle": "Royal Signals Museum, Blandford Forum piece – – Tim Stankus, Adam Forty – Monty’s HQ lorry he used in the North Africa campaign, and the Ptarmigan radio . Ptarmigan milit…",
-      "text": "How the British Army introduced the world’s first mobile microwave data communication system, called Ptarmigan, in the 1980s. Royal Signals Museum, Blandford Forum piece – – Tim Stankus, Adam Forty – Monty’s HQ lorry he used in the North Africa campaign, and the Ptarmigan radio . Ptarmigan military communications led to mobile phones A military communications system first used in the 1980s, and now on show in a Dorset museum, provided the technology for the mobile network we know today. The Ptarmigan system is one of ten objects chosen by Dorset’s museums for the BBC’s History of the World project. It looks at significant or important objects that help tell the story of the world. Ptarmigan provided secure and reliable communications to any user across a battlefield area for the first time. The innovative and influential system was first used by the Army in the early 1980s and, after regular upgrades, has only just been replaced by a new system, called Bowman. The original system – portable banks of dials, switches, computers and controls designed to go inside a military vehicle – is now installed in the Royal Signals Museum in Blandford Army Camp. The museum exhibits many examples of military communications equipment from the Royal Signals Corps, the part of the British army responsible for developing and providing army communications. The museum’s business manager Adam Forty said: “The thing about Ptarmigan is that it’s the whole mobile phone system, it’s the mast, the backroom, and it’s all transportable. “It’s like a mobile mobile system. “The important thing to remember is that it was running computer networks, running digital information systems of all sorts of varieties so the extent you could communicate within the military was astonishing. “The technology initiated the development of the mobile phone. “Ptarmigan was the original digital concept that the civilian manufacturers caught wind of, and that set them off in thinking about civilian applications for it.” Tom Moncere, a former military project research officer and now Secretary of the Royal Signals Institute at Blandford Camp, was involved in the process of making the technology used for Ptarmigan accessible to the commercial telecommunications companies of the time. He said: “Ptarmigan allowed communications to extend from the solider in the frontline trench to a whole network, and obviously, industry, who had been thinking along similar lines, got to hear about what we were doing. “In fact, I remember we were approached by representatives of the two telecommunications companies, Vodafone and Cellnet, who asked us to help them with some [mobile phone] trials.” Several trial handsets were given out to military staff for them to test, with prearranged people and locations for them to contact, over the course of several months. The trials proved so successful the testers were reluctant to return the equipment afterwards.",
-      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/army-military-ptarmigan-triffid-radio-frequency-rf-head-band-i.jpg",
-      "videoId": null,
-      "links": [
-        {
-          "label": "radio4all.net",
-          "url": "https://www.radio4all.net/program/117765"
-        },
-        {
-          "label": "radio4all.net",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-26Apr24.mp3"
-        },
-        {
-          "label": "news.bbc.co.uk",
-          "url": "http://news.bbc.co.uk/local/dorset/hi/people_and_places/history/newsid_8475000/8475406.stm"
-        }
-      ]
     }
   ]
 }
