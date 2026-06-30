@@ -43,7 +43,7 @@ TITLE_SUFFIX = re.compile(
 )
 READ_MORE_SUFFIX = re.compile(r"\s*Read More\s*[»»]?\s*$", re.IGNORECASE)
 URL_RE = re.compile(r"https?://\S+")
-FULL_SHOW_DATE_RE = re.compile(r"full[- ]show[- ]?(\d{1,2})([A-Za-z]{3})(\d{2})", re.IGNORECASE)
+FULL_SHOW_DATE_RE = re.compile(r"full[- ]show[- ]?(\d{1,2})([A-Za-z]{3})(\d{4}|\d{2})", re.IGNORECASE)
 LEADING_TAG_RE = re.compile(r"^(COMPLETE|EXCLUSIVE|UPDATE)\s+", re.IGNORECASE)
 
 MONTHS = {m.lower(): i for i, m in enumerate(
@@ -114,11 +114,14 @@ def show_date_from_name(name: str) -> dt.datetime | None:
     m = FULL_SHOW_DATE_RE.search(name)
     if not m:
         return None
-    day, mon, yy = m.group(1), m.group(2).lower(), m.group(3)
+    day, mon, year_text = m.group(1), m.group(2).lower(), m.group(3)
     if mon not in MONTHS:
         return None
     try:
-        return dt.datetime(2000 + int(yy), MONTHS[mon], int(day))
+        year = int(year_text)
+        if len(year_text) == 2:
+            year += 2000
+        return dt.datetime(year, MONTHS[mon], int(day))
     except ValueError:
         return None
 
@@ -126,6 +129,10 @@ def show_date_from_name(name: str) -> dt.datetime | None:
 def week_start(d: dt.datetime) -> dt.datetime:
     monday = d - dt.timedelta(days=(d.weekday()))
     return dt.datetime(monday.year, monday.month, monday.day)
+
+
+def is_plausible_show_date(label_date: dt.datetime, pub_date: dt.datetime) -> bool:
+    return abs((label_date.date() - pub_date.date()).days) <= 14
 
 
 def parse_radio4all(xml_bytes: bytes) -> list[dict]:
@@ -163,13 +170,20 @@ def parse_radio4all(xml_bytes: bytes) -> list[dict]:
     weeks = []
     for key in sorted(groups, reverse=True):
         eps = groups[key]
-        # Label the week from the full show's filename date if we have one.
+        # Label the week from the full show's filename date if it matches the
+        # feed timing; otherwise fall back to the feed date.
         label_date = None
         for ep in eps:
             d = show_date_from_name(nice_name(ep["url"]))
-            if d:
+            if d and is_plausible_show_date(d, ep["pubDate"]):
                 label_date = d
                 break
+            if d:
+                print(
+                    f"WARN: Ignoring implausible filename date {format_date(d)} "
+                    f"for {ep['url']}",
+                    file=sys.stderr,
+                )
         if label_date is None:
             label_date = max(ep["pubDate"] for ep in eps)
         # Full show first, then interviews alphabetically.
