@@ -184,6 +184,58 @@ console.log('Current URL:', {{ site.url }}{{ site.baseurl }}{{ page.url }});
 </script> -->
 
 <script>
+  function isSearchNavLink(link) {
+    if (!link) return false;
+    var url = new URL(link.getAttribute('href'), window.location.origin);
+    return url.pathname === '/search' || url.pathname === '/search/';
+  }
+
+  function openAdminPanel() {
+    window.location.href = '/msg-admin-panel.html';
+  }
+
+  document.addEventListener('click', function(event) {
+    var link = event.target.closest && event.target.closest('.navbar-nav .nav-link');
+    if (suppressNextSearchClick && isSearchNavLink(link)) {
+      event.preventDefault();
+      suppressNextSearchClick = false;
+      return;
+    }
+    if (event.shiftKey && isSearchNavLink(link)) {
+      event.preventDefault();
+      openAdminPanel();
+    }
+  });
+
+  var adminPressTimer = null;
+  var adminLongPressActive = false;
+  var suppressNextSearchClick = false;
+
+  document.addEventListener('touchstart', function(event) {
+    var link = event.target.closest && event.target.closest('.navbar-nav .nav-link');
+    if (!isSearchNavLink(link)) return;
+
+    adminLongPressActive = false;
+    adminPressTimer = window.setTimeout(function() {
+      adminLongPressActive = true;
+      suppressNextSearchClick = true;
+      openAdminPanel();
+    }, 900);
+  }, { passive: true });
+
+  ['touchend', 'touchcancel', 'touchmove'].forEach(function(eventName) {
+    document.addEventListener(eventName, function(event) {
+      if (adminPressTimer) {
+        window.clearTimeout(adminPressTimer);
+        adminPressTimer = null;
+      }
+      if (adminLongPressActive && event.cancelable) {
+        event.preventDefault();
+      }
+      adminLongPressActive = false;
+    });
+  });
+
   // JavaScript function to add "active" class to the navigation link
   function setActiveNavLink() {
     var currentURL = window.location.pathname;
@@ -208,4 +260,3 @@ console.log('Current URL:', {{ site.url }}{{ site.baseurl }}{{ page.url }});
 
 
     
-
