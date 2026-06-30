@@ -201,39 +201,47 @@ console.log('Current URL:', {{ site.url }}{{ site.baseurl }}{{ page.url }});
       suppressNextSearchClick = false;
       return;
     }
-    if (event.shiftKey && isSearchNavLink(link)) {
-      event.preventDefault();
-      openAdminPanel();
-    }
   });
 
   var adminPressTimer = null;
   var adminLongPressActive = false;
   var suppressNextSearchClick = false;
 
-  document.addEventListener('touchstart', function(event) {
-    var link = event.target.closest && event.target.closest('.navbar-nav .nav-link');
+  function startAdminPress(link) {
     if (!isSearchNavLink(link)) return;
 
     adminLongPressActive = false;
+    if (adminPressTimer) {
+      window.clearTimeout(adminPressTimer);
+    }
     adminPressTimer = window.setTimeout(function() {
       adminLongPressActive = true;
       suppressNextSearchClick = true;
       openAdminPanel();
     }, 900);
+  }
+
+  function cancelAdminPress(event) {
+    if (adminPressTimer) {
+      window.clearTimeout(adminPressTimer);
+      adminPressTimer = null;
+    }
+    if (adminLongPressActive && event && event.cancelable) {
+      event.preventDefault();
+    }
+    adminLongPressActive = false;
+  }
+
+  document.addEventListener('mousedown', function(event) {
+    startAdminPress(event.target.closest && event.target.closest('.navbar-nav .nav-link'));
+  });
+
+  document.addEventListener('touchstart', function(event) {
+    startAdminPress(event.target.closest && event.target.closest('.navbar-nav .nav-link'));
   }, { passive: true });
 
-  ['touchend', 'touchcancel', 'touchmove'].forEach(function(eventName) {
-    document.addEventListener(eventName, function(event) {
-      if (adminPressTimer) {
-        window.clearTimeout(adminPressTimer);
-        adminPressTimer = null;
-      }
-      if (adminLongPressActive && event.cancelable) {
-        event.preventDefault();
-      }
-      adminLongPressActive = false;
-    });
+  ['mouseup', 'mouseleave', 'touchend', 'touchcancel', 'touchmove'].forEach(function(eventName) {
+    document.addEventListener(eventName, cancelAdminPress);
   });
 
   // JavaScript function to add "active" class to the navigation link
