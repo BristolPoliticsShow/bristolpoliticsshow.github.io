@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-04T12:06:32Z",
-  "weekCount": 27,
-  "itemCount": 263,
+  "updated": "2026-07-04T15:05:09Z",
+  "weekCount": 26,
+  "itemCount": 260,
   "weeks": [
     {
       "date": "Friday 3 July 2026",
@@ -1429,26 +1429,6 @@
         {
           "name": "Vlaardingerbroek CPAC Hungary 2025 Warns von der Leyen Her Time of Immunity Is Ending",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Vlaardingerbroek%20CPAC%20Hungary%202025%20Warns%20von%20der%20Leyen%20Her%20Time%20of%20Immunity%20Is%20Ending.mp3",
-          "isFullShow": false
-        }
-      ]
-    },
-    {
-      "date": "Friday 2 January 2026",
-      "items": [
-        {
-          "name": "Full show",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-02Jan26.mp3",
-          "isFullShow": true
-        },
-        {
-          "name": "Patrick Henningsen Venezuela Regime Change on RT Banned In Britain 03Jan26",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/Patrick%20Henningsen%20Venezuela%20Regime%20Change%20on%20RT%20Banned%20In%20Britain%2003Jan26.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Venezuela Regime Change 03Jan26 TG on Press TV edit",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/Venezuela%20Regime%20Change%2003Jan26%20TG%20on%20Press%20TV%20edit.mp3",
           "isFullShow": false
         }
       ]
