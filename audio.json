@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-03T22:10:20Z",
+  "updated": "2026-07-04T00:12:26Z",
   "weekCount": 27,
-  "itemCount": 256,
+  "itemCount": 263,
   "weeks": [
     {
       "date": "Friday 3 July 2026",
@@ -10,6 +10,41 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-03Jul26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "Alex Krainer The Decline of the West, Anglo-Zionist Colonial Empire War Against Russia",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Alex%20Krainer%20The%20Decline%20of%20the%20West,%20Anglo-Zionist%20Colonial%20Empire%20War%20Against%20Russia.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Andy Burnham announces No 10 North plan in self-coronation speech",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Andy%20Burnham%20announces%20No%2010%20North%20plan%20in%20self-coronation%20speech.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Nicola Crewe dont be bounced into Bideford 90 Acre Data Centre North Devon",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Nicola%20Crewe%20dont%20be%20bounced%20into%20Bideford%2090%20Acre%20Data%20Centre%20North%20Devon.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "OCCULT The Old Gods Are Returning For Armageddon KJ Ozborne The Scariest Movie Ever (2022)",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/OCCULT%20The%20Old%20Gods%20Are%20Returning%20For%20Armageddon%20KJ%20Ozborne%20The%20Scariest%20Movie%20Ever%20(2022).mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Peter Ford Digital ID Tech Tyrrany Defence Hormuz and Politics",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Peter%20Ford%20Digital%20ID%20Tech%20Tyrrany%20Defence%20Hormuz%20and%20Politics.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Piers Corbyn on 'chemtrails' geoengineering dimming the sun spacex Mas mission and politics",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Piers%20Corbyn%20on%20'chemtrails'%20geoengineering%20dimming%20the%20sun%20spacex%20Mas%20mission%20and%20politics.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Starmer Finally Ousted For Ignoring Mandelson Vetting Zarah Sultana and Lee Andreson ejected from Commons for calling Sir Kier Starmer out as a liar 20Apr26",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Starmer%20Finally%20Ousted%20For%20Ignoring%20Mandelson%20Vetting%20Zarah%20Sultana%20and%20Lee%20Andreson%20ejected%20from%20Commons%20for%20calling%20Sir%20Kier%20Starmer%20out%20as%20a%20liar%2020Apr26.mp3",
+          "isFullShow": false
         }
       ]
     },
