@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T20:47:10Z",
+  "updated": "2026-07-12T09:50:25Z",
   "count": 150,
   "stories": [
     {
@@ -35,7 +35,7 @@
       "subtitle": "Reform support in Red Wall.",
       "text": "Morgan McSweeney interviewed by Nick Robinson, BBC – Starmer government didn’t deliver quickly enough. Reform support in Red Wall.",
       "image": null,
-      "videoId": null,
+      "videoId": "LXKuPjDeDJo",
       "links": []
     },
     {
@@ -44,7 +44,7 @@
       "subtitle": "",
       "text": "Paul Holden explains what his book is about, and his experience in South Africa – inequality leads to a sick society.",
       "image": null,
-      "videoId": null,
+      "videoId": "JeWmn7r_70s",
       "links": []
     },
     {
@@ -53,7 +53,7 @@
       "subtitle": "",
       "text": "Axel Springer buys The Telegraph – Mathias Dopfner gives values of ownership – right for Israel to exist – against Iran leadership.",
       "image": null,
-      "videoId": null,
+      "videoId": "Ya1eUc8-L4E",
       "links": []
     },
     {
@@ -116,7 +116,7 @@
       "subtitle": "BBC – failure of Iran, US peace agreement.",
       "text": "Former Tory minister Anne Widdecombe becomes second Catholic MP, with David Amess, to be murdered! BBC – failure of Iran, US peace agreement.",
       "image": null,
-      "videoId": null,
+      "videoId": "cPNV1d3MJVk",
       "links": []
     },
     {
@@ -172,19 +172,10 @@
     {
       "date": "Thursday 9 July 2026",
       "title": "‘Citizen Vigilante’ film endorsed by Elon Musk and watched by 250 million.",
-      "subtitle": "",
-      "text": "‘Citizen Vigilante’ film endorsed by Elon Musk and watched by 250 million.",
+      "subtitle": "Piers Morgan interviews Uwe Boll, director of Citizen Vigilante, and ….. Iran ‘Kill Trump’ banners.",
+      "text": "‘Citizen Vigilante’ film endorsed by Elon Musk and watched by 250 million. Piers Morgan interviews Uwe Boll, director of Citizen Vigilante, and ….. Iran ‘Kill Trump’ banners.",
       "image": null,
       "videoId": "js2k4jy6AYY",
-      "links": []
-    },
-    {
-      "date": "Thursday 9 July 2026",
-      "title": "Piers Morgan interviews Uwe Boll, director of Citizen Vigilante, and …..",
-      "subtitle": "Iran ‘Kill Trump’ banners.",
-      "text": "Piers Morgan interviews Uwe Boll, director of Citizen Vigilante, and ….. Iran ‘Kill Trump’ banners.",
-      "image": null,
-      "videoId": null,
       "links": []
     },
     {
@@ -199,8 +190,8 @@
     {
       "date": "Thursday 9 July 2026",
       "title": "Venezuela earthquake – they want their sanctioned funds back.",
-      "subtitle": "Earthquake bomb.",
-      "text": "Venezuela earthquake – they want their sanctioned funds back. Earthquake bomb.",
+      "subtitle": "Was this an ‘Earthquake Bomb’?",
+      "text": "Venezuela earthquake – they want their sanctioned funds back. Was this an ‘Earthquake Bomb’?",
       "image": null,
       "videoId": null,
       "links": []
@@ -256,7 +247,7 @@
       "subtitle": "King Charles has renounced his Coronation oath but nobody is supposed to notice.",
       "text": "Is the king a traitor asks Gavin Ashenden who was chaplain to Elizabeth II? King Charles has renounced his Coronation oath but nobody is supposed to notice.",
       "image": null,
-      "videoId": null,
+      "videoId": "GG-sd6Edb5o",
       "links": []
     },
     {
@@ -1890,6 +1881,20 @@
       "image": null,
       "videoId": "bTppjElxBtc",
       "links": []
+    },
+    {
+      "date": "Thursday 4 June 2026",
+      "title": "Al Aqsa Mosque – Peter Oborne.",
+      "subtitle": "Jordan faces an existential choice over the defence of Al-Aqsa | Peter Oborne | MEE Middle East Eye – Peter Oborne, associate editor of Middle East Eye, argues that if Ab…",
+      "text": "Al Aqsa Mosque – Peter Oborne. Jordan faces an existential choice over the defence of Al-Aqsa | Peter Oborne | MEE Middle East Eye – Peter Oborne, associate editor of Middle East Eye, argues that if Abdullah II goes to war to protect the holy site, Jordan may find it has more allies than US President Donald Trump and Israeli Prime Minister Benjamin Netanyahu expect. Middle East Eye reported last week that the US and Israel are conspiring to strip the Jordanian royal family of its historic custodianship of Al-Aqsa Mosque. The plan, reportedly being pushed by Jared Kushner and US Ambassador to Israel Mike Huckabee, would also give Israel a role in approving the content of Friday sermons. By law, the custodian of Al-Aqsa Mosque is King Abdullah II of Jordan. Oborne concludes: “As Israel and the US ponder an illegal smash-and-grab raid on the third holiest site in Islam, Abdullah thus faces an existential choice: give in to Trump and Netanyahu, or fight back and risk his life and his throne.” Jordan cannot be stripped of Al-Aqsa custodianship – Tampering with the Hashemite status quo at Jerusalem’s holy sites would put the region and the world on a collision course",
+      "image": null,
+      "videoId": "wPV8axw0q5w",
+      "links": [
+        {
+          "label": "middleeasteye.net",
+          "url": "https://www.middleeasteye.net/opinion/why-jordan-cannot-be-stripped-al-aqsa-custodianship"
+        }
+      ]
     }
   ]
 }
