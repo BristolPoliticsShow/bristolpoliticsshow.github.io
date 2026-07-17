@@ -1,8 +1,48 @@
 {
-  "updated": "2026-07-17T21:59:20Z",
-  "weekCount": 26,
-  "itemCount": 258,
+  "updated": "2026-07-17T23:00:42Z",
+  "weekCount": 27,
+  "itemCount": 265,
   "weeks": [
+    {
+      "date": "Friday 17 July 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-17Jul26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Andy Burnham I will be a leader for the North the South the East and the West 17Jul26",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Andy%20Burnham%20I%20will%20be%20a%20leader%20for%20the%20North%20the%20South%20the%20East%20and%20the%20West%2017Jul26.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Ann Widdecombe tribute, EU Parliament, on MP selection, final interview and at oxford union on free speech",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Ann%20Widdecombe%20tribute,%20EU%20Parliament,%20on%20MP%20selection,%20final%20interview%20and%20at%20oxford%20union%20on%20free%20speech.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Cllr Rob Bryher Westminster environment grants drove in the EBLN not locals",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Cllr%20Rob%20Bryher%20Westminster%20environment%20grants%20drove%20in%20the%20EBLN%20not%20locals.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Dmitri Peskov Putins spokesman Ukraine war interview w Die Weltwoche",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Dmitri%20Peskov%20Putins%20spokesman%20Ukraine%20war%20interview%20w%20Die%20Weltwoche.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "OCCULT Bishop Ceirion Dewar is turning Tommy Robinson and his followers to Christian Zionism Sky News",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/OCCULT%20Bishop%20Ceirion%20Dewar%20is%20turning%20Tommy%20Robinson%20and%20his%20followers%20to%20Christian%20Zionism%20Sky%20News.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "White Phosphorus Inflatable Ships Themobaric Tectonic Bomb Russian kill ration 8-1 in Ukraine war Warren Thornton",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20White%20Phosphorus%20Inflatable%20Ships%20Themobaric%20Tectonic%20Bomb%20Russian%20kill%20ration%208-1%20in%20Ukraine%20war%20Warren%20Thornton.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 10 July 2026",
       "items": [
