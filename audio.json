@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-18T17:55:40Z",
-  "weekCount": 27,
-  "itemCount": 265,
+  "updated": "2026-07-18T20:47:07Z",
+  "weekCount": 26,
+  "itemCount": 260,
   "weeks": [
     {
       "date": "Friday 17 July 2026",
@@ -1429,36 +1429,6 @@
         {
           "name": "RT Cyrille de Lattre Macron is hated by almost 90 percent of French people",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20RT%20Cyrille%20de%20Lattre%20Macron%20is%20hated%20by%20almost%2090%20percent%20of%20French%20people.mp3",
-          "isFullShow": false
-        }
-      ]
-    },
-    {
-      "date": "Friday 16 January 2026",
-      "items": [
-        {
-          "name": "Full show",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-16Jan26.mp3",
-          "isFullShow": true
-        },
-        {
-          "name": "Dr David Miller Tony Gosling, Iran Manufacturing Consent for Regime Change on The Protagonists on The World Today",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Dr%20David%20Miller%20Tony%20Gosling,%20Iran%20Manufacturing%20Consent%20for%20Regime%20Change%20on%20The%20Protagonists%20on%20The%20World%20Today.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "ISLAMIC STATESMEN Imran Khan Pakistan PM on Kashmir Addresses Annual UN Debate 2019",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/ISLAMIC%20STATESMEN%20Imran%20Khan%20Pakistan%20PM%20on%20Kashmir%20Addresses%20Annual%20UN%20Debate%202019.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "ISLAMIC STATESMEN Malaysian FM Imran Hossan Addresses United Nations General Debate 80th Session   UNGA",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/ISLAMIC%20STATESMEN%20Malaysian%20FM%20Imran%20Hossan%20Addresses%20United%20Nations%20General%20Debate%2080th%20Session%20_%20UNGA.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Matt Ehret, David Livingstone Armageddon's Stage Managers' and the Secret Nazi Script 15Jan25",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Matt%20Ehret,%20David%20Livingstone%20Armageddon's%20Stage%20Managers'%20and%20the%20Secret%20Nazi%20Script%2015Jan25.mp3",
           "isFullShow": false
         }
       ]
