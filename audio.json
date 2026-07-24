@@ -1,8 +1,23 @@
 {
-  "updated": "2026-07-23T18:43:43Z",
-  "weekCount": 26,
-  "itemCount": 261,
+  "updated": "2026-07-24T22:11:04Z",
+  "weekCount": 27,
+  "itemCount": 263,
   "weeks": [
+    {
+      "date": "Friday 24 July 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-24July26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Chris Williamson, Dennis and John The Two Labour Chancellor Healeys, Burnham coronation",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Chris%20Williamson,%20Dennis%20and%20John%20The%20Two%20Labour%20Chancellor%20Healeys,%20Burnham%20coronation.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 17 July 2026",
       "items": [
