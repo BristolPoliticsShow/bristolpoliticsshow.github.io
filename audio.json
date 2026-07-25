@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-25T12:02:12Z",
+  "updated": "2026-07-25T15:02:19Z",
   "weekCount": 27,
-  "itemCount": 273,
+  "itemCount": 274,
   "weeks": [
     {
       "date": "Friday 24 July 2026",
@@ -49,6 +49,11 @@
         {
           "name": "Liz Truss explains how Bank of England sabotaged her, wanted Sunak 1st Conservative Political Action Conference CPAC",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Liz%20Truss%20explains%20how%20Bank%20of%20England%20sabotaged%20her,%20wanted%20Sunak%201st%20Conservative%20Political%20Action%20Conference%20CPAC.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Neil Oliver UK Parliament a fake Democracy JFK, 9-11 and control of the news media",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Neil%20Oliver%20UK%20Parliament%20a%20fake%20Democracy%20JFK,%209-11%20and%20control%20of%20the%20news%20media.mp3",
           "isFullShow": false
         },
         {
