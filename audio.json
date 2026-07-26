@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-26T18:01:45Z",
+  "updated": "2026-07-26T20:57:19Z",
   "weekCount": 26,
-  "itemCount": 259,
+  "itemCount": 260,
   "weeks": [
     {
       "date": "Friday 24 July 2026",
@@ -10,6 +10,11 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-24July26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "ARCHIVE 2016 Manfred Petrisch Bilderberg exposed in Dresden Anglo American Tyranny Alles Schall und Rauch",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/ARCHIVE%202016%20Manfred%20Petrisch%20Bilderberg%20exposed%20in%20Dresden%20Anglo%20American%20Tyranny%20Alles%20Schall%20und%20Rauch.mp3",
+          "isFullShow": false
         },
         {
           "name": "Boris Johnson says we must make Ukraine part of NATO",
