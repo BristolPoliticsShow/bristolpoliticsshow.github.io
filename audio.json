@@ -1,8 +1,33 @@
 {
-  "updated": "2026-07-30T18:53:49Z",
-  "weekCount": 26,
-  "itemCount": 260,
+  "updated": "2026-07-31T22:10:47Z",
+  "weekCount": 27,
+  "itemCount": 264,
   "weeks": [
+    {
+      "date": "Friday 31 July 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-31Jul26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Dan Ackroyd accuses Bristol City Council Monitoring Officer Tim O'Gara of lying to the public via Audit Committee",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Dan%20Ackroyd%20accuses%20Bristol%20City%20Council%20Monitoring%20Officer%20Tim%20O'Gara%20of%20lying%20to%20the%20public%20via%20Audit%20Committee.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Marianne Birkby Radiation Free Lakeland Workington gets Japans nuclear waste UK has 140 tons of Plutoonium",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Marianne%20Birkby%20Radiation%20Free%20Lakeland%20Workington%20gets%20Japans%20nuclear%20waste%20UK%20has%20140%20tons%20of%20Plutoonium.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Sophie Bolt CND 300bn US nuclear war lobby taking over UK Fairford demo Sat15Aug 1pm GL7 4EE mp3",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Sophie%20Bolt%20CND%20300bn%20US%20nuclear%20war%20lobby%20taking%20over%20UK%20Fairford%20demo%20Sat15Aug%201pm%20GL7%204EE%20mp3.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 24 July 2026",
       "items": [
