@@ -1,8 +1,33 @@
 {
-  "updated": "2026-08-07T22:45:02Z",
-  "weekCount": 26,
-  "itemCount": 258,
+  "updated": "2026-08-07T23:39:08Z",
+  "weekCount": 27,
+  "itemCount": 262,
   "weeks": [
+    {
+      "date": "Friday 7 August 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-07Aug26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "David Miller wins Bristol University Zionists unfair dismissal appeal in court",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20David%20Miller%20wins%20Bristol%20University%20Zionists%20unfair%20dismissal%20appeal%20in%20court.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Richard Cottrell Dr Wjo Atomic Bomber Beeching and his war on the railways",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Richard%20Cottrell%20Dr%20Wjo%20Atomic%20Bomber%20Beeching%20and%20his%20war%20on%20the%20railways.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Robert Knowles Crystal-Palace-Accident-or-Arson-commentary-and-talk retired fireman and author",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Robert%20Knowles%20Crystal-Palace-Accident-or-Arson-commentary-and-talk%20retired%20fireman%20and%20author.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 31 July 2026",
       "items": [
