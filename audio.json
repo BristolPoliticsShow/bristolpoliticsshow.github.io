@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-07T23:39:08Z",
+  "updated": "2026-08-08T08:40:13Z",
   "weekCount": 27,
-  "itemCount": 262,
+  "itemCount": 265,
   "weeks": [
     {
       "date": "Friday 7 August 2026",
@@ -10,6 +10,11 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-07Aug26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "Andy Roberts, They Are Getting Paid To Cancel Your Trains Fine Print",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Andy%20Roberts,%20They%20Are%20Getting%20Paid%20To%20Cancel%20Your%20Trains%20Fine%20Print.mp3",
+          "isFullShow": false
         },
         {
           "name": "David Miller wins Bristol University Zionists unfair dismissal appeal in court",
@@ -24,6 +29,16 @@
         {
           "name": "Robert Knowles Crystal-Palace-Accident-or-Arson-commentary-and-talk retired fireman and author",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Robert%20Knowles%20Crystal-Palace-Accident-or-Arson-commentary-and-talk%20retired%20fireman%20and%20author.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Scott Ritter Why Faith Decides Who Wins in the Middle East",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Scott%20Ritter%20Why%20Faith%20Decides%20Who%20Wins%20in%20the%20Middle%20East.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Tony Banks 1977 Labour plans to abolish the City of London absorb it into the GLC",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Tony%20Banks%201977%20Labour%20plans%20to%20abolish%20the%20City%20of%20London%20absorb%20it%20into%20the%20GLC.mp3",
           "isFullShow": false
         }
       ]
