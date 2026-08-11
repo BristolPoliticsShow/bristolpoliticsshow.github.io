@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-10T18:11:37Z",
+  "updated": "2026-08-11T10:23:27Z",
   "weekCount": 26,
-  "itemCount": 254,
+  "itemCount": 255,
   "weeks": [
     {
       "date": "Friday 7 August 2026",
@@ -10,6 +10,11 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-07Aug26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "Aisling OLoughlin COINTELPRO UK why have Iain Davis and David Hughes distanced themselves from Nick Kollerstrom",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Aisling%20OLoughlin%20COINTELPRO%20UK%20why%20have%20Iain%20Davis%20and%20David%20Hughes%20distanced%20themselves%20from%20Nick%20Kollerstrom.mp3",
+          "isFullShow": false
         },
         {
           "name": "Andy Roberts, They Are Getting Paid To Cancel Your Trains Fine Print",
