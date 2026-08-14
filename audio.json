@@ -1,8 +1,28 @@
 {
-  "updated": "2026-08-14T21:31:09Z",
-  "weekCount": 26,
-  "itemCount": 255,
+  "updated": "2026-08-14T22:30:10Z",
+  "weekCount": 27,
+  "itemCount": 258,
   "weeks": [
+    {
+      "date": "Friday 14 August 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-14Aug26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Alison Wright Supreme Court Andy Burnham Co Ltd Palantir Companies House Fraud",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Alison%20Wright%20Supreme%20Court%20Andy%20Burnham%20Co%20Ltd%20Palantir%20Companies%20House%20Fraud.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Britains Occult Cover-Up Ex-Detective Jon Wedger ex-BBC journalist Tony Gosling",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Britains%20Occult%20Cover-Up%20Ex-Detective%20Jon%20Wedger%20ex-BBC%20journalist%20Tony%20Gosling.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 7 August 2026",
       "items": [
