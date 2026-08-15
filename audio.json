@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-14T23:27:44Z",
+  "updated": "2026-08-15T08:27:41Z",
   "weekCount": 27,
-  "itemCount": 258,
+  "itemCount": 261,
   "weeks": [
     {
       "date": "Friday 14 August 2026",
@@ -19,6 +19,21 @@
         {
           "name": "Britains Occult Cover-Up Ex-Detective Jon Wedger ex-BBC journalist Tony Gosling",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Britains%20Occult%20Cover-Up%20Ex-Detective%20Jon%20Wedger%20ex-BBC%20journalist%20Tony%20Gosling.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "LowKey Mossad Israeli cash flowing into Reform UK 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20LowKey%20Mossad%20Israeli%20cash%20flowing%20into%20Reform%20UK%202026.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Nick Land When CEOs Rule The World March 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Nick%20Land%20When%20CEOs%20Rule%20The%20World%20March%202026.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Scott Ritter the US is Out of Ammo and Oil",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Scott%20Ritter%20the%20US%20is%20Out%20of%20Ammo%20and%20Oil.mp3",
           "isFullShow": false
         }
       ]
