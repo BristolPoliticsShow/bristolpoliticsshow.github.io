@@ -37,7 +37,7 @@
 
 .bps-player {
   position: fixed; left: 50%; bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px)); z-index: 1000;
-  width: calc(100% - 2rem); max-width: 720px; transform: translateX(-50%);
+  width: calc(100% - 3rem); max-width: 680px; transform: translateX(-50%);
   background: #1a1210; border: 1px solid rgba(255,255,255,0.16); border-top: 3px solid #c84b54;
   border-radius: 14px;
   box-shadow: 0 0 0 7px rgba(3,1,2,0.92), 0 14px 42px rgba(0,0,0,0.72);
@@ -71,6 +71,14 @@
 }
 .bps-toggle:hover { background: #d96069; }
 .bps-seek { width: 100%; margin-top: 0.9rem; accent-color: #c84b54; height: 24px; }
+
+@media (max-width: 576px) {
+  .bps-player-inner { padding: 0.8rem 0.85rem 0.9rem; }
+  .bps-controls { gap: 0.4rem; }
+  .bps-time { min-width: 43px; font-size: 0.82rem; }
+  .bps-skip { font-size: 0.88rem; padding: 0.25rem; }
+  .bps-toggle { width: 52px; height: 52px; }
+}
 </style>
 
 <script>
