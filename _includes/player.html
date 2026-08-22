@@ -276,10 +276,10 @@
   shareBtn.addEventListener('click', function () {
     if (!currentUrl) return;
     var shareText = episodeShareText();
+    var shareUrl = currentShareUrl || cleanPageUrl();
     var shareData = {
       title: shareText,
-      text: shareText,
-      url: currentShareUrl || cleanPageUrl()
+      text: shareText + '\n' + shareUrl
     };
     if (navigator.share && (!navigator.canShare || navigator.canShare(shareData))) {
       navigator.share(shareData).then(trackShare).catch(function (err) {
