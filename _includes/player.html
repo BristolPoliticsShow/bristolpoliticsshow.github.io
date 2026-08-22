@@ -36,8 +36,10 @@
 .bps-dl:hover, .bps-dl:focus { background: rgba(255,255,255,0.08); color: #fff; text-decoration: none; }
 
 .bps-player {
-  position: fixed; left: 0; right: 0; bottom: 0; z-index: 1000;
-  background: #1a1210; border-top: 1px solid rgba(255,255,255,0.12);
+  position: fixed; left: 50%; bottom: 0; z-index: 1000;
+  width: calc(100% - 2rem); max-width: 720px; transform: translateX(-50%);
+  background: #1a1210; border: 1px solid rgba(255,255,255,0.12); border-bottom: 0;
+  border-radius: 14px 14px 0 0;
   box-shadow: 0 -8px 28px rgba(0,0,0,0.55);
 }
 .bps-player[hidden] { display: none; }
