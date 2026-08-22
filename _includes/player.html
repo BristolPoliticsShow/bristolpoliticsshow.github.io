@@ -1,5 +1,9 @@
 <div id="bps-player" class="bps-player" hidden>
   <div class="bps-player-inner">
+    <button class="bps-share" id="bps-share" type="button" aria-label="Share episode">
+      <svg class="bps-share-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3m0 0L8 7m4-4 4 4M5 12v7h14v-7"/></svg>
+      <span id="bps-share-label">Share</span>
+    </button>
     <button class="bps-close" id="bps-close" type="button" aria-label="Close player">×</button>
     <div class="bps-title" id="bps-title"></div>
     <div class="bps-controls">
@@ -49,8 +53,17 @@
   position: absolute; top: 0.5rem; right: 0.75rem; background: none; border: none;
   color: rgba(255,255,255,0.6); font-size: 1.6rem; line-height: 1; cursor: pointer; padding: 0.25rem;
 }
+.bps-share {
+  position: absolute; top: 0.55rem; right: 2.85rem; display: inline-flex; align-items: center; gap: 0.35rem;
+  background: none; border: none; border-radius: 6px; color: rgba(255,255,255,0.68);
+  cursor: pointer; font-size: 0.86rem; font-weight: 700; padding: 0.3rem 0.45rem;
+}
+.bps-share:hover { background: rgba(255,255,255,0.08); color: #fff; }
+.bps-share:focus { outline: none; }
+.bps-share:focus-visible { outline: 2px solid #ffd166; outline-offset: 2px; }
+.bps-share-ic { width: 1rem; height: 1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .bps-title {
-  color: #fff; font-size: 1.05rem; line-height: 1.3; margin: 0 2rem 0.75rem 0;
+  color: #fff; font-size: 1.05rem; line-height: 1.3; margin: 0 7.5rem 0.75rem 0;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .bps-controls { display: flex; align-items: center; justify-content: center; gap: 1rem; }
@@ -74,6 +87,9 @@
 
 @media (max-width: 576px) {
   .bps-player-inner { padding: 0.8rem 0.85rem 0.9rem; }
+  .bps-title { margin-right: 5rem; }
+  .bps-share { right: 2.45rem; }
+  .bps-share span { display: none; }
   .bps-controls { gap: 0.4rem; }
   .bps-time { min-width: 43px; font-size: 0.82rem; }
   .bps-skip { font-size: 0.88rem; padding: 0.25rem; }
@@ -86,6 +102,8 @@
   var audio = document.getElementById('bps-audio');
   var bar = document.getElementById('bps-player');
   var titleEl = document.getElementById('bps-title');
+  var shareBtn = document.getElementById('bps-share');
+  var shareLabel = document.getElementById('bps-share-label');
   var toggle = document.getElementById('bps-toggle');
   var curEl = document.getElementById('bps-cur');
   var remEl = document.getElementById('bps-rem');
@@ -95,6 +113,7 @@
   var seeking = false;
   var SS_KEY = 'bps-player-state';
   var saveTimer = null;
+  var shareResetTimer = null;
 
   function saveState() {
     if (!currentUrl) return;
@@ -112,6 +131,45 @@
   function reservePlayerSpace() {
     var bottomGap = parseFloat(getComputedStyle(bar).bottom) || 0;
     document.body.style.paddingBottom = (bar.offsetHeight + bottomGap + 8) + 'px';
+  }
+
+  function showShareStatus(label) {
+    shareLabel.textContent = label;
+    shareBtn.setAttribute('aria-label', label === 'Copied' ? 'Episode link copied' : 'Share episode');
+    if (shareResetTimer) clearTimeout(shareResetTimer);
+    shareResetTimer = setTimeout(function () {
+      shareLabel.textContent = 'Share';
+      shareBtn.setAttribute('aria-label', 'Share episode');
+      shareResetTimer = null;
+    }, 1800);
+  }
+
+  function trackShare() {
+    if (window.gtag) gtag('event', 'share_audio', { audio_title: titleEl.textContent || currentUrl });
+  }
+
+  function copyShareLink() {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(currentUrl).then(function () {
+        showShareStatus('Copied');
+        trackShare();
+      }).catch(function () {});
+      return;
+    }
+    var field = document.createElement('textarea');
+    field.value = currentUrl;
+    field.setAttribute('readonly', '');
+    field.style.position = 'fixed';
+    field.style.opacity = '0';
+    document.body.appendChild(field);
+    field.select();
+    try {
+      if (document.execCommand('copy')) {
+        showShareStatus('Copied');
+        trackShare();
+      }
+    } catch (e) {}
+    document.body.removeChild(field);
   }
 
   var IC = {
@@ -201,6 +259,18 @@
   toggle.addEventListener('click', function () {
     if (!currentUrl) return;
     if (audio.paused) audio.play(); else audio.pause();
+  });
+  shareBtn.addEventListener('click', function () {
+    if (!currentUrl) return;
+    var episodeTitle = titleEl.textContent || 'The Bristol Politics Show';
+    var shareData = { title: episodeTitle, text: 'Listen to ' + episodeTitle, url: currentUrl };
+    if (navigator.share && (!navigator.canShare || navigator.canShare(shareData))) {
+      navigator.share(shareData).then(trackShare).catch(function (err) {
+        if (!err || err.name !== 'AbortError') copyShareLink();
+      });
+    } else {
+      copyShareLink();
+    }
   });
   document.getElementById('bps-back').addEventListener('click', function () {
     audio.currentTime = Math.max(0, audio.currentTime - 10);
