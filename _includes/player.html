@@ -139,6 +139,10 @@
     return window.location.origin + window.location.pathname;
   }
 
+  function episodeShareText() {
+    return (titleEl.textContent || 'The Bristol Politics Show') + ' -- BPS episode';
+  }
+
   function showShareStatus(label) {
     shareLabel.textContent = label;
     shareBtn.setAttribute('aria-label', label === 'Copied' ? 'Episode link copied' : 'Share episode');
@@ -156,15 +160,16 @@
 
   function copyShareLink() {
     var shareUrl = currentShareUrl || cleanPageUrl();
+    var shareText = episodeShareText() + '\n' + shareUrl;
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(shareUrl).then(function () {
+      navigator.clipboard.writeText(shareText).then(function () {
         showShareStatus('Copied');
         trackShare();
       }).catch(function () {});
       return;
     }
     var field = document.createElement('textarea');
-    field.value = shareUrl;
+    field.value = shareText;
     field.setAttribute('readonly', '');
     field.style.position = 'fixed';
     field.style.opacity = '0';
@@ -270,10 +275,10 @@
   });
   shareBtn.addEventListener('click', function () {
     if (!currentUrl) return;
-    var episodeTitle = titleEl.textContent || 'The Bristol Politics Show';
+    var shareText = episodeShareText();
     var shareData = {
-      title: episodeTitle,
-      text: 'Listen to ' + episodeTitle + ' on The Bristol Politics Show',
+      title: shareText,
+      text: shareText,
       url: currentShareUrl || cleanPageUrl()
     };
     if (navigator.share && (!navigator.canShare || navigator.canShare(shareData))) {
