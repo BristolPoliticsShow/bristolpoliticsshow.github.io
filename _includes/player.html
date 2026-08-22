@@ -278,7 +278,6 @@
     var shareText = episodeShareText();
     var shareUrl = currentShareUrl || cleanPageUrl();
     var shareData = {
-      title: shareText,
       text: shareText + '\n' + shareUrl
     };
     if (navigator.share && (!navigator.canShare || navigator.canShare(shareData))) {
