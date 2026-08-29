@@ -1,8 +1,23 @@
 {
-  "updated": "2026-08-27T19:54:38Z",
-  "weekCount": 26,
-  "itemCount": 247,
+  "updated": "2026-08-29T03:07:20Z",
+  "weekCount": 27,
+  "itemCount": 249,
   "weeks": [
+    {
+      "date": "Friday 28 August 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-28Aug26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "The Nerd Reich silicon valley fascism and the war on democracy by Gil Duran",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20The%20Nerd%20Reich_silicon%20valley%20fascism%20and%20the%20war%20on%20democracy%20by%20Gil%20Duran.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 21 August 2026",
       "items": [
