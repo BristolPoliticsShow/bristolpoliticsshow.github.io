@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-30T17:56:15Z",
+  "updated": "2026-08-30T22:25:40Z",
   "weekCount": 26,
-  "itemCount": 246,
+  "itemCount": 247,
   "weeks": [
     {
       "date": "Friday 28 August 2026",
@@ -14,6 +14,11 @@
         {
           "name": "Col Fletcher Prouty on Nazis incoming to USA after WWII and JFK assassination",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Col%20Fletcher%20Prouty%20on%20Nazis%20incoming%20to%20USA%20after%20WWII%20and%20JFK%20assassination.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "COMLETE Peter Hitchens This House Would Rather go to War with Russia than Lose Ukraine Oxford Union-July 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMLETE%20Peter%20Hitchens%20This%20House%20Would%20Rather%20go%20to%20War%20with%20Russia%20than%20Lose%20Ukraine%20Oxford%20Union-July%202026.mp3",
           "isFullShow": false
         },
         {
