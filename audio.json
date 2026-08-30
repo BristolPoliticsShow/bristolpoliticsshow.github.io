@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-29T22:24:21Z",
-  "weekCount": 27,
-  "itemCount": 250,
+  "updated": "2026-08-30T13:35:31Z",
+  "weekCount": 26,
+  "itemCount": 246,
   "weeks": [
     {
       "date": "Friday 28 August 2026",
@@ -10,6 +10,21 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-28Aug26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "Col Fletcher Prouty on Nazis incoming to USA after WWII and JFK assassination",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Col%20Fletcher%20Prouty%20on%20Nazis%20incoming%20to%20USA%20after%20WWII%20and%20JFK%20assassination.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Miodrag Zarkovic filmmaker on life of Bosnian Serb general Ratco Mladic saved Bosnian Serbsin from armed Muslim Croats John Bosnitch",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Miodrag%20Zarkovic%20filmmaker%20on%20life%20of%20Bosnian%20Serb%20general%20Ratco%20Mladic%20saved%20Bosnian%20Serbsin%20from%20armed%20Muslim%20Croats%20John%20Bosnitch.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Neil Turner BPPAHome Office Leaflet falsely prohibits public photos and filming",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Neil%20Turner%20BPPAHome%20Office%20Leaflet%20falsely%20prohibits%20public%20photos%20and%20filming.mp3",
+          "isFullShow": false
         },
         {
           "name": "Nick Land a teenager at Langley Park, Sussex University, Warwick, now in Shanghai Tony Gosling William Clarkson",
@@ -1344,46 +1359,6 @@
         {
           "name": "Katharine Gun Trump starts  illegal wwiii against Iran for israel",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Katharine%20Gun%20Trump%20starts%20%20illegal%20wwiii%20against%20Iran%20for%20israel.mp3",
-          "isFullShow": false
-        }
-      ]
-    },
-    {
-      "date": "Friday 27 February 2026",
-      "items": [
-        {
-          "name": "Full show",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-27Feb26.mp3",
-          "isFullShow": true
-        },
-        {
-          "name": "ARCHIVE Bob Crow GS of RMT union gives final interview before his death aged 52 to Going Underground (2014)",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/ARCHIVE%20Bob%20Crow%20GS%20of%20RMT%20union%20gives%20final%20interview%20before%20his%20death%20aged%2052%20to%20Going%20Underground%20(2014).mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Darren Jones Chancellor of Duchy of Lancaster Cabinet Office review into Mandelson appointment and Labour Together",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Darren%20Jones%20Chancellor%20of%20Duchy%20of%20Lancaster%20Cabinet%20Office%20review%20into%20Mandelson%20appointment%20and%20Labour%20Together.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Heiko Khoo outside Palantir's London HQ inaugurating weekly demo",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Heiko%20Khoo%20outside%20Palantir's%20London%20HQ%20inaugurating%20weekly%20demo.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Norman Baker Ex-Minister on Charles' secret Royal Finances Peter Mandelson and the Epstein Class",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Norman%20Baker%20Ex-Minister%20on%20Charles'%20secret%20Royal%20Finances%20Peter%20Mandelson%20and%20the%20Epstein%20Class.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Prescient Jacob Rees-Mogg explains why Peter Mandelson should be arrested the evening before he was",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Prescient%20Jacob%20Rees-Mogg%20explains%20why%20Peter%20Mandelson%20should%20be%20arrested%20the%20evening%20before%20he%20was.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Prof Steve Hall versus the fascist Olympians imposing a soulless top-down culture on us all",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Prof%20Steve%20Hall%20versus%20the%20fascist%20Olympians%20imposing%20a%20soulless%20top-down%20culture%20on%20us%20all.mp3",
           "isFullShow": false
         }
       ]
