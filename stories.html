@@ -9,7 +9,10 @@ order: 3
   <div class="st-wrap">
     <div id="st-listview">
       <h1 class="st-heading">Stories</h1>
-      <p id="st-status" class="st-status">Loading stories…</p>
+      <div class="st-status-row">
+        <p id="st-status" class="st-status">Loading stories…</p>
+        <button id="st-refresh" class="st-refresh" type="button">Refresh</button>
+      </div>
       <div id="st-list" class="st-list"></div>
     </div>
 
@@ -30,6 +33,11 @@ order: 3
 .st-heading { color: #fff; font-size: 2.2rem; margin-bottom: 0.4rem; }
 .st-intro { color: rgba(255,255,255,0.75); font-size: 1.15rem; margin-bottom: 1.75rem; }
 .st-status { color: rgba(255,255,255,0.65); font-size: 1.15rem; }
+.st-status-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 2.4rem; margin-bottom: 1.25rem; }
+.st-status-row .st-status { margin: 0; }
+.st-refresh { color: #ffd166; background: transparent; border: 1px solid rgba(255,209,102,0.55); border-radius: 999px; padding: 0.35rem 0.75rem; cursor: pointer; font: inherit; font-size: 0.9rem; white-space: nowrap; }
+.st-refresh:hover, .st-refresh:focus-visible { background: rgba(255,209,102,0.12); border-color: #ffd166; }
+.st-refresh:disabled { opacity: 0.6; cursor: wait; }
 
 .st-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 @media (max-width: 560px) { .st-list { grid-template-columns: 1fr; } }
@@ -100,6 +108,7 @@ order: 3
   var detailView = document.getElementById('st-detailview');
   var listEl = document.getElementById('st-list');
   var statusEl = document.getElementById('st-status');
+  var refreshEl = document.getElementById('st-refresh');
   var stories = [];
   var savedScrollY = 0;
 
@@ -285,17 +294,34 @@ order: 3
   });
   window.addEventListener('hashchange', route);
 
-  fetch('/stories.json?t=' + Date.now())
+  function formatUpdated(value) {
+    if (!value) return '';
+    var date = new Date(value);
+    return isNaN(date.getTime()) ? '' : 'Updated ' + date.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
+  }
+
+  function loadStories() {
+    refreshEl.disabled = true;
+    statusEl.style.display = '';
+    statusEl.textContent = 'Checking for the latest stories…';
+    return fetch('/stories.json?t=' + Date.now(), { cache: 'no-store' })
     .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(function (data) {
       stories = (data && data.stories) || [];
       if (!stories.length) { statusEl.textContent = 'No stories available right now.'; return; }
-      statusEl.style.display = 'none';
+      statusEl.textContent = formatUpdated(data.updated) || 'Latest stories';
       renderList();
       route();
     })
     .catch(function () {
-      statusEl.textContent = "Sorry, stories couldn't be loaded right now. Please try again later.";
+      statusEl.textContent = "Stories couldn't be refreshed right now. Try again in a moment.";
+    })
+    .finally(function () {
+      refreshEl.disabled = false;
     });
+  }
+
+  refreshEl.addEventListener('click', loadStories);
+  loadStories();
 })();
 </script>
