@@ -298,7 +298,7 @@ order: 3
   function formatUpdated(value) {
     if (!value) return '';
     var date = new Date(value);
-    return isNaN(date.getTime()) ? '' : 'Last checked ' + date.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
+    return isNaN(date.getTime()) ? '' : 'Content updated ' + date.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
   }
 
   function loadStories() {

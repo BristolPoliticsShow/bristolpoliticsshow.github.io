@@ -59,6 +59,10 @@ STORY_END_MARKERS = (
     "radio4all download pages", "complete show and full interviews",
     "not the bcfm politics show cancelled",
 )
+STORY_START_MARKERS = (
+    "part one",
+    "radio4all mp3 audio files usually available",
+)
 
 
 def fetch(url: str) -> bytes:
@@ -94,6 +98,25 @@ def format_date(d: dt.datetime) -> str:
 
 def clean_title(raw: str) -> str:
     return TITLE_SUFFIX.sub("", strip_html(raw)).strip()
+
+
+def write_json_if_changed(path: str, payload: dict, now: str) -> bool:
+    """Write JSON only when its content (excluding the timestamp) changed."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            current = json.load(fh)
+    except (OSError, json.JSONDecodeError):
+        current = None
+
+    if isinstance(current, dict):
+        comparable = {key: value for key, value in current.items() if key != "updated"}
+        if comparable == payload:
+            return False
+
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump({"updated": now, **payload}, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+    return True
 
 
 # ---------- Radio4All audio archive ----------
@@ -259,7 +282,10 @@ def parse_stories_from_content(content_html: str, date_display: str) -> list[dic
         name = el.name
         heading = el.get_text(" ").strip().lower() if name in ("h1", "h2", "h3", "h4") else ""
         if not started:
-            if name == "h3" and "part one" in heading:
+            # Most posts have a "Part One" heading. Occasionally that heading
+            # is omitted, but the Radio4All availability heading immediately
+            # before the story blocks remains present.
+            if heading and any(marker in heading for marker in STORY_START_MARKERS):
                 started = True
             continue
         if heading and any(m in heading for m in STORY_END_MARKERS):
@@ -333,16 +359,19 @@ def build_wordpress(now: str) -> bool:
         elif idx == 0:
             has_upcoming = True
 
-    with open(THISWEEK_OUTPUT, "w", encoding="utf-8") as fh:
-        json.dump({"updated": now, "hasUpcoming": has_upcoming, "latestShow": latest_show},
-                  fh, ensure_ascii=False, indent=2)
-        fh.write("\n")
-    with open(STORIES_OUTPUT, "w", encoding="utf-8") as fh:
-        json.dump({"updated": now, "count": len(stories[:MAX_STORIES]),
-                   "stories": stories[:MAX_STORIES]}, fh, ensure_ascii=False, indent=2)
-        fh.write("\n")
-    print(f"Wrote {THISWEEK_OUTPUT} (upcoming={has_upcoming}), {STORIES_OUTPUT} "
-          f"({len(stories)} stories)")
+    thisweek_changed = write_json_if_changed(
+        THISWEEK_OUTPUT,
+        {"hasUpcoming": has_upcoming, "latestShow": latest_show},
+        now,
+    )
+    stories_changed = write_json_if_changed(
+        STORIES_OUTPUT,
+        {"count": len(stories[:MAX_STORIES]), "stories": stories[:MAX_STORIES]},
+        now,
+    )
+    print(f"{THISWEEK_OUTPUT}: {'updated' if thisweek_changed else 'unchanged'} "
+          f"(upcoming={has_upcoming}); {STORIES_OUTPUT}: "
+          f"{'updated' if stories_changed else 'unchanged'} ({len(stories)} stories)")
     return True
 
 
@@ -356,11 +385,13 @@ def build_audio(now: str) -> bool:
         print("WARN: Radio4All feed produced no audio", file=sys.stderr)
         return False
     total = sum(len(w["items"]) for w in weeks)
-    with open(AUDIO_OUTPUT, "w", encoding="utf-8") as fh:
-        json.dump({"updated": now, "weekCount": len(weeks), "itemCount": total, "weeks": weeks},
-                  fh, ensure_ascii=False, indent=2)
-        fh.write("\n")
-    print(f"Wrote {AUDIO_OUTPUT} ({len(weeks)} weeks, {total} audio items)")
+    changed = write_json_if_changed(
+        AUDIO_OUTPUT,
+        {"weekCount": len(weeks), "itemCount": total, "weeks": weeks},
+        now,
+    )
+    print(f"{AUDIO_OUTPUT}: {'updated' if changed else 'unchanged'} "
+          f"({len(weeks)} weeks, {total} audio items)")
     return True
 
 
