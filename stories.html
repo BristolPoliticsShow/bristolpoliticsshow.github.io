@@ -33,6 +33,7 @@ order: 3
 .st-heading { color: #fff; font-size: 2.2rem; margin-bottom: 0.4rem; }
 .st-intro { color: rgba(255,255,255,0.75); font-size: 1.15rem; margin-bottom: 1.75rem; }
 .st-status { color: rgba(255,255,255,0.65); font-size: 1.15rem; }
+.st-status.is-meta { color: rgba(255,255,255,0.42); font-size: 0.78rem; letter-spacing: 0.01em; }
 .st-status-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 2.4rem; margin-bottom: 1.25rem; }
 .st-status-row .st-status { margin: 0; }
 .st-refresh { color: #ffd166; background: transparent; border: 1px solid rgba(255,209,102,0.55); border-radius: 999px; padding: 0.35rem 0.75rem; cursor: pointer; font: inherit; font-size: 0.9rem; white-space: nowrap; }
@@ -297,11 +298,12 @@ order: 3
   function formatUpdated(value) {
     if (!value) return '';
     var date = new Date(value);
-    return isNaN(date.getTime()) ? '' : 'Updated ' + date.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
+    return isNaN(date.getTime()) ? '' : 'Last checked ' + date.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
   }
 
   function loadStories() {
     refreshEl.disabled = true;
+    statusEl.classList.remove('is-meta');
     statusEl.style.display = '';
     statusEl.textContent = 'Checking for the latest stories…';
     return fetch('/stories.json?t=' + Date.now(), { cache: 'no-store' })
@@ -309,11 +311,13 @@ order: 3
     .then(function (data) {
       stories = (data && data.stories) || [];
       if (!stories.length) { statusEl.textContent = 'No stories available right now.'; return; }
+      statusEl.classList.add('is-meta');
       statusEl.textContent = formatUpdated(data.updated) || 'Latest stories';
       renderList();
       route();
     })
     .catch(function () {
+      statusEl.classList.remove('is-meta');
       statusEl.textContent = "Stories couldn't be refreshed right now. Try again in a moment.";
     })
     .finally(function () {
