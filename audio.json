@@ -1,8 +1,18 @@
 {
-  "updated": "2026-09-06T11:54:20Z",
-  "weekCount": 26,
-  "itemCount": 257,
+  "updated": "2026-09-11T22:11:04Z",
+  "weekCount": 27,
+  "itemCount": 258,
   "weeks": [
+    {
+      "date": "Friday 11 September 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-11Sept26.mp3",
+          "isFullShow": true
+        }
+      ]
+    },
     {
       "date": "Friday 4 September 2026",
       "items": [
