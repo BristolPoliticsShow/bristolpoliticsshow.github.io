@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-11T22:11:04Z",
+  "updated": "2026-09-12T11:56:26Z",
   "weekCount": 27,
-  "itemCount": 258,
+  "itemCount": 264,
   "weeks": [
     {
       "date": "Friday 11 September 2026",
@@ -10,6 +10,36 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-11Sept26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "Craig Murray Will Strait of Hormuz Stay Closed",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Craig%20Murray%20Will%20Strait%20of%20Hormuz%20Stay%20Closed.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Lord Levy on Miliband decision to sanction Israel over West Bank illegal settler violence",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Lord%20Levy%20on%20Miliband%20decision%20to%20sanction%20Israel%20over%20West%20Bank%20illegal%20settler%20violence.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Martin Rolfeon NATS boss on outage possible Israeli hack of UK Air Traffic Control network",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Martin%20Rolfeon%20NATS%20boss%20on%20outage%20possible%20Israeli%20hack%20of%20UK%20Air%20Traffic%20Control%20network.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Matt Jukes Met Deputy Chief, Danny Tommos Balaclava-Clad Protests Sinister Intimidating",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Matt%20Jukes%20Met%20Deputy%20Chief,%20Danny%20Tommos%20Balaclava-Clad%20Protests%20Sinister%20Intimidating.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Michael Hudson Destiny of Civilization Financialization Collapse Glenn Diesen",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Michael%20Hudson%20Destiny%20of%20Civilization%20Financialization%20Collapse%20Glenn%20Diesen.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Peter Oborne  Britain has FINALLY stood up to Israel",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Peter%20Oborne_%20Britain%20has%20FINALLY%20stood%20up%20to%20Israel.mp3",
+          "isFullShow": false
         }
       ]
     },
