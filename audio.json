@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-12T11:56:26Z",
-  "weekCount": 27,
-  "itemCount": 264,
+  "updated": "2026-09-13T13:04:17Z",
+  "weekCount": 26,
+  "itemCount": 257,
   "weeks": [
     {
       "date": "Friday 11 September 2026",
@@ -14,6 +14,11 @@
         {
           "name": "Craig Murray Will Strait of Hormuz Stay Closed",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Craig%20Murray%20Will%20Strait%20of%20Hormuz%20Stay%20Closed.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Ed Miliband gives statement on UK sanctions on Israel Palestine over West Bank settler violence",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Ed%20Miliband%20gives%20statement%20on%20UK%20sanctions%20on%20Israel%20Palestine%20over%20West%20Bank%20settler%20violence.mp3",
           "isFullShow": false
         },
         {
@@ -1409,51 +1414,6 @@
         {
           "name": "The Old Gods Are Returning For Armageddon (2022)",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20The%20Old%20Gods%20Are%20Returning%20For%20Armageddon%20(2022).mp3",
-          "isFullShow": false
-        }
-      ]
-    },
-    {
-      "date": "Friday 13 March 2026",
-      "items": [
-        {
-          "name": "Full show",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-13Mar26.mp3",
-          "isFullShow": true
-        },
-        {
-          "name": "Alex Thomson RAINS List, UK Satanic Ritual Abusers Named, (Ritual Abuse Information Network and Support)",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Alex%20Thomson%20RAINS%20List,%20UK%20Satanic%20Ritual%20Abusers%20Named,%20(Ritual%20Abuse%20Information%20Network%20and%20Support).mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "HIGHLIGHTS Jeffrey Sachs Heading To WWIII Israel commiting suicide US Armageddon in Iran",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/HIGHLIGHTS%20Jeffrey%20Sachs%20Heading%20To%20WWIII%20Israel%20commiting%20suicide%20US%20Armageddon%20in%20Iran.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Indi Samarajiva As Epstein Regime Collapses Will It Take Humanity Down With It Dimitri Lascaris Reason2Resist",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Indi%20Samarajiva%20As%20Epstein%20Regime%20Collapses%20Will%20It%20Take%20Humanity%20Down%20With%20It%20Dimitri%20Lascaris%20Reason2Resist.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Matt Ehret The Order of the Garter Hidden Hierarchies of Power The Reset of 1348 Doenut Factory",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Matt%20Ehret%20The%20Order%20of%20the%20Garter%20Hidden%20Hierarchies%20of%20Power%20The%20Reset%20of%201348%20Doenut%20Factory.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Peter Ford, UK's ex Bahrain and Syria ambassasor says Iran war will soon be over",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Peter%20Ford,%20UK's%20ex%20Bahrain%20and%20Syria%20ambassasor%20says%20Iran%20war%20will%20soon%20be%20over.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Peter Oborne uncovers shocking Iran war cover-up conspiracy by London media for DDN",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Peter%20Oborne%20uncovers%20shocking%20Iran%20war%20cover-up%20conspiracy%20by%20London%20media%20for%20DDN.mp3",
-          "isFullShow": false
-        },
-        {
-          "name": "Sabine McNeill Economic Collapse, monetary reformer who spent four years in jail",
-          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Sabine%20McNeill%20Economic%20Collapse,%20monetary%20reformer%20who%20spent%20four%20years%20in%20jail.mp3",
           "isFullShow": false
         }
       ]
