@@ -1,8 +1,23 @@
 {
-  "updated": "2026-09-13T13:04:17Z",
-  "weekCount": 26,
-  "itemCount": 257,
+  "updated": "2026-09-18T22:13:43Z",
+  "weekCount": 27,
+  "itemCount": 259,
   "weeks": [
+    {
+      "date": "Friday 18 September 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-18Sep26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Don DeBar 911 25th Anniversary Foreign wars and Trump imposing Sanctions on himself",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Don%20DeBar%20911%2025th%20Anniversary%20Foreign%20wars%20and%20Trump%20imposing%20Sanctions%20on%20himself.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 11 September 2026",
       "items": [
