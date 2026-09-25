@@ -1,8 +1,58 @@
 {
-  "updated": "2026-09-20T12:49:19Z",
-  "weekCount": 26,
-  "itemCount": 251,
+  "updated": "2026-09-25T23:01:52Z",
+  "weekCount": 27,
+  "itemCount": 260,
   "weeks": [
+    {
+      "date": "Friday 25 September 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-25Sep26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Antony Loewenstein Mossad Election Fixing How Ex-Israeli Spies Are Running Foreign Governments DDN",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Antony%20Loewenstein%20Mossad%20Election%20Fixing%20How%20Ex-Israeli%20Spies%20Are%20Running%20Foreign%20Governments%20DDN.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Col Doug Macgregor Cdre Steve Jermy  After This Weekends Vote Putin Finishes the War HIS Way",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Col%20Doug%20Macgregor%20Cdre%20Steve%20Jermy_%20After%20This%20Weekends%20Vote%20Putin%20Finishes%20the%20War%20HIS%20Way.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Jacob Rees Mogg Ukraine War Paul Richards Fabian Society Jail War Protesters Introduce Conscription GB News",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Jacob%20Rees%20Mogg%20Ukraine%20War%20Paul%20Richards%20Fabian%20Society%20Jail%20War%20Protesters%20Introduce%20Conscription%20GB%20News.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Protect Our Plates Morrisons US private equity owners are killing it with over 16 billion debt",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Protect%20Our%20Plates%20Morrisons%20US%20private%20equity%20owners%20are%20killing%20it%20with%20over%2016%20billion%20debt.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "UN Iran President Pezeshkian addrresses UNGA 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20UN%20Iran%20President%20Pezeshkian%20addrresses%20UNGA%202026.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "UN Israel PM Netanyahu Addresses UNGA Session 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20UN%20Israel%20PM%20Netanyahu%20Addresses%20UNGA%20Session%202026.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "UN UK PM Burnham Addresses UNGA Session 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20UN%20UK%20PM%20Burnham%20Addresses%20UNGA%20Session%202026.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "UN US President Trump addresses UNGA Session 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20UN%20US%20President%20Trump%20addresses%20UNGA%20Session%202026.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 18 September 2026",
       "items": [
