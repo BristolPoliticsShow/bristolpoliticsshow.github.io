@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-25T23:01:52Z",
+  "updated": "2026-09-26T12:38:09Z",
   "weekCount": 27,
-  "itemCount": 260,
+  "itemCount": 263,
   "weeks": [
     {
       "date": "Friday 25 September 2026",
@@ -27,8 +27,18 @@
           "isFullShow": false
         },
         {
+          "name": "Neil McEvoy Exposes Plaid Cymru WEF Policy to Breakup the UK and Death Threats",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Neil%20McEvoy%20Exposes%20Plaid%20Cymru%20WEF%20Policy%20to%20Breakup%20the%20UK%20and%20Death%20Threats.mp3",
+          "isFullShow": false
+        },
+        {
           "name": "Protect Our Plates Morrisons US private equity owners are killing it with over 16 billion debt",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Protect%20Our%20Plates%20Morrisons%20US%20private%20equity%20owners%20are%20killing%20it%20with%20over%2016%20billion%20debt.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Russian FM Sergey Lavrov Ukraine statement at UNSC",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Russian%20FM%20Sergey%20Lavrov%20Ukraine%20statement%20at%20UNSC.mp3",
           "isFullShow": false
         },
         {
@@ -49,6 +59,11 @@
         {
           "name": "UN US President Trump addresses UNGA Session 2026",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20UN%20US%20President%20Trump%20addresses%20UNGA%20Session%202026.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "What Happened To The Canary ex-editor Kerry-Ann Mendoza Crispin Flintoff",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20What%20Happened%20To%20The%20Canary%20ex-editor%20Kerry-Ann%20Mendoza%20Crispin%20Flintoff.mp3",
           "isFullShow": false
         }
       ]
