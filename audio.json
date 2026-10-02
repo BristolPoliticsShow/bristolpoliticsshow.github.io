@@ -1,8 +1,53 @@
 {
-  "updated": "2026-09-27T13:29:25Z",
-  "weekCount": 26,
-  "itemCount": 255,
+  "updated": "2026-10-02T23:31:25Z",
+  "weekCount": 27,
+  "itemCount": 263,
   "weeks": [
+    {
+      "date": "Friday 2 October 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-02Oct26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Andy Burnham first speech at Labour conference as PM",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Andy%20Burnham%20first%20speech%20at%20Labour%20conference%20as%20PM.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Defence Secretary Wes Streeting and Foreign secretary Ed Milband Labour Party Conference 2026",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Defence%20Secretary%20Wes%20Streeting%20and%20Foreign%20secretary%20Ed%20Milband%20Labour%20Party%20Conference%202026.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Dr Stanley Laham Covid Jabs Potential Nerve Damage Causing Alzheimers, Ivermectin Cancer Treatment",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Dr%20Stanley%20Laham%20Covid%20Jabs%20Potential%20Nerve%20Damage%20Causing%20Alzheimers,%20Ivermectin%20Cancer%20Treatment.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "LowKey RAF Fairford FIASCO And Extent of US Occupation DDN",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20LowKey%20RAF%20Fairford%20FIASCO%20And%20Extent%20of%20US%20Occupation%20DDN.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "UNGA Malaysia - Foreign Minister Addresses UN",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20UNGA%20Malaysia%20-%20Foreign%20Minister%20Addresses%20UN.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "UNGA Russian Federation - Foreign Minister Sergey Lavrov Addresses UN",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20UNGA%20Russian%20Federation%20-%20Foreign%20Minister%20Sergey%20Lavrov%20Addresses%20UN.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "WWII Bomber Command Vets If I Dont Come Back Have a Drink on Me Granada TV (1969)",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20WWII%20Bomber%20Command%20Vets%20If%20I%20Dont%20Come%20Back%20Have%20a%20Drink%20on%20Me%20Granada%20TV%20(1969).mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 25 September 2026",
       "items": [
