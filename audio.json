@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-03T12:59:38Z",
+  "updated": "2026-10-04T13:38:12Z",
   "weekCount": 26,
-  "itemCount": 252,
+  "itemCount": 253,
   "weeks": [
     {
       "date": "Friday 2 October 2026",
@@ -29,6 +29,11 @@
         {
           "name": "LowKey RAF Fairford FIASCO And Extent of US Occupation DDN",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20LowKey%20RAF%20Fairford%20FIASCO%20And%20Extent%20of%20US%20Occupation%20DDN.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Netanyahu what FlyDubai passenger told him and Fairford attack",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Netanyahu%20what%20FlyDubai%20passenger%20told%20him%20and%20Fairford%20attack.mp3",
           "isFullShow": false
         },
         {
