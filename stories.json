@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T01:05:19Z",
+  "updated": "2026-10-06T23:31:31Z",
   "count": 150,
   "stories": [
     {
@@ -25,7 +25,7 @@
       "title": "Warren Thornton, ex military and now podcast host, joins Tony and Martin online.",
       "subtitle": "Northern Ireland. Chris Bryant, Secretary of State for Northern Ireland, thinks parades are ok.",
       "text": "Warren Thornton, ex military and now podcast host, joins Tony and Martin online. Northern Ireland. Chris Bryant, Secretary of State for Northern Ireland, thinks parades are ok.",
-      "image": null,
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/warren-thornton-.jpeg",
       "videoId": null,
       "links": [
         {
@@ -93,11 +93,16 @@
     {
       "date": "Thursday 1 October 2026",
       "title": "Protest outside BRI against Palantir being used for NHS data – vox pops.",
-      "subtitle": "Palantir used to target Gazans – evangelical Christian Zionists and tech giants.",
-      "text": "Protest outside BRI against Palantir being used for NHS data – vox pops. Palantir used to target Gazans – evangelical Christian Zionists and tech giants.",
-      "image": null,
-      "videoId": null,
-      "links": []
+      "subtitle": "Palantir used to target Gazans – evangelical Christian Zionists and tech giants. Dozens of people gather for day of action against Palantir [ voxpop and slide show ] Doze…",
+      "text": "Protest outside BRI against Palantir being used for NHS data – vox pops. Palantir used to target Gazans – evangelical Christian Zionists and tech giants. Dozens of people gather for day of action against Palantir [ voxpop and slide show ] Dozens of people gathered outside Bristol Royal Infirmary on Thursday evening for a day of action against US-based software company Palantir’s involvement with the NHS. The People vs Palantir demonstration in Bristol was part of a coordinated nationwide campaign to block a possible contract renewal between NHS England and the US firm in 2027. Thousands of people have filed legal objects and expressed concerns over the Palantir-powered software currently being used by the NHS’ Federated Data Platform to store patient data as per a £330m contract in December 2023. Activist Gaie Delap was also at the demonstration against Palantir’s reported ties to the Israeli military Groups like the Bristol Against Palantir, a coalition of healthcare workers and patients, are now asking for people to support the campaign by writing letters or emails to local authorities and MPs on the issue. A leaflet handed to passers by outside the BRI explains that NHS Trusts in Bristol have the freedom to “decline to work” with Palantir’s software if they choose to. Among the groups several demands are a full-decline or roll back of the Bristol-based trusts’ involvement with Palantir, writing to national institutions about the former step and a scrutiny of current contractors to identify potential human rights abuses that need to be reviewed. People are concerned of a Palantir-powered software being used by the NHS to store patient data The leaflet read: “The contract between Palantir and the NHS is due for renewal in February 2027. “At this point the government can choose not to renew the contract. “We are calling on our local politicians to lobby the government not to renew the contract.” Bristol24/7 has contacted the NHS and Palantir for a comment.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/People-vs-Palantir-photo-by-Rob-Browne-1600x900-1-1024x576.png",
+      "videoId": "kDo_WjMyixI",
+      "links": [
+        {
+          "label": "bristol247.com",
+          "url": "https://www.bristol247.com/news-and-features/news/dozens-of-people-gather-for-day-of-action-against-palantir/"
+        }
+      ]
     },
     {
       "date": "Thursday 1 October 2026",
@@ -143,11 +148,20 @@
     {
       "date": "Thursday 1 October 2026",
       "title": "Lavrov on his meeting with Germans at UN.",
-      "subtitle": "",
-      "text": "Lavrov on his meeting with Germans at UN.",
-      "image": null,
+      "subtitle": "Press release on Foreign Minister Sergey Lavrov’s meeting with Federal Minister for Foreign Affairs of the Federative Republic of Germany Johann Wadephul On September 26,…",
+      "text": "Lavrov on his meeting with Germans at UN. Press release on Foreign Minister Sergey Lavrov’s meeting with Federal Minister for Foreign Affairs of the Federative Republic of Germany Johann Wadephul On September 26, Foreign Minister Sergey Lavrov held a meeting in New York with Federal Minister for Foreign Affairs of Germany Johann Wadephul at the request of the German side on the sidelines of the High-Level Week of the 81st session of the UN General Assembly. During the meeting the parties discussed bilateral relations and the situation around Ukraine. Johann Wadephul reaffirmed the position of the German Government, which has been stated publicly many times, on these and other matters. Germany’s Wadephul meets Russia’s Lavrov amid tensions over ‘escalation’ The German foreign minister blames Moscow for the Leipzig drone attack but welcomes the G20 invite to Vladimir Putin NEW YORK — German Foreign Minister Johann Wadephul held a surprise meeting with his Russian counterpart Sergey Lavrov at the U.N. on Saturday, just one day after he welcomed the U.S. invite for Russian President Vladimir Putin to the G20 summit. “It was an intense conversation”, Wadephul told German public television ZDF after the meeting, which lasted about 30 minutes. “Of course, we did not reach agreement on key points. It was important to me to make it clear that Germany does not accept incidents such as the drone attack in Leipzig, and that this is an escalation that is unacceptable. And I clearly warned Russia not to continue down this path. We can defend ourselves, we can fight back. And that’s exactly what we’ll do.” “Wadephul called on the Russian Federation to abandon its dangerous path of escalation toward Germany, Europe, and NATO,” a German official said after the meeting. The official was granted anonymity to discuss the meeting. The Russian side did not immediately provide a detailed readout of Saturday’s meeting. Moscow’s foreign ministry spokesperson, Maria Zakharova, instead referred to a polemic Russian report that calls into question the authenticity of the Bucha massacre, and that appears to have been put on the table during the ministers’ meeting. Zakharova claimed that Wadephul had asked to meet Lavrov. Yet Wadephul told ZDF that he had agreed to meet Lavrov after the Russian foreign minister, through third-party intermediaries, signaled a willingness to engage in talks. The reunion of Wadephul and Lavrov was held against the backdrop of renewed efforts by the U.S. and its Western allies to jumpstart peace talks between Russia and Ukraine. Earlier this week, the U.S. government issued an invitation to Putin for the G20 summit in Miami in December, raising the possibility of potential negotiations between the Russian president and his Ukrainian counterpart Volodymyr Zelenskyy in Florida…",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/germans-and-russians-meet-Германия.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "mid.ru",
+          "url": "https://mid.ru/en/foreign_policy/news/2149793/#sel=4:4:IPV,4:80:vxj"
+        },
+        {
+          "label": "politico.eu",
+          "url": "https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un/"
+        }
+      ]
     },
     {
       "date": "Thursday 1 October 2026",
@@ -161,11 +175,16 @@
     {
       "date": "Thursday 1 October 2026",
       "title": "France – protests over education.",
-      "subtitle": "Andy Burnham’s conference speech – PR, gap where he’s upset about Dad.",
-      "text": "France – protests over education. Andy Burnham’s conference speech – PR, gap where he’s upset about Dad.",
+      "subtitle": "Andy Burnham’s conference speech – PR, gap where he’s upset about Dad. France school protests escalate into ‘urban violence’ as PM calls crisis cabinet meeting About 900…",
+      "text": "France – protests over education. Andy Burnham’s conference speech – PR, gap where he’s upset about Dad. France school protests escalate into ‘urban violence’ as PM calls crisis cabinet meeting About 900 demonstrations, blockades and related incidents under way outside high schools around the country A fast-growing protest by high-school students over long hours, teacher shortages and decaying facilities has escalated into “urban violence”, the French government has warned, as it said many schools would switch to online classes to protect teachers and pupils. The prime minister, Sébastien Lecornu, called a crisis cabinet meeting on Thursday and told ministers to cancel travel plans to deal with the demonstrations, which erupted in the Paris region last week but have snowballed across the country. Lecornu’s office said: “This upsurge in violence makes it virtually impossible to maintain the continuity of public education and is exposing staff and students to danger.” The education minister, Édouard Geffray, is to meet pupil representatives on Friday. About 900 demonstrations, blockades and related incidents were under way outside high schools around the country, police said, with more than 160 shut down as a result. Access was also blocked to about 30 university campuses on Thursday, including in Paris and Marseille. Nearly 3,000 lycée students – aged between 15 and 18 – have been detained since the start of the protests, including 1,949 on Thursday alone, the interior ministry said. More than 300 police and dozens of firefighters, teachers and pupils have been injured. The pupils’ grievances range from overloaded timetables and overcrowded classes to insufficient teachers and unbearable temperatures during heatwaves earlier this year. Riot police have been deployed to confront the increasingly violent protests. Injuries have mainly been from hurled objects but also from police-fired riot-control projectiles, with the interior ministry announcing an internal police investigation after accusations of excessive force and brutality by officers against three pupils. Rubbish bins have been set on fire outside many schools and more serious arson attempts have been reported inside some buildings. Fire damage in one school in Nantes in the north-west was so extensive that it will stay closed for a month, authorities said. In the northern city of Caen, 16-year-old Maelle said she wished those setting bins on fire would protest “with words”. Students were protesting “against this government that doesn’t invest in heating, air conditioning, or teachers’ salaries”, she told AFP. In Strasbourg in the north-east, tram services were temporarily suspended to “restrict the movements of rioters and demonstrators”, the regional prefect said, after protesting students obstructed the tracks with crowd control barriers. “There are 35 of us per classroom,” one 17-year-old Strasbourg student said. “There aren’t enough toilets, and there are water leaks in some rooms. The building is falling apart, the cafeteria is too small. There’s zero budget, zero resources.”…",
       "image": null,
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "theguardian.com",
+          "url": "https://www.theguardian.com/world/2026/oct/01/france-school-protests-escalate-pm-crisis-cabinet-meeting"
+        }
+      ]
     },
     {
       "date": "Thursday 1 October 2026",
@@ -214,6 +233,10 @@
         {
           "label": "shop.ukcolumn.org",
           "url": "https://shop.ukcolumn.org/product/the-column-issue-3/"
+        },
+        {
+          "label": "911forum.org.uk",
+          "url": "https://911forum.org.uk/viewtopic.php?p=182698#p182698"
         }
       ]
     },
