@@ -1,8 +1,33 @@
 {
-  "updated": "2026-10-04T13:38:12Z",
-  "weekCount": 26,
-  "itemCount": 253,
+  "updated": "2026-10-09T23:47:10Z",
+  "weekCount": 27,
+  "itemCount": 257,
   "weeks": [
+    {
+      "date": "Friday 9 October 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-09Oct26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Lancaster to Vulcan Ian Lomax Avro Hewritage Museum Woodford Stockport",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Lancaster%20to%20Vulcan%20Ian%20Lomax%20Avro%20Hewritage%20Museum%20Woodford%20Stockport.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "The Bankers Who Funded Hitler During WWII And Got Away With It",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20The%20Bankers%20Who%20Funded%20Hitler%20During%20WWII%20And%20Got%20Away%20With%20It.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Vera Brittain WWII-Anti-Area-Bombing-Campaigner-BBC-Witness-History-13Aug18r",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Vera%20Brittain%20WWII-Anti-Area-Bombing-Campaigner-BBC-Witness-History-13Aug18r.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 2 October 2026",
       "items": [
