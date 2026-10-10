@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-09T23:47:10Z",
+  "updated": "2026-10-10T14:10:40Z",
   "weekCount": 27,
-  "itemCount": 257,
+  "itemCount": 261,
   "weeks": [
     {
       "date": "Friday 9 October 2026",
@@ -12,8 +12,18 @@
           "isFullShow": true
         },
         {
+          "name": "Jacob Rees-Mogg on Tucker Carlson Prepare for War Britains Most Pro-War Advocate",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Jacob%20Rees-Mogg%20on%20Tucker%20Carlson%20Prepare%20for%20War%20Britains%20Most%20Pro-War%20Advocate.mp3",
+          "isFullShow": false
+        },
+        {
           "name": "Lancaster to Vulcan Ian Lomax Avro Hewritage Museum Woodford Stockport",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Lancaster%20to%20Vulcan%20Ian%20Lomax%20Avro%20Hewritage%20Museum%20Woodford%20Stockport.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Peacemonger Ian Proud UK has been at war with Russia since 2014 why war with Russia may be a European extinction event",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Peacemonger%20Ian%20Proud%20UK%20has%20been%20at%20war%20with%20Russia%20since%202014%20why%20war%20with%20Russia%20may%20be%20a%20European%20extinction%20event.mp3",
           "isFullShow": false
         },
         {
@@ -22,8 +32,18 @@
           "isFullShow": false
         },
         {
+          "name": "UK Ex-Consul General Sir Vincent Fean and FO chief SImon McDonald 20 British Diplomats Expelled from Jerusalem",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20UK%20Ex-Consul%20General%20Sir%20Vincent%20Fean%20and%20FO%20chief%20SImon%20McDonald%2020%20British%20Diplomats%20Expelled%20from%20Jerusalem.mp3",
+          "isFullShow": false
+        },
+        {
           "name": "Vera Brittain WWII-Anti-Area-Bombing-Campaigner-BBC-Witness-History-13Aug18r",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Vera%20Brittain%20WWII-Anti-Area-Bombing-Campaigner-BBC-Witness-History-13Aug18r.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Vladimir Putin on Soviet Collapse Egon Bahr German Reunification and roots of the Ukraine war",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Vladimir%20Putin%20on%20Soviet%20Collapse%20Egon%20Bahr%20German%20Reunification%20and%20roots%20of%20the%20Ukraine%20war.mp3",
           "isFullShow": false
         }
       ]
