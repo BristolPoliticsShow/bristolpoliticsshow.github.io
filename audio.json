@@ -1,8 +1,23 @@
 {
-  "updated": "2026-10-11T14:35:13Z",
-  "weekCount": 26,
-  "itemCount": 248,
+  "updated": "2026-10-16T22:27:00Z",
+  "weekCount": 27,
+  "itemCount": 250,
   "weeks": [
+    {
+      "date": "Friday 16 October 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-16Oct26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Dr Chris Busby in Latvia on Greens' Nuclear Sell-Out and Europe's Energy Wars",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Dr%20Chris%20Busby%20in%20Latvia%20on%20Greens'%20Nuclear%20Sell-Out%20and%20Europe's%20Energy%20Wars.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 9 October 2026",
       "items": [
