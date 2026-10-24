@@ -1,6 +1,6 @@
 {
-  "message": "",
-  "type": "info",
-  "show": false,
-  "timestamp": "2026-06-18T12:30:00.752Z"
+  "message": "Is app not refreshing for 23 Oct show? \nGo here: https://www.radio4all.net/program/123228",
+  "type": "warning",
+  "show": true,
+  "timestamp": "2026-10-24T16:36:28.652Z"
 }
