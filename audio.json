@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-30T23:26:50Z",
+  "updated": "2026-10-31T14:15:06Z",
   "weekCount": 27,
-  "itemCount": 254,
+  "itemCount": 259,
   "weeks": [
     {
       "date": "Friday 30 October 2026",
@@ -10,6 +10,31 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-30Oct26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "Bank of England and The City Of London control PMs Liz Truss exposes puppet Burnham Daily Expresso",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Bank%20of%20England%20and%20The%20City%20Of%20London%20control%20PMs%20Liz%20Truss%20exposes%20puppet%20Burnham%20Daily%20Expresso.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "David Hearst No matter who forms the Israeli government democracy is dead MEE",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20David%20Hearst%20No%20matter%20who%20forms%20the%20Israeli%20government%20democracy%20is%20dead%20MEE.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "John Bosnitch on the election of pro EU pro NATO party in Serbia",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20John%20Bosnitch%20on%20the%20election%20of%20pro%20EU%20pro%20NATO%20party%20in%20Serbia.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Prof Jeffrey Sachs The Future of Netanyahu on Judge Nap",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Prof%20Jeffrey%20Sachs%20The%20Future%20of%20Netanyahu%20on%20Judge%20Nap.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "SilverMeadow UK Nudge Unit Brits warned of cyber attacks on water supplies and internet",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20SilverMeadow_UK%20Nudge%20Unit%20Brits%20warned%20of%20cyber%20attacks%20on%20water%20supplies%20and%20internet.mp3",
+          "isFullShow": false
         }
       ]
     },
