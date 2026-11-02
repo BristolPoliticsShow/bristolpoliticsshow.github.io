@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T23:19:27Z",
+  "updated": "2026-11-02T17:44:31Z",
   "count": 150,
   "stories": [
     {
@@ -74,24 +74,6 @@
     },
     {
       "date": "Thursday 29 October 2026",
-      "title": "$6.",
-      "subtitle": "3 Billion Crypto Ponzi Scheme Robbery – In the year AI re-wrote the infosec rulebook, it’s comforting to know crypto exchanges still have bad security Binance freezes fun…",
-      "text": "$6.3 Billion Crypto Ponzi Scheme Robbery – In the year AI re-wrote the infosec rulebook, it’s comforting to know crypto exchanges still have bad security Binance freezes funny money after compromise of engineer’s laptop linked to $6.3 billion of unauthorised trades Crypto exchange Binance has paused trading after discovering unknown parties cracked one of its workers’ laptops and used it to make massive trades. Cryptocurrency outfits have a long and inglorious history of falling victim to cyberattacks, perhaps starting with the 2011 raid on Mt Gox, to incidents allegedly perpetrated by nation-states, and, just last week, another situation possibly involving an AI-powered attacker. Late on Thursday, US time, the company used its social media feeds to report “Our teams are aware of reports of a potential security issue and are actively investigating.” The exchange insisted “User funds are completely safe” and warned its customers “should remain cautious of scams and should not trust unofficial links, messages, or requests for account information.” The company soon froze $2.5 billion worth of assets and warned that the figure could go higher “as our teams work closely with law enforcement, issuers, blockchain intelligence firms and industry partners to trace and freeze additional assets.” To prevent the matter worsening, Binance halted all trading, deposits, and withdrawals. It also promised to cover any losses. About an hour ago at the time of writing, Binance posted an update on the incident that explains what it thinks went wrong. “Binance’s initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions,” the post states. The company also hiked the amount it thinks is at risk to $6.3 billion and repeated its promise to cover any customer losses. The update also says Binance found no evidence of any wallet private key leak, suggesting that customers’ holdings remain secure. Binance hasn’t explained how attackers gained access to the engineer’s laptop. The scant details provided make it hard to rule out a successful phishing attack, or perhaps a supply chain attack on a package the developer used.",
-      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/binance-61d65GqtgL._AC_UF10001000_QL80_.jpg",
-      "videoId": null,
-      "links": [
-        {
-          "label": "$6.3 Billion Crypto Ponzi Scheme Robbery –",
-          "url": "https://www.amazon.in/Craftbia%C2%AEBNB-Binance-Plated-Plastic-Display/dp/B09TXJBNKN"
-        },
-        {
-          "label": "theregister.com",
-          "url": "https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539"
-        }
-      ]
-    },
-    {
-      "date": "Thursday 29 October 2026",
       "title": "Algorithms and search engines.",
       "subtitle": "Marginalia. What Marginalia is, and why the verdict is an own index Marginalia is a search engine built by one person in Sweden that crawls the web itself and ranks it mo…",
       "text": "Algorithms and search engines. Marginalia. What Marginalia is, and why the verdict is an own index Marginalia is a search engine built by one person in Sweden that crawls the web itself and ranks it more or less backwards from the way Google does. Heavy JavaScript, dense advertising, affiliate links, tracking scripts and modern optimized design push a page down. What rises instead is text: personal sites, old blogs, university department pages, hobbyist documentation — the parts of the web with no marketing budget and consequently no visibility in mainstream results. Marginalia runs its own crawler, stores its own index (the engine’s stored copy of the web), applies its own ranking, and involves no Google or Bing feed anywhere. Its FAQ states flatly that the engine does its own crawling — and unusually, that claim can be checked from outside rather than taken on trust. The project’s framing is more modest than the coverage around it. It is not seeking to replace Google and Bing, it says, but to complement them — to provide a minority report that keeps them honest. It is a discovery instrument, not a general-purpose answer engine, and has never pretended otherwise. The FAQ gives roughly 300 million documents as of 2024, occupying about a terabyte, and that page flags itself as outdated; the current about-site says only “hundreds of millions of documents.” No dated 2025 or 2026 figure exists, so none is asserted here. Against Google’s trillions this is four to five orders of magnitude smaller, and the project treats that as a design position rather than a shortfall. The FAQ’s own formulation is the clearest sentence about the whole project: an index with a million documents that are all of high quality is better than an index with a billion documents where only a fraction are interesting. Marginalia is principally developed and operated by Viktor Löfgren, a Swedish software engineer, working essentially alone. No company, no board, no investor. Wikipedia records maintenance at around an hour a week. The about page gives operating costs of approximately $200 a month and describes the project as running on donations, grants and commercial API deals, with no investor pressure — designed, in its own words, to scrape by. There is no advertising and none planned. The commercial leg is a keyed API: SearXNG’s Marginalia module, for instance, requires a key issued under Marginalia’s own license terms. There are also no AI features, deliberately — no AI answers, no chat, no LLM summarisation. The project positions against the trend, holding that traditional information-retrieval approaches still offer capabilities that have largely become lost. It is a keyword engine by conviction, for users who want to steer a query rather than ask a question. The inverse is quietly true: because it offers a clean keyed API over an index of non-commercial text, it has become attractive to people building AI and research tooling. Marginalia does not do AI; AI systems increasingly want Marginalia.",
@@ -145,44 +127,82 @@
       "title": "Burnham pledges not to ‘re-run’ Brexit arguments 18 May 2026 Andy Burnham has promised not to “re-run” Brexit arguments,…",
       "subtitle": "The Greater Manchester mayor, who is expected to challenge Sir Keir Starmer for the Labour leadership if he wins the Makerfield by-election, said Brexit had been “damagin…",
       "text": "Burnham pledges not to ‘re-run’ Brexit arguments 18 May 2026 Andy Burnham has promised not to “re-run” Brexit arguments, as he said he was not proposing the UK considers rejoining the European Union. The Greater Manchester mayor, who is expected to challenge Sir Keir Starmer for the Labour leadership if he wins the Makerfield by-election, said Brexit had been “damaging” but “Britain will be stuck in a permanent rut if we’re just constantly arguing”. Burnham said last September that he would like to see the UK back in the EU within his lifetime. Streeting, who resigned from the government last week and has confirmed he would enter any future leadership race, told a conference that the “biggest economic opportunity we have is on our doorstep” as he called for a “new special relationship” with the EU. In order to stand to replace Sir Keir, Burnham would need to win a by-election in the Makerfield constituency, which voted strongly for Brexit in 2016. He has already been cleared to seek selection as Labour’s candidate, after the current MP Josh Simons stood down to make way for him, although he still needs to be chosen by the local party. In a speech at a conference in Leeds, Burnham said: “My view is that Brexit has been damaging, but I also believe the last thing we should do right now is re-run those arguments.” He added: “I am not proposing that the UK considers rejoining the EU. “I respect the decision that was made at the referendum and it is going to undermine everything I have said about strengthening democracy if we don’t respect that vote.” Sir Keir has already been seeking closer ties with the bloc, but has stuck to Labour’s election manifesto pledges to “stay outside the EU”, with “no return to the single market, the customs union, or freedom of movement”.",
-      "image": null,
-      "videoId": null,
-      "links": []
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/burnham-brexit.jpg",
+      "videoId": "HAGY-XzWNzE",
+      "links": [
+        {
+          "label": "bbc.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/cx21en4807wo"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
       "title": "Landlords a further 2% tax – will they sell up.",
-      "subtitle": "Council housing.",
-      "text": "Landlords a further 2% tax – will they sell up. Council housing.",
-      "image": null,
+      "subtitle": "Council housing. Renters face £700 rise as watchdog issues warning over Budget tax raid on landlords Experts warn that Labour’s Autumn Budget has ‘made life harder for re…",
+      "text": "Landlords a further 2% tax – will they sell up. Council housing. Renters face £700 rise as watchdog issues warning over Budget tax raid on landlords Experts warn that Labour’s Autumn Budget has ‘made life harder for renters’ who are already facing an extra £700 on their average annual bill Following Labour’s Autumn Budget, tenants face potential rent increases as Chancellor John Healey announced a two percentage point hike in property tax for landlords effective April 2027. While the Office for Budget Responsibility warns this could reduce rental supply and drive up prices, some experts suggest the impact on rents may be limited by tenant affordability and landlord margins. Tenants have been warned to expect higher rents following Labour’s decision to hike property tax for landlords at the Autumn Budget. Chancellor John Healey confirmed that rental income will be subject to a further two percentage point tax increase from April, which will add to an identical announcement made by his predecessor Rachel Reeves last year. The tax surcharge on property income will be four points higher from April 2027 as a result, in a move the National Residential Landlords Association (NRLA) said had “made life harder for renters right across the country”. Under current forecasts, rents are already expected to rise by four per cent over the next year – adding £700 on to the average annual bill for tenants. This could now grow even higher as a result of Labour’s tax increase, with the Office for Budget Responsibility (OBR) warning that it risks “leading to a steady rise in rents”. Delivering its economic outlook alongside the Budget, the spending watchdog said that the increased tax burden – alongside other housing policies – will reduce rental supply and cause remaining landlords to push up their prices….",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/landlord-tax-timeline-2026-2028-1024x847.png",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "independent.co.uk",
+          "url": "https://www.independent.co.uk/news/uk/home-news/budget-landlord-property-tax-rent-prices-labour-b3076290.html"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
       "title": "Donbass politician, Alexey Muratov, Donetsk Public Movement, on why Alternative for Deutschland winning.",
-      "subtitle": "",
-      "text": "Donbass politician, Alexey Muratov, Donetsk Public Movement, on why Alternative for Deutschland winning.",
-      "image": null,
+      "subtitle": "Germany’s AfD calls for end to support for Ukraine BERLIN – Germany’s far-right Alternative for Germany (AfD) will launch a joint motion with the small far-left BSW party…",
+      "text": "Donbass politician, Alexey Muratov, Donetsk Public Movement, on why Alternative for Deutschland winning. Germany’s AfD calls for end to support for Ukraine BERLIN – Germany’s far-right Alternative for Germany (AfD) will launch a joint motion with the small far-left BSW party in a regional parliament calling for an end to military ?support for Ukraine, an AfD spokesperson said on Wednesday. The motion, to be debated in ?the state parliament of Saxony-Anhalt next week, will have no immediate impact on Germany’s foreign policy, which is exclusively the responsibility of the federal government in Berlin. But it underscores the AfD’s strong push for ‘an end to German support for Ukraine and a restoration of ties with Russia’, which have been largely severed since Russian forces launched a full-scale ?invasion of Ukraine in February 2022. “This motion symbolises the desire for change,” Ulrich Siegmund, ?the AfD leader in Saxony-Anhalt, said in a statement. Siegmund led the anti-immigration AfD to its ‘best-ever election result last month, topping the state election in Saxony-Anhalt but falling just short of the majority he would need to form the first-ever AfD government. He has since been exploring potential cooperation arrangements ?with the BSW, which like the AfD has long opposed German support for Ukraine. Siegmund said ?the party would use every opportunity to press the government of Chancellor Friedrich Merz “to finally campaign for ‘an end’ to the war rather than its prolongation” and to use the money spent in Ukraine “for the people in our country”. In a message on the social media platform X, BSW founder Sahra Wagenknecht said Germany needed “a federal government that finally makes an effort to resume ?dialogue with Moscow”….",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/Ulrich-Siegmund-​the-AfD-leader-in-Saxony-Anhalt.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "archive.is",
+          "url": "https://archive.is/GucrI#selection-1041.0-1323.216"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
       "title": "Orthodox church.",
-      "subtitle": "John Bosnitch – on Balkans politics since Serbia elected new student government, the influence of NATO, Yugoslavia and Tito, WW2.",
-      "text": "Orthodox church. John Bosnitch – on Balkans politics since Serbia elected new student government, the influence of NATO, Yugoslavia and Tito, WW2.",
-      "image": null,
-      "videoId": null,
-      "links": []
+      "subtitle": "John Bosnitch – on Balkans politics since Serbia elected new student government, the influence of NATO, Yugoslavia and Tito, WW2. Hundreds of thousands of people in the s…",
+      "text": "Orthodox church. John Bosnitch – on Balkans politics since Serbia elected new student government, the influence of NATO, Yugoslavia and Tito, WW2. Hundreds of thousands of people in the streets are celebrating the defeat of the president who has led Serbia both as president and as prime minister for the past 14 years, switching between the two posts in something resembling what uh what President Putin has done in Russia. And can you tell us something about him and whether or not he think he really represents Serbian people? Well, he he definitely doesn’t represent them now because he was defeated in what appears to have been a relatively fair and square election. Um the the opposition uh which was uh running under the banner of the student list contains no students. Surprisingly enough to me as a former student radical and a four-term student union president here in Canada during my university years um I’ve been quite critical of the of what I call the tale of uh of a student uprising because yes the students definitely opposed it and yes the students definitely brought him down but the idea that this is a student list when there are no student candidates. Think about this. I’m 65 now. When I was 22, I ran for mayor of one of Canada’s 10 provincial capital cities. That was quite an unusual thing, and it still is unusual. Um, but I felt that if students want to have a voice in society, then they have to run for office just like anybody else. students have been claiming for years that as of the age of 18, the age of majority in Canada that they should have full citizens rights. That’s fine and I agree with that. When you have full citizens rights, you should be running for political office in the society to which you belong. In the Serbian case, the student protests start. They the marchers included mainly students, but the maximum participation in the marches across the country for two years that went to every major city in Serbia. The maximum participation in any one march was roughly about 50,000 people. That’s the max. The smaller turnouts could have been 2 or 3,000. But they marched and they marched for two years. And although they never exceeded 50,000 and the reason I give you that number is because relative to the total number of students in Serbia, 50,000 is not a big number. The total number of students in Serbia who are citizens and could vote is somewhere around a quarter of a million. So the total participation in the marches was roughly 20 to 30% of the total students in the country. So the students who marched were a minority. Well, you and I as activists know that activists are always in the minority and their objective is to convince the majority. So the students marched and marched and marched and in the end and and and Vhuch made many mistakes. First of all, he was a corrupt president. He was surrounded whether or not he personally was corrupt. He allowed the corruption.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/serbia-celebrations.jpg",
+      "videoId": "1SAveTloqCw",
+      "links": [
+        {
+          "label": "cfr.org",
+          "url": "https://www.cfr.org/articles/serbia-election-marks-the-end-of-an-era"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
       "title": "Budget – Liz Truss on why it’s impossible for a government to decide it’s own fiscal policies – her book ‘Bank Job’.",
-      "subtitle": "",
-      "text": "Budget – Liz Truss on why it’s impossible for a government to decide it’s own fiscal policies – her book ‘Bank Job’.",
-      "image": null,
-      "videoId": "Sh6ELgRYCdY",
+      "subtitle": "REVEALED: Liz Truss exposes Westminster’s ‘biggest secret’ EXCLUSIVE: Former Prime Minister Liz Truss spoke on the latest episode of the Daily Expresso. Former Prime Mini…",
+      "text": "Budget – Liz Truss on why it’s impossible for a government to decide it’s own fiscal policies – her book ‘Bank Job’. REVEALED: Liz Truss exposes Westminster’s ‘biggest secret’ EXCLUSIVE: Former Prime Minister Liz Truss spoke on the latest episode of the Daily Expresso. Former Prime Minister Liz Truss has launched a brutal attack on Britain’s political “establishment” claiming that elected MPs have far less power than the public believes and that “unelected bureaucrats” are pulling the strings behind the scenes. In the latest episode of the Daily Expresso, the former Prime Minister was asked by host JJ Anisiobi: “What is the biggest secret Westminster is hiding from the world?” Liz Truss answered: “I think the biggest secret Westminster is hiding is the fact that MPs don’t really have very much power and there’s a lot of pantomime politics going on. They are really beholden to the bureaucrats in terms of what they’re actually doing.” She added: “They’re lying about how powerful they are.” Her comments came during the Daily Expresso episode in which she slammed the Budget set out by Chancellor John Healey today, revisited the dramatic events surrounding her short-lived premiership, defended her controversial 2022 mini-budget and levelled fresh accusations against the Bank of England. Asked directly who really holds power in Britain, she also said: “The bureaucrats have the power.” She added: “I think people falsely think MPs have a lot of power.” The former PM said they have power collectively but not individually. “It’s the bureaucrats who have who have power individually,” she said. In the episode, the former PM blamed the Bank of England for the 2022 market turmoil. She also criticised what she described as decades of poor economic policy, pointing to high taxation, migration and energy costs as factors holding Britain back. One of her most explosive claims concerned the Bank of England’s role in the financial turmoil that followed her mini-budget in September 2022. Liz Truss insisted that the central bank, rather than her tax-cutting plans, was primarily responsible for the crisis that engulfed her government. She also criticised the Bank’s decision to begin quantitative tightening which involves reducing its holdings of government bonds, after years of quantitative easing. She claimed the Bank of England governor intervened over who should be appointed as the head of the Treasury and pressured her to reverse policies….",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/71ALDseR4gL._AC_UF8941000_QL80_.jpg",
+      "videoId": "XCTvt9spb1w",
+      "links": [
+        {
+          "label": "electronicintifada.net",
+          "url": "https://electronicintifada.net/content/how-zionist-terrorism-determined-palestines-fate/19871"
+        },
+        {
+          "label": "express.co.uk",
+          "url": "https://www.express.co.uk/news/politics/2261293/revealed-liz-truss-exposes-westminsters"
+        }
+      ]
+    },
+    {
+      "date": "Thursday 29 October 2026",
+      "title": "Dominic Cummings on the Civil service.",
+      "subtitle": "Power centers in government A question that I would really like to know your views about which is where real power lies in this country and in our political system. Um yo…",
+      "text": "Dominic Cummings on the Civil service. Power centers in government A question that I would really like to know your views about which is where real power lies in this country and in our political system. Um you’ve given examples over the last few minutes of um I think you said that Whitehall closes things down which suggests that whiteall however one tries to characterise that has power which um is overriding uh political power um your your basic thesis about um ministers being accountable to parliament as they used to be in the old days if I can put it that way um was also a manifestation of there being political power being exercised by by ministers. You’ve spoken in the past about the cabinet secretary’s power being massively uh understated. You’ve spoken in the past about the um enormous power that the principal private secretary to the prime minister exercises. And I wonder whether you might be able to bring these thoughts together to give us a a short explanation of where you think power really lies and whether it rests in the right place and whether there are changes and you’ve begun just now to explain one or two of them that could be made to put power back where you think it should rest. So I guess um [clears throat] a few things um uh so in 2020 um I did not attend a single cabinet meeting. It’s normal for senior political people to attend cabinet but I didn’t go to any. The reason is because um other than very odd peculiar times now of political stress essentially cabinet is is is become an irrelevance and the actual important meetings that decide what’s going on are 50 meters away in the cabinet office. So if you look back say 2020 in COVID the media are all reporting cabinet meet cabinet meetings on PLA rouse between A and B on PLA all basically pumpkin theater nonsense. the co task force was the thing that was actually deciding things 50 meters away in the cabinet office not not the cabinet um it’s certainly true that the cabinet secretary’s role is very much underrated people don’t understand how much power there is there also I think people don’t understand how that changed from not sure exactly when but say roughly I guess the Haywood eraish Guss o Donald Haywood era after which another huge change there was that a lot of aspects of how things like the intelligence services work and coordination between the intelligence services the cabinet office number 10 mod a lot of that machinery basically got transferred inside the national security secretariat in the cabinet office and then that is now essentially became became a black talks um uh outside any ministerial political oversight or involvement of any description. So there are things like the NSCO NSC bracket O closed bracket meetings over officials where um all sorts of crucial things were decided. There are very obscure little cabinet office committees that decide things like how to task MI5 and MI6 with priorities. All these things essentially became completely separated from any any ministerial role. Now the defense of the system is well they’re in the cabinet office so they’re sort of under the prime minister. But of course, the prime minister doesn’t attend any of those meetings. And if the prime minister’s most senior political advisers asked to attend those meetings, they’ll be told, “Sorry, but that would be that would that would um be uh uh pet the uh the internal Gestapo for HR would not be happy with that sort of thing. So that’s another aspect. If a bomb goes off or if uh some secretary of state in a completely hypothetical situation, you understand, were to have a very very unsuitable girlfriend, which may or may not have happened in the last few years. Then the first thing that happens is that people in the intelligence services go to meet the cabinet secretary and they have a meeting and they decide, okay, the bomb’s gone off. What do we think about blah blah blah? And they decide then what information is given to the PM. And the PM sits in a little room and is told a few things but is very much not at the center of what’s going on. And a whole subterranean system operates between these other different power centers in Whiteall almost entirely out of the view of any minister um and also the prime minister. So that’s a huge change. Um, if you go back to Brexit as an example of the thing you’re talking about, people often say questions like, oh, what, you know, what did the foreign secretary or what did whoever say about this aspect of Brexit? And the answer is, I can’t remember and it wasn’t important. What was important was what did the private secretary in the prime minister’s office think about X? I dealt with them multiple times a day. They wrote the agenda for meetings. we would argue about what the action points were…",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/dominic-cummings-whitehall-and-power-1024x561.jpg",
+      "videoId": "E6bKlWZMqfk",
       "links": []
     },
     {
@@ -191,7 +211,7 @@
       "subtitle": "",
       "text": "David Hearst, editor of Middle East Eye, on Israeli elections – Netanyahu to lead coalition – large Palestinian vote.",
       "image": null,
-      "videoId": "E6bKlWZMqfk",
+      "videoId": "BzuW0OOl2Pg",
       "links": []
     },
     {
@@ -206,11 +226,20 @@
     {
       "date": "Thursday 29 October 2026",
       "title": "Thomas Suarez, Palestinian Jew on social media – history of Israeli terrorist groups.",
-      "subtitle": "",
-      "text": "Thomas Suarez, Palestinian Jew on social media – history of Israeli terrorist groups.",
-      "image": null,
+      "subtitle": "How Zionist terrorism determined Palestine’s fate Israel’s propaganda playbook attempts to reframe the Palestinian liberation struggle as a question of terror, not territ…",
+      "text": "Thomas Suarez, Palestinian Jew on social media – history of Israeli terrorist groups. How Zionist terrorism determined Palestine’s fate Israel’s propaganda playbook attempts to reframe the Palestinian liberation struggle as a question of terror, not territory . Thanks to a dutiful media, this effort to portray Palestinians as terrorists has had significant traction among some demographics. But how did terrorism originate in Palestine and what was its outcome, both historically and today? Thomas Suárez sheds much new light on those questions in State of Terror: How Terrorism Created Modern Israel. He does this largely by mining previously neglected declassified documents from the British National Archives, covering the period of the British Mandate for Palestine (1920-1948). Suárez’s principal thesis is that Zionist terrorism “ultimately dictated the course of events during the Mandate, and it is Israeli state terrorism that continues to dictate events today.” The author cautions that while he unequivocally condemns Palestinian terrorism against civilians, he recognizes that some were driven to extreme measures due to an asymmetry in power and in reaction to attempts to subjugate the Palestinian people and expropriate their resources, land and labor. Zionist terrorism aimed to prevent Palestinian Arabs from exercising their right to self-determination, Suárez argues, and when an aggressor encounters resistance, it can hardly use self-defense as a justification for its own acts of violence. “Otherwise,” Suárez writes, “all aggression would self-justify.” Suárez is not a professional historian. However, State of Terror has drawn praise from such figures as Israeli historian Ilan Pappe who – on the book cover – calls it a “tour de force” and “the first comprehensive and structured analysis” of the violence employed by the Zionist movement both before and after Israel’s creation. Indeed, Suárez’s scholarship is impressive and the book includes nearly 700 endnotes consisting mainly of original sources.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/mailonline_8_nov_16__large.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "thomassuarez.com",
+          "url": "https://thomassuarez.com/ex_uno_plures.html"
+        },
+        {
+          "label": "instagram.com",
+          "url": "https://www.instagram.com/reels/Dej-PHXIalV/"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
@@ -219,7 +248,12 @@
       "text": "Miodrag Zarcovic, live from Serbia, on the recent elections – politics complicated with corruption one side but possible NATO influence the other.",
       "image": null,
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "imdb.com",
+          "url": "https://www.imdb.com/name/nm8205967/"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
@@ -228,42 +262,70 @@
       "text": "Ex-Colonel Simon Diggins, Putin is a maniac and about to attack us.",
       "image": null,
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "Ex-Colonel Simon Diggins, Putin is a maniac and about to attack us.",
+          "url": "https://www.facebook.com/reel/1640584394182812"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
-      "title": "Men getting ‘bussified’ in Ukraine to war, with women screaming.",
+      "title": "Thousands of men getting ‘busified’ in Ukraine to war, with women screaming.",
       "subtitle": "",
-      "text": "Men getting ‘bussified’ in Ukraine to war, with women screaming.",
-      "image": null,
+      "text": "Thousands of men getting ‘busified’ in Ukraine to war, with women screaming.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/busificaton-ukraine-press-gang.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "Thousands of men",
+          "url": "https://www.facebook.com/reel/1761134401859797"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
       "title": "Vladimir Putin: what is the Russian attack threshold – examine document.",
-      "subtitle": "",
-      "text": "Vladimir Putin: what is the Russian attack threshold – examine document.",
+      "subtitle": "Putin Comments on Call with Finnish and Norwegian Leaders | RU-EN Interpretation What happened during the conversation? Stubb described the discussion with Putin as “fran…",
+      "text": "Vladimir Putin: what is the Russian attack threshold – examine document. Putin Comments on Call with Finnish and Norwegian Leaders | RU-EN Interpretation What happened during the conversation? Stubb described the discussion with Putin as “frank and substantive”. “We are neighbouring countries to Russia. The outcome of this war will have a direct impact on our and the broader European security. Ending the war requires direct discussions,” the Finnish president said. Stoere said he and Stubb had “stressed the importance of de-escalation” to Putin. In a post on X, Stubb said the call “was a follow-up to the meeting in Oslo on 20 October”, referring to talks between US special envoy Steve Witkoff and Zelenskyy, held amid deteriorating relations between Washington and Kyiv. Stubb said the conversation with Putin was prepared “in consultation with Ukraine and the United States . Stubb stressed that the joint call was held in individual capacities as leaders of Norway and Finland, not as representatives of Europe. “We emphasised that our support for Ukraine remains unwavering,” Stubb said. Stubb said all Western allies were consulted on the initiative, and that Ukraine had sought the opening of a new channel of communication, arguing that Europe could not contribute to peace efforts by giving Russia “the silent treatment”. Norway’s Prime Minister Stoere added: “Talking to the other side does in no way mean that we take off the pressure. So I believe that that is something Europe also should do with voices that can be understood on that side.” The conversation with Putin was followed up with a call to Zelenskyy. How did Putin respond to the call? The Kremlin’s summary of the conversation suggests the Russian president maintained a hard line. “It was emphasised that achieving a just and long-term peace is possible only if the legitimate interests of the Russian Federation are fully and unconditionally taken into account,” it said. The Kremlin also made reference to “the confrontational policies of EU and NATO countries, which are contributing to the prolongation of the hostilities”. Kremlin spokesman Dmitry Peskov said the call was “constructive and substantive” adding that “Putin’s position is well known. It’s consistent, and he has spoken about the need to address the root causes.” But Russian Foreign Minister Sergey Lavrov said the Nordic leaders’ call with Putin offered “nothing new” to end the Ukraine conflict, saying that European countries were simply seeking a role in negotiations.",
       "image": null,
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "facebook.com",
+          "url": "https://www.facebook.com/share/v/1EpwZEF4cp/"
+        },
+        {
+          "label": "aljazeera.com",
+          "url": "https://www.aljazeera.com/news/2026/10/28/norway-and-finland-hold-rare-phone-call-with-putin-what-that-means"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
-      "title": "Crypto currency Binance – millions stolen.",
-      "subtitle": "Patricia Opulenza poem.",
-      "text": "Crypto currency Binance – millions stolen. Patricia Opulenza poem.",
-      "image": null,
+      "title": "$6.",
+      "subtitle": "3 Billion Crypto Ponzi Scheme Robbery – Crypto currency Binance – millions stolen. Patricia Opulenza poem.",
+      "text": "$6.3 Billion Crypto Ponzi Scheme Robbery – Crypto currency Binance – millions stolen. Patricia Opulenza poem. In the year AI re-wrote the infosec rulebook, it’s comforting to know crypto exchanges still have bad security Binance freezes funny money after compromise of engineer’s laptop linked to $6.3 billion of unauthorised trades Crypto exchange Binance has paused trading after discovering unknown parties cracked one of its workers’ laptops and used it to make massive trades. Cryptocurrency outfits have a long and inglorious history of falling victim to cyberattacks, perhaps starting with the 2011 raid on Mt Gox, to incidents allegedly perpetrated by nation-states, and, just last week, another situation possibly involving an AI-powered attacker. Late on Thursday, US time, the company used its social media feeds to report “Our teams are aware of reports of a potential security issue and are actively investigating.” The exchange insisted “User funds are completely safe” and warned its customers “should remain cautious of scams and should not trust unofficial links, messages, or requests for account information.” The company soon froze $2.5 billion worth of assets and warned that the figure could go higher “as our teams work closely with law enforcement, issuers, blockchain intelligence firms and industry partners to trace and freeze additional assets.” To prevent the matter worsening, Binance halted all trading, deposits, and withdrawals. It also promised to cover any losses. About an hour ago at the time of writing, Binance posted an update on the incident that explains what it thinks went wrong. “Binance’s initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions,” the post states. The company also hiked the amount it thinks is at risk to $6.3 billion and repeated its promise to cover any customer losses. The update also says Binance found no evidence of any wallet private key leak, suggesting that customers’ holdings remain secure. Binance hasn’t explained how attackers gained access to the engineer’s laptop. The scant details provided make it hard to rule out a successful phishing attack, or perhaps a supply chain attack on a package the developer used.",
+      "image": "https://politicsthisweek.gn.apc.org/wp-content/uploads/binance-61d65GqtgL._AC_UF10001000_QL80_.jpg",
       "videoId": null,
-      "links": []
+      "links": [
+        {
+          "label": "$6.3 Billion Crypto Ponzi Scheme Robbery –",
+          "url": "https://www.amazon.in/Craftbia%C2%AEBNB-Binance-Plated-Plastic-Display/dp/B09TXJBNKN"
+        },
+        {
+          "label": "theregister.com",
+          "url": "https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539"
+        }
+      ]
     },
     {
       "date": "Thursday 29 October 2026",
-      "title": "Sam Williamson – Freemasonry in Police Stations.",
-      "subtitle": "",
-      "text": "Sam Williamson – Freemasonry in Police Stations.",
+      "title": "Sam Williams – Freemasonry in Police Stations.",
+      "subtitle": "So, this isn’t the old courtroom, is it? It’s uh the courtroom.",
+      "text": "Sam Williams – Freemasonry in Police Stations. So, this isn’t the old courtroom, is it? It’s uh the courtroom. The old courtroom. This is the cell. If you want the courtroom, it’s there. I’ll show you. Okay. Okay. Yes. Ah, can I just have a quick look? Just one minute. Wow. Oh, it’s so nice and cold in here. Gra left me alone. Wow. Silk trade. Oh. Oh. Edward the Oh, George the fifth. This is on the ceiling. Wow, it’s nice and cold in here, though. Oh, look. Justice carpet. And justice just suspiciously looks like a pyramid. What’s with all of this synretatism, I guess. What’s the likelihood any of these doors are open? Oh my god, they are. That’s the back rooms for this one where I’m probably not going to get back out again because the handle is coming off. It’s just an airing cupboard. Okay, that’s fine. You never know unless you try the doors. And it seems that man has left us in here all alone. We can now access the back rooms of the building. Oh no, this is that other diary dining room. That lady did seem to be very keen that we didn’t escape into the building, didn’t she? It’s a challenge, basically. A challenge. Wow. It’s all in very good condition. There’s that uh that design. Oh, what’s this? Is this some kind of club? Oh, no. Is this like a cinema or something in here? Hello afternoon. Very nice. And then and then presumably there’s a door. Oh, me again. Yeah. A private event over here today. Oh, there’s nobody here. There’s nobody here. They’re just outside and they’re walking through this place. I was having such an exciting time until you shut me down. [laughter] I’m sorry for that. Is there any I mean there there are parts of the hotel you don’t want me to go into is what I’m getting. All the empty parts. It’s just a very It’s not often. Did you have a look at this?",
       "image": null,
-      "videoId": null,
+      "videoId": "wLkWUwFATrE",
       "links": []
     },
     {
