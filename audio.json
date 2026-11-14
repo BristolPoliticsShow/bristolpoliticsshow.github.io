@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-14T00:37:41Z",
+  "updated": "2026-11-14T14:43:24Z",
   "weekCount": 27,
-  "itemCount": 250,
+  "itemCount": 258,
   "weeks": [
     {
       "date": "Friday 13 November 2026",
@@ -10,6 +10,46 @@
           "name": "Full show",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-13Nov26.mp3",
           "isFullShow": true
+        },
+        {
+          "name": "AI Prosecutors, Police and Judges Sir Jeffrey Voss BBC Law Show 04Nov26",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20AI%20Prosecutors,%20Police%20and%20Judges%20Sir%20Jeffrey%20Voss%20BBC%20Law%20Show%2004Nov26.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Jared Kushner Got Caught US Corruption Tucker Carlson",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Jared%20Kushner%20Got%20Caught%20US%20Corruption%20Tucker%20Carlson.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Nurit Peled-Elhanan How Israels Schools Expose Infants To Holocaust Horrors Katie Halper",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Nurit%20Peled-Elhanan%20How%20Israels%20Schools%20Expose%20Infants%20To%20Holocaust%20Horrors%20Katie%20Halper.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Russel brand on God w Meghyn Kelly",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Russel%20brand%20on%20God%20w%20Meghyn%20Kelly.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Russell Brand on bad boy tech billionaire Peter Thiel",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Russell%20Brand%20on%20bad%20boy%20tech%20billionaire%20Peter%20Thiel.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Russia Warns Europe dont gamble with war with a nuclear power - Kiev Azov torture prison scandal",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Russia%20Warns%20Europe%20dont%20gamble%20with%20war%20with%20a%20nuclear%20power%20-%20Kiev%20Azov%20torture%20prison%20scandal.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Samantha Pressdee knew Russell Brand over 20 years, Russell was a Gentleman",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Samantha%20Pressdee%20knew%20Russell%20Brand%20over%2020%20years,%20Russell%20was%20a%20Gentleman.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "The Jewish History of Anti-Zionism with Benjamin Moser and Zack Polanski",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20The%20Jewish%20History%20of%20Anti-Zionism%20with%20Benjamin%20Moser%20and%20Zack%20Polanski.mp3",
+          "isFullShow": false
         }
       ]
     },
