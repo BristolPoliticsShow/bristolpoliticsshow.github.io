@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-14T23:35:57Z",
+  "updated": "2026-11-16T17:51:11Z",
   "weekCount": 26,
-  "itemCount": 250,
+  "itemCount": 251,
   "weeks": [
     {
       "date": "Friday 13 November 2026",
@@ -34,6 +34,11 @@
         {
           "name": "Russell Brand on bad boy tech billionaire Peter Thiel",
           "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Russell%20Brand%20on%20bad%20boy%20tech%20billionaire%20Peter%20Thiel.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Russell Brand sentenced to over 10 yrs by Mr Justice Bennathan for rape and sexual assault",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Russell%20Brand%20sentenced%20to%20over%2010%20yrs%20by%20Mr%20Justice%20Bennathan%20for%20rape%20and%20sexual%20assault.mp3",
           "isFullShow": false
         },
         {
