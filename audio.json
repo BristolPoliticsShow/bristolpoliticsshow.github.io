@@ -1,8 +1,48 @@
 {
-  "updated": "2026-11-16T17:51:11Z",
-  "weekCount": 26,
-  "itemCount": 251,
+  "updated": "2026-11-21T01:02:01Z",
+  "weekCount": 27,
+  "itemCount": 258,
   "weeks": [
+    {
+      "date": "Friday 20 November 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show-20Nov26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Chay Bowes cancelled for exposing Ukraine corruption- banned by the EuU for criticising Ukraine war",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Chay%20Bowes%20cancelled%20for%20exposing%20Ukraine%20corruption-%20banned%20by%20the%20EuU%20for%20criticising%20Ukraine%20war.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "COMPILATION Joe Plummer Tragedy and Hope 101 James Corbett Richard Grove Tim Kelly",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPILATION%20Joe%20Plummer%20Tragedy%20and%20Hope%20101%20James%20Corbett%20Richard%20Grove%20Tim%20Kelly.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Elon Musk on Starshield-Starlink outage, Zelensky, money and power, New York Times",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Elon%20Musk%20on%20Starshield-Starlink%20outage,%20Zelensky,%20money%20and%20power,%20New%20York%20Times.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "John Varoli on Nov26 Russia-Crimea Kerch Bridge attack and Ukrainians as modern NazisRT",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20John%20Varoli%20on%20Nov26%20Russia-Crimea%20Kerch%20Bridge%20attack%20and%20Ukrainians%20as%20modern%20NazisRT.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Nick Georges Palestine two-tier trials and Naza genocide film review",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20Nick%20Georges%20Palestine%20two-tier%20trials%20and%20Naza%20genocide%20film%20review.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "The REAL Milburn report Investing in industry and REAL jobs for 18-24 yr old NEETs Prof Steve Hall",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXCLUSIVE%20The%20REAL%20Milburn%20report%20Investing%20in%20industry%20and%20REAL%20jobs%20for%2018-24%20yr%20old%20NEETs%20Prof%20Steve%20Hall.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 13 November 2026",
       "items": [
