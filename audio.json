@@ -1,8 +1,53 @@
 {
-  "updated": "2026-11-22T00:03:22Z",
-  "weekCount": 26,
-  "itemCount": 257,
+  "updated": "2026-11-28T02:27:10Z",
+  "weekCount": 27,
+  "itemCount": 265,
   "weeks": [
+    {
+      "date": "Friday 27 November 2026",
+      "items": [
+        {
+          "name": "Full show",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/NTBCFMPS-full-show27Nov26.mp3",
+          "isFullShow": true
+        },
+        {
+          "name": "Boris Johnson on why he would have NATO troops in Ukraine now",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Boris%20Johnson%20on%20why%20he%20would%20have%20NATO%20troops%20in%20Ukraine%20now.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Can Europes cost of living crisis be fixed Al Jazeera Inside Story",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Can%20Europes%20cost%20of%20living%20crisis%20be%20fixed%20Al%20Jazeera%20Inside%20Story.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Craig Murray and Ray McGovern Live at The Whistleblower in Dublin",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Craig%20Murray%20and%20Ray%20McGovern%20Live%20at%20The%20Whistleblower%20in%20Dublin.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "EXPLAINER Putins War on the Rothschilds How He Saved Russia",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXPLAINER%20Putins%20War%20on%20the%20Rothschilds%20How%20He%20Saved%20Russia.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "EXPLAINER Simon Dixon Who Really Runs the World and How former investment manager",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/EXPLAINER%20Simon%20Dixon%20Who%20Really%20Runs%20the%20World%20and%20How%20former%20investment%20manager.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Russell Brand says he couldn't find anyone to give evidence on his behalf C4 Podcast Trial day 12",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Russell%20Brand%20says%20he%20couldn't%20find%20anyone%20to%20give%20evidence%20on%20his%20behalf%20C4%20Podcast%20Trial%20day%2012.mp3",
+          "isFullShow": false
+        },
+        {
+          "name": "Russell Brand Sean Stone - Freemasons Occult The Devil Called",
+          "url": "https://www.radio4all.net/files/tony@cultureshop.org.uk/COMPLETE%20Russell%20Brand%20Sean%20Stone%20-%20Freemasons%20Occult%20The%20Devil%20Called.mp3",
+          "isFullShow": false
+        }
+      ]
+    },
     {
       "date": "Friday 20 November 2026",
       "items": [
